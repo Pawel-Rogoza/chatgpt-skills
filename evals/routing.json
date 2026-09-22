@@ -1,0 +1,10 @@
+[
+  {"prompt": "Przygotuj koncepcję apelacji karnej na korzyść oskarżonego.", "expected": "pl-criminal-appeal"},
+  {"prompt": "Czy ten pomysł na zarzut w apelacji karnej ma sens?", "expected": "pl-criminal-appeal"},
+  {"prompt": "Sprawdź istniejący projekt apelacji i popraw błędne odwołania do akt.", "expected": "pl-legal-document-review"},
+  {"prompt": "Zrób audyt cytowań i żądań w tym piśmie do organu.", "expected": "pl-legal-document-review"},
+  {"prompt": "Popraw tylko interpunkcję w tym zdaniu.", "expected": "neither"},
+  {"prompt": "Przetłumacz wiadomość klienta z rosyjskiego na polski.", "expected": "neither"},
+  {"prompt": "Napisz kasację karną od podstaw.", "expected": "neither"},
+  {"prompt": "Streść protokół w pięciu zdaniach.", "expected": "neither"}
+]

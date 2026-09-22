@@ -1,0 +1,23 @@
+{
+  "name": "legal-ai-pl",
+  "version": "0.1.0+codex.20260922204005",
+  "description": "Polska apelacja karna i recenzja pism. Pakiet do kontrolowanego pilota\u017cu.",
+  "author": {
+    "name": "Pawel-Rogoza",
+    "url": "https://github.com/Pawel-Rogoza"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Legal AI PL",
+    "shortDescription": "Apelacje karne i recenzja pism \u2014 pilota\u017c",
+    "longDescription": "Dwa skille pracy adwokackiej: koncepcja apelacji karnej oraz recenzja pisma z kontrol\u0105 akt, \u017ar\u00f3de\u0142 i skutk\u00f3w dla cudzoziemca. Nie zawiera bazy prawa ani us\u0142ug zewn\u0119trznych. Wynik wymaga przegl\u0105du adwokata.",
+    "developerName": "Pawel-Rogoza",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Przygotuj koncepcj\u0119 apelacji karnej na podstawie za\u0142\u0105czonych akt.",
+      "Sprawd\u017a projekt pisma: argumentacj\u0119, fakty, \u017ar\u00f3d\u0142a i \u017c\u0105danie."
+    ]
+  },
+  "repository": "https://github.com/Pawel-Rogoza/chatgpt-skills"
+}
