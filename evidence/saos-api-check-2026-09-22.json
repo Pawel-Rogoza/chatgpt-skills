@@ -1,0 +1,66 @@
+{
+  "purpose": "Read-only spot check during architecture review; not a corpus audit",
+  "requested_url": "https://www.saos.org.pl/api/search/judgments?pageSize=10&sortingField=JUDGMENT_DATE&sortingDirection=DESC",
+  "request_headers": {
+    "Accept": "application/json"
+  },
+  "retrieved_at_utc": "2026-09-22T19:44:29.594299+00:00",
+  "total_results_reported": 541921,
+  "items_metadata_only": [
+    {
+      "id": 31345,
+      "judgmentDate": "3013-12-04",
+      "courtType": "COMMON"
+    },
+    {
+      "id": 227221,
+      "judgmentDate": "2101-04-14",
+      "courtType": "COMMON"
+    },
+    {
+      "id": 547790,
+      "judgmentDate": "2026-12-16",
+      "courtType": "COMMON"
+    },
+    {
+      "id": 543475,
+      "judgmentDate": "2026-11-28",
+      "courtType": "COMMON"
+    },
+    {
+      "id": 551918,
+      "judgmentDate": "2026-09-15",
+      "courtType": "COMMON"
+    },
+    {
+      "id": 551897,
+      "judgmentDate": "2026-09-11",
+      "courtType": "COMMON"
+    },
+    {
+      "id": 552208,
+      "judgmentDate": "2026-09-11",
+      "courtType": "COMMON"
+    },
+    {
+      "id": 551940,
+      "judgmentDate": "2026-09-10",
+      "courtType": "COMMON"
+    },
+    {
+      "id": 552241,
+      "judgmentDate": "2026-09-09",
+      "courtType": "COMMON"
+    },
+    {
+      "id": 551863,
+      "judgmentDate": "2026-09-09",
+      "courtType": "COMMON"
+    }
+  ],
+  "limitations": [
+    "Only the first page sorted descending by judgment date was inspected.",
+    "Dates are source metadata, not independently verified decision dates.",
+    "No assertion of corpus completeness, publication coverage or reuse rights."
+  ]
+}
