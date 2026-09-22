@@ -4,6 +4,8 @@ Projekt skilli dla pracy adwokackiej w Polsce: analiza akt, apelacje karne oraz 
 
 Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz [recenzja z planem oceny](legal-ai-review-v0.2-pl.md).
 
+Dalsze prace: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). Pierwsza kolejna fala obejmuje rozszerzenie pakowania, analizę akt i objaśnienia dla klienta PL/UA/RU.
+
 Repozytorium przechowuje metodę, dokumentację i fikcyjne materiały testowe. Nie należy dodawać tu akt klientów, danych dostępowych ani poufnych notatek kancelarii. `.gitignore` jest pomocą organizacyjną, nie kontrolą dostępu.
 
 ## Pakiet 0.1.0 — kontrolowany pilotaż
