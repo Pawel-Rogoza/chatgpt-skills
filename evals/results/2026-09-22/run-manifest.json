@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-22",
+  "plugin_version": "0.1.0+codex.20260922204005",
+  "model": "Inherited execution environment; exact model ID not exposed to evaluators",
+  "grading": "Primary assistant, not blind; no attorney validation",
+  "network_in_behavioral_tests": false,
+  "tests": [
+    "review-record baseline",
+    "review-record initial skill",
+    "appeal-concept skill",
+    "review-record corrected skill"
+  ],
+  "not_tested": [
+    "automatic host routing",
+    "style-only scenario",
+    "live current-law research",
+    "real OCR",
+    "legal correctness on actual case files",
+    "backend matter isolation",
+    "Business/Enterprise workspace installation"
+  ],
+  "sha256": {
+    "evals/cases/appeal-concept/materials.md": "d35ee414ac90fe6ccce9989294fc6b1a06ab7adc8859e9d0c43af35f30cc9c3b",
+    "evals/cases/appeal-concept/user.md": "7405bd7e4b3a270bfcdb2e4daba38aa542837a705b8afcaa9ac7dbc29a286e6d",
+    "evals/cases/review-record/materials.md": "aa6152015a512b7b5f62b792cd4d7ff0342315de7136dd7d2fd1bdd23c960d00",
+    "evals/cases/review-record/user.md": "0073756866ff72a607e2cc7474bcffa48ec34ceb14a45485eb24ba636e5f9d74",
+    "evals/cases/style-only/user.md": "d0c5a9e740fce5b81e425c33cdc95a4201cad0a7fbb74f9e3fdec79c07d7a886",
+    "plugins/legal-ai-pl/.codex-plugin/plugin.json": "ef36e1f489eb6712b036ab224a9adbc893848c51d7fb55813827919b63d4def6",
+    "plugins/legal-ai-pl/skills/pl-criminal-appeal/SKILL.md": "f273529878c644842f06a2f370819c135d36a3a8c9af408449b5ad0d4e12fe00",
+    "plugins/legal-ai-pl/skills/pl-criminal-appeal/agents/openai.yaml": "271992329d1ce71c5779591d1730b4d823e805b95ac104ef8f0b2a89c8cfccc8",
+    "plugins/legal-ai-pl/skills/pl-criminal-appeal/references/appeal-method.md": "9e649936746bcd9e0052d74a31fe6ef50424a50a2d37fc6f2299010239cd92a2",
+    "plugins/legal-ai-pl/skills/pl-criminal-appeal/references/case-record.md": "74f936cc73790dc4ccf8eab039d3cfe25fe292425cd9ba63d9d2552b11f3b81f",
+    "plugins/legal-ai-pl/skills/pl-criminal-appeal/references/foreign-national.md": "e578b77d28921b86f010bfc0d14116aceab51d3fb5fc7e2bffd5d1d1b356f822",
+    "plugins/legal-ai-pl/skills/pl-criminal-appeal/references/source-policy.md": "0f43a57be2f5bf4b22b63bf2414e3f0306182125e62b2dc879c0d504f7d5bf49",
+    "plugins/legal-ai-pl/skills/pl-criminal-appeal/references/temporal-law.md": "a69979da61d36684a0aedbef03733b737c03a073c1c5a470385e00a84d115b0a",
+    "plugins/legal-ai-pl/skills/pl-legal-document-review/SKILL.md": "d9a88fc6f4a0e5fc390185c69467a67c4ba8f67f19ff3f4468b9090d30563410",
+    "plugins/legal-ai-pl/skills/pl-legal-document-review/agents/openai.yaml": "aae6d5644e525f2d066d51bfa483db69706c4ee7825d41ab1152a3df4313cf6f",
+    "plugins/legal-ai-pl/skills/pl-legal-document-review/references/appeal-review.md": "2c2c9c80586f6004a167e66efb654da6d447d55864a0d590f164bfc5fd6b0717",
+    "plugins/legal-ai-pl/skills/pl-legal-document-review/references/case-record.md": "74f936cc73790dc4ccf8eab039d3cfe25fe292425cd9ba63d9d2552b11f3b81f",
+    "plugins/legal-ai-pl/skills/pl-legal-document-review/references/foreign-national.md": "e578b77d28921b86f010bfc0d14116aceab51d3fb5fc7e2bffd5d1d1b356f822",
+    "plugins/legal-ai-pl/skills/pl-legal-document-review/references/source-policy.md": "0f43a57be2f5bf4b22b63bf2414e3f0306182125e62b2dc879c0d504f7d5bf49",
+    "plugins/legal-ai-pl/skills/pl-legal-document-review/references/temporal-law.md": "a69979da61d36684a0aedbef03733b737c03a073c1c5a470385e00a84d115b0a"
+  }
+}
