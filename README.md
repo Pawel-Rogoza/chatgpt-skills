@@ -47,7 +47,6 @@ Potwierdź w docelowym workspace: widoczność wszystkich skilli, odczyt ich ref
 - „Przygotuj roboczą koncepcję apelacji na korzyść oskarżonego. Wskaż zależności argumentów od akt; brakujące dane oznacz osobno”.
 - „Sprawdź ten projekt: zgodność zarzutów z uzasadnieniem i żądaniem oraz poprawność cytatów. Popraw wykryte błędy”.
 - „Oceń tylko ten pomysł na zarzut. Nie przygotowuj całej apelacji”.
-
 - „Przeanalizuj te akta: zrób chronologię i porównaj relacje z lokalizatorami”.
 - „Wyjaśnij klientowi po rosyjsku tę decyzję i przygotuj projekt wiadomości”.
 

@@ -8,7 +8,7 @@
 |---|---|---|
 | A0 | Jawna konfiguracja każdego pliku, kontrola źródeł i ścieżek, 15 testów | [PR #2](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/2), baza PR #1 |
 | A1 | Analiza akt: lokalizatory, status twierdzeń, chronologia, konflikty i wersje | [PR #3](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/3), baza PR #2 |
-| A2 | Objaśnienia klientowi PL/UA/RU, kontrola sensu, granica projektu/wysyłki | `codex/legal-ai-a2-client-explanation`, baza PR #3 |
+| A2 | Objaśnienia klientowi PL/UA/RU, kontrola sensu, granica projektu/wysyłki | [PR #4](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/4), baza PR #3 |
 
 Baza pilota `aa07932` sprawdzona przez plugin GitHub: PR #1 nadal otwarty. Nie scalano PR-ów. A0 zachował wydanie 0.1.0; A1 użył 0.2.0; końcowe A2 używa 0.3.0 z sufiksem cache. [Wydanie i wycofanie](../../../docs/release-0.3.0.md).
 
@@ -21,6 +21,8 @@ Baza pilota `aa07932` sprawdzona przez plugin GitHub: PR #1 nadal otwarty. Nie s
 - Porównanie z bazą wykazało, że obie wcześniejsze metody i referencje są identyczne poza numerem wersji w metadanych.
 - Istniejący lokalny katalog `personal` wskazywał repozytorium; instalację odświeżono przez CLI. Zainstalowany cache `0.3.0+codex.20260923114921` ma dokładnie 28 plików i wszystkie są identyczne ze źródłem.
 - Faktyczny syntetyczny PDF wyrenderowano Popplerem i obejrzano. Obraz zawiera negację, którą pominięto w kontrolowanej transkrypcji pomocniczej. Ekstrakcja pypdf zwróciła pusty tekst. Nie uruchomiono silnika OCR.
+
+CI GitHub Actions zakończyło się powodzeniem dla trzech etapów: [A0](https://github.com/Pawel-Rogoza/chatgpt-skills/actions/runs/35847016710), [A1](https://github.com/Pawel-Rogoza/chatgpt-skills/actions/runs/35856368401), [A2](https://github.com/Pawel-Rogoza/chatgpt-skills/actions/runs/35857126958). Są to kontrole techniczne, bez wywołań modeli.
 
 ## Próby zachowania — jawnie ograniczone
 

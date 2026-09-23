@@ -9,7 +9,7 @@
 
 - A0: jawna konfiguracja i 15 testów pakowania; [PR #2](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/2), baza PR #1.
 - A1: analiza akt, sześć przypadków i syntetyczny PDF; [PR #3](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/3), baza PR #2.
-- A2: objaśnienia PL/UA/RU, siedem przypadków, pełny build i instalacja lokalna; gałąź `codex/legal-ai-a2-client-explanation`, baza PR #3.
+- A2: objaśnienia PL/UA/RU, siedem przypadków, pełny build i instalacja lokalna; [PR #4](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/4), baza PR #3.
 - Technicznie sprawdzono 28 plików źródłowych i ich zgodność z cache. Nie wykonano wdrożenia Business/Enterprise.
 - Niezależne próby i odbiór fali A pozostają do wykonania; nie należy ponownie tworzyć A0–A2 od zera. Pierwszym kolejnym zadaniem domenowym jest B1 po ustaleniu workflow.
 
