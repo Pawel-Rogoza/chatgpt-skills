@@ -1,0 +1,52 @@
+{
+  "scope": "Rejestr sprawdzeń B1, nie baza prawa ani potwierdzenie kompletności źródeł",
+  "sources": [
+    {
+      "id": "kpk-eli-2026-490-metadata",
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/490",
+      "kind": "official-act-metadata",
+      "scope": "Identyfikacja tekstu jednolitego KPK i relacji nowelizacji",
+      "checked_at": "2026-09-23",
+      "access": "retrieved",
+      "full_text": "metadata only",
+      "reviewed": "title, status, legalStatusDate, texts, references",
+      "freshness": "Metadane wskazują stan tekstu jednolitego 16.03.2026 oraz późniejsze nowelizacje; brak wniosku o kompletnym prawie na datę sprawy",
+      "use_conditions": "Publiczny odczyt metadanych; warunków masowego pobierania nie audytowano",
+      "gaps": [
+        "Nie przeprowadzono pełnej rekonstrukcji zmian i przepisów przejściowych"
+      ],
+      "sha256": "0406606e1993987202905f36b8344c6d4005eee1ec8190cb46d608ac1b52b2d5"
+    },
+    {
+      "id": "kpk-eli-2026-490-u",
+      "url": "https://eli.gov.pl/api/acts/DU/2026/490/text/U/D20260490Lj.pdf",
+      "kind": "official-consolidated-text",
+      "scope": "Metoda kontroli zastosowania aresztowania i identyfikacja pytań proceduralnych",
+      "checked_at": "2026-09-23",
+      "access": "retrieved",
+      "full_text": "PDF dostępny; 357 stron, nie przeczytano całości",
+      "reviewed": "PDF s. 105–114 i 199–200: art. 249–263 i 460/462 w kontekście",
+      "freshness": "Data redakcyjna kopii 17.07.2026; nie jest potwierdzeniem właściwego prawa dla dowolnej daty",
+      "use_conditions": "Odczyt tekstu aktu; bez publikowania kopii całego PDF w repo, bez audytu warunków masowego dostępu",
+      "gaps": [
+        "Właściwość, wyjątki, reguły ogólne i wersję dla konkretnej sprawy trzeba sprawdzić odrębnie"
+      ],
+      "sha256": "5a82979638c78cada5db191d52410bef88a3d23ca10dda41f214ec2e505f7022"
+    },
+    {
+      "id": "echr-guide-art5",
+      "url": "https://ks.echr.coe.int/documents/d/echr-ks/guide_art_5_eng",
+      "kind": "official-registry-guide-not-binding",
+      "scope": "Mapa problemów art. 5 EKPC: uzasadnienie, alternatywy i kontrola",
+      "checked_at": "2026-09-23",
+      "access": "retrieved via web",
+      "full_text": "PDF dostępny, 66 stron; odczyt wybranych części",
+      "reviewed": "okładka/status oraz fragmenty IV.C, w szczególności pkt 210–224 i 240–242",
+      "freshness": "Wersja oznaczona 28.02.2026",
+      "use_conditions": "Przewodnik wskazuje copyright Rady Europy/ETPC oraz procedurę zgody na reprodukcję/tłumaczenie. Repo przechowuje link i krótką własną mapę, bez kopii przewodnika.",
+      "gaps": [
+        "Wyroków przytoczonych w przewodniku nie odczytano; nie oznaczamy ich jako sprawdzonego orzecznictwa"
+      ]
+    }
+  ]
+}

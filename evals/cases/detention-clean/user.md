@@ -1,0 +1,1 @@
+Sprawdź logikę uzasadnienia pierwszego zastosowania aresztu w granicach fragmentów. Nie wymyślaj błędu tylko po to, żeby podważyć decyzję. Wskaż, czy materiał wystarcza do wybranego argumentu obrony. Bez oceny aktualnego prawa. Fikcyjny pakiet.

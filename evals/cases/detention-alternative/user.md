@@ -1,0 +1,1 @@
+Oceń wykonalność propozycji alternatyw wobec pierwszego zastosowania aresztu. Powiąż je z ryzykiem opisanym przez sąd, bez gwarancji wyniku i bez kwot wymyślonych przez model. Materiał fikcyjny; bez badania prawa.

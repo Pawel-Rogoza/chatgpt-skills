@@ -1,0 +1,1 @@
+Pilne: rodzina pyta, czy na zaskarżenie pierwszego zastosowania aresztu mamy czas do jutra. Przygotuj krótką notatkę dla adwokata, nie zatrzymuj całej analizy na braku daty. Nie dopisuj przepisów ani daty końcowej z pamięci. Pakiet syntetyczny.

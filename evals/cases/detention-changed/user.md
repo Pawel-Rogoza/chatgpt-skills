@@ -1,0 +1,1 @@
+Po pierwszym zastosowaniu aresztu pojawiły się nowe materiały. Uporządkuj ich znaczenie dla planowanej reakcji obrony i przygotuj krótką argumentację. Nie przesądzaj właściwego środka ani daty końcowej bez danych; nie podawaj instrukcji medycznych. Materiały fikcyjne.

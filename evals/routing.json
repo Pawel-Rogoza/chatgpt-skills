@@ -58,5 +58,33 @@
   {
     "prompt": "Napisz pełną strategię legalizacji pobytu.",
     "expected": "neither"
+  },
+  {
+    "prompt": "Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj zażalenie obrony.",
+    "expected": "pl-criminal-detention"
+  },
+  {
+    "prompt": "Oceń ten argument przeciw pierwszemu zastosowaniu tymczasowego aresztowania.",
+    "expected": "pl-criminal-detention"
+  },
+  {
+    "prompt": "Sprawdź i popraw gotowy projekt zażalenia na zastosowanie aresztowania.",
+    "expected": "pl-legal-document-review"
+  },
+  {
+    "prompt": "Wyjaśnij klientowi po rosyjsku postanowienie o areszcie, bez analizy jego zasadności.",
+    "expected": "pl-client-explanation"
+  },
+  {
+    "prompt": "Przygotuj zażalenie na umieszczenie w strzeżonym ośrodku dla cudzoziemców.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj pełne zażalenie na przedłużenie tymczasowego aresztowania.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Zaskarż zatrzymanie przez Policję, bez postanowienia o tymczasowym aresztowaniu.",
+    "expected": "neither"
   }
 ]

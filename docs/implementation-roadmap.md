@@ -2,7 +2,7 @@
 
 **Data:** 22.09.2026  
 **Przeznaczenie:** plan wykonawczy dla innego modelu i osoby prowadzącej projekt.  
-**Status (aktualizacja 23.09.2026):** A0–A2 zaimplementowane i zainstalowane lokalnie w wydaniu 0.3.0. Próby zachowania w tej fali są własne, nie niezależne; routing hosta, holdout, baseline i odbiór zawodowy pozostają otwarte. Fale B–D nie są zaimplementowane. [Raport](../evals/results/2026-09-23/report.md).
+**Status (aktualizacja 23.09.2026):** A0–A2 zaimplementowane i zainstalowane lokalnie w wydaniu 0.3.0. Próby zachowania w tej fali są własne, nie niezależne; routing hosta, holdout, baseline i odbiór zawodowy pozostają otwarte. B1 ma implementację wąskiego pilota kontroli pierwszego zastosowania aresztowania (0.4.0); B2–B3 i C–D nie są zaimplementowane. [Raport](../evals/results/2026-09-23/report.md).
 **Polecenie startowe:** [next-model-prompt.md](next-model-prompt.md).
 
 ### Stan realizacji fali A — 23.09.2026
@@ -11,7 +11,13 @@
 - A1: analiza akt, sześć przypadków i syntetyczny PDF; [PR #3](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/3), baza PR #2.
 - A2: objaśnienia PL/UA/RU, siedem przypadków, pełny build i instalacja lokalna; [PR #4](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/4), baza PR #3.
 - Technicznie sprawdzono 28 plików źródłowych i ich zgodność z cache. Nie wykonano wdrożenia Business/Enterprise.
-- Niezależne próby i odbiór fali A pozostają do wykonania; nie należy ponownie tworzyć A0–A2 od zera. Pierwszym kolejnym zadaniem domenowym jest B1 po ustaleniu workflow.
+- Niezależne próby i odbiór fali A pozostają do wykonania; nie należy ponownie tworzyć A0–A2 od zera. B1 wdrożono następnie w zakresie pierwszego zastosowania aresztowania; kolejnym zadaniem domenowym jest B2 po wyborze typu sprawy pobytowej.
+
+### Stan realizacji B1 — 23.09.2026
+
+- [PR #5](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/5), zależny od #4: `pl-criminal-detention`, pierwsze zastosowanie aresztowania; osiem rozwojowych przypadków, jawne granice przedłużenia i innych procedur.
+- Pakiet 0.4.0: pięć skilli i 36 plików; [raport B1](../evals/results/2026-09-23-b1/report.md), [specyfikacja](b1-specification.md), [rejestr źródeł](../source-policy/source-register.json).
+- Niezależne próby, routing i zawodowy odbiór pozostają otwarte. Rejestr nie jest potwierdzeniem kompletnego aktualnego prawa.
 
 Poniższy plan zachowuje specyfikację i historyczną bazę z 22.09.2026.
 

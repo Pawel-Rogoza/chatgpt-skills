@@ -7,7 +7,7 @@ description: >-
   streszczenia jednego dokumentu, tłumaczenia, researchu bez akt ani
   przygotowania całej apelacji.
 metadata:
-  version: "0.3.0"
+  version: "0.4.0"
   status: "pilot"
 ---
 
