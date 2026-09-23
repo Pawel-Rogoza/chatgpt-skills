@@ -1,6 +1,8 @@
 # Polecenie do przekazania następnemu modelowi
 
-Skopiuj poniższy tekst jako polecenie. Szczegółowy plan jest w repozytorium; nie trzeba przekazywać całej wcześniejszej rozmowy.
+**Aktualizacja 23.09.2026:** A0–A2 już zaimplementowano w gałęziach `codex/legal-ai-a0-packaging`, `codex/legal-ai-a1-case-analysis` i `codex/legal-ai-a2-client-explanation`. Zacznij od [raportu](../evals/results/2026-09-23/report.md), sprawdź bieżące PR-y i nie realizuj ponownie starego zlecenia. Pozostają niezależne próby, routing hosta i odbiór zawodowy. Następny skill z planu: B1 po ustaleniu pierwszego workflow.
+
+Poniżej zachowano historyczne polecenie A0–A2. Szczegółowy plan jest w repozytorium; nie trzeba przekazywać całej wcześniejszej rozmowy.
 
 ---
 

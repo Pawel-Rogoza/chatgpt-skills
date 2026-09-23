@@ -42,6 +42,19 @@
         "temporal-law.md",
         "foreign-national.md"
       ]
+    },
+    {
+      "name": "pl-client-explanation",
+      "local_files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/meaning-check.md"
+      ],
+      "shared_references": [
+        "source-policy.md",
+        "temporal-law.md",
+        "foreign-national.md"
+      ]
     }
   ]
 }
