@@ -4,14 +4,15 @@ Projekt skilli dla pracy adwokackiej w Polsce: analiza akt, apelacje karne oraz 
 
 Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz [recenzja z planem oceny](legal-ai-review-v0.2-pl.md).
 
-Dalsze prace: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). Pierwsza kolejna fala obejmuje rozszerzenie pakowania, analizę akt i objaśnienia dla klienta PL/UA/RU.
+Dalsze prace: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). A0 i A1 mają implementację; A2 obejmuje objaśnienia dla klienta PL/UA/RU. [Raport A1](evals/results/2026-09-23/a1-report.md) rozróżnia techniczne sprawdzenia i próby własne.
 
 Repozytorium przechowuje metodę, dokumentację i fikcyjne materiały testowe. Nie należy dodawać tu akt klientów, danych dostępowych ani poufnych notatek kancelarii. `.gitignore` jest pomocą organizacyjną, nie kontrolą dostępu.
 
-## Pakiet 0.1.0 — kontrolowany pilotaż
+## Pakiet 0.2.0 — kontrolowany pilotaż
 
 | Skill | Zadanie |
 |---|---|
+| [pl-case-file-analysis](plugins/legal-ai-pl/skills/pl-case-file-analysis/SKILL.md) | Mapa akt, chronologia, sprzeczności i luki z lokalizatorami |
 | [pl-criminal-appeal](plugins/legal-ai-pl/skills/pl-criminal-appeal/SKILL.md) | Koncepcja, zarzuty, żądania i projekt apelacji karnej |
 | [pl-legal-document-review](plugins/legal-ai-pl/skills/pl-legal-document-review/SKILL.md) | Recenzja istniejącego pisma, kontrola argumentów, faktów i cytatów |
 
@@ -38,7 +39,7 @@ Alternatywnie możesz skopiować **cały folder wybranego skilla**, łącznie z 
 
 Pakiet używa wspieranego manifestu `.codex-plugin/plugin.json`. Administrator docelowego workspace powinien użyć dostępnej w nim ścieżki importu/dystrybucji pluginów, wskazując katalog `plugins/legal-ai-pl` lub zbudowane archiwum, jeśli interfejs obsługuje import pliku. Dostępność zależy od produktu, uprawnień i konfiguracji. Nie zakładaj, że rejestracja lokalnego katalogu wdraża plugin całemu zespołowi.
 
-Potwierdź w docelowym workspace: widoczność obu skilli, odczyt ich referencji, uprawnienia do plików, narzędzia researchu i właściwą wersję. Przed aktami klientów ustal zasady danych i przetestuj granice dostępu. Źródła: [OpenAI — skille](https://learn.chatgpt.com/docs/build-skills), [pakowanie i dystrybucja](https://developers.openai.com/plugins/build/plugins).
+Potwierdź w docelowym workspace: widoczność wszystkich skilli, odczyt ich referencji, uprawnienia do plików, narzędzia researchu i właściwą wersję. Przed aktami klientów ustal zasady danych i przetestuj granice dostępu. Źródła: [OpenAI — skille](https://learn.chatgpt.com/docs/build-skills), [pakowanie i dystrybucja](https://developers.openai.com/plugins/build/plugins).
 
 ## Przykłady
 
@@ -64,9 +65,9 @@ python3 -m venv .venv
 
 Zawartość każdego skilla deklaruje `config/skill-package.json`; szczegóły i ograniczenia: [konfiguracja pakowania](docs/package-configuration.md). Nowy plik nie trafia do archiwum automatycznie.
 
-Po zmianie wspólnych reguł uruchom `scripts/package.py sync`, a potem ponownie `check`. Nie poprawiaj ich kopii w folderach skilli. Po zmianie wersji zaktualizuj manifest i `metadata.version` obu skilli. `build` nie naprawia niezgodności po cichu.
+Po zmianie wspólnych reguł uruchom `scripts/package.py sync`, a potem ponownie `check`. Nie poprawiaj ich kopii w folderach skilli. Po zmianie wersji zaktualizuj manifest i `metadata.version` wszystkich skilli. `build` nie naprawia niezgodności po cichu.
 
-Archiwum i suma SHA-256 trafiają do `dist/`, poza Gitem. Wersja manifestu może mieć sufiks `+codex.…` do odświeżenia lokalnego cache; wersja merytoryczna skilli pozostaje `0.1.0`. ZIP obejmuje wyłącznie jawnie wymienione pliki pluginu, bez dokumentacji projektu, testów, logów i danych spraw. Testy sprawdzają również odrzucenie dodatkowych plików, symlinków, brakujących referencji i niezgodności kopii. Nie zastępuje to kontroli treści dołączanych plików.
+Archiwum i suma SHA-256 trafiają do `dist/`, poza Gitem. Wersja manifestu może mieć sufiks `+codex.…` do odświeżenia lokalnego cache; wersja merytoryczna skilli pozostaje równa bazowej wersji pakietu. ZIP obejmuje wyłącznie jawnie wymienione pliki pluginu, bez dokumentacji projektu, testów, logów i danych spraw. Testy sprawdzają również odrzucenie dodatkowych plików, symlinków, brakujących referencji i niezgodności kopii. Nie zastępuje to kontroli treści dołączanych plików.
 
 GitHub Actions wykonuje tę samą kontrolę i budowanie pakietu, bez wywołań modeli, kluczy API i automatycznej publikacji. Wynik zielony oznacza poprawność techniczną pakietu, nie przydatność prawną.
 
