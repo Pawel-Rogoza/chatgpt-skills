@@ -1,0 +1,1 @@
+Porównaj tylko relacje świadków co do godziny i obecności osoby przy bramie. Wskaż sprzeczności i możliwe wyjaśnienia, bez wyboru wiarygodniejszego świadka na podstawie samego tonu. Nie potrzebuję pełnej mapy akt. Materiał jest fikcyjny.

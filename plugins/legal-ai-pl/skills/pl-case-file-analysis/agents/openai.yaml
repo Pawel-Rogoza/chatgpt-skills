@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analiza akt sprawy"
+  short_description: "Chronologia, dowody, sprzeczności i luki w aktach"
+  default_prompt: "Użyj $pl-case-file-analysis do analizy przekazanego pakietu akt z lokalizatorami faktów i wskazaniem istotnych luk."
