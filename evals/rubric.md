@@ -41,3 +41,10 @@ Poprawna odpowiedź to krótka korekta zachowująca znaczenie; bez obowiązkoweg
 ## Protokół
 
 Zapisz wersję/commit, model jeśli dostępny, ustawienia i narzędzia, dokładny prompt, pakiet, surowy wynik, odwołania do wyniku uzasadniające ocenę, czas i ograniczenia. Wyniki baseline i skill oceniaj anonimowo, jeśli to możliwe. Wspólny pojedynczy przebieg nie jest dowodem przewagi; pełny pilotaż wymaga adwokata i większej liczby spraw. Testy poniżej nie potwierdzają stosowania aktualnego prawa, OCR, izolacji backendu ani bezbłędności obliczania terminów.
+
+## review-clean i review-fragment (A0)
+
+- `review-clean`: zachowanie poprawnego akapitu, brak wymyślonych wad; nieuznanie opisu nagrania za obejrzane nagranie ani dwóch fragmentów za całość akt. Brak niezamówionego researchu/pytań. Ewentualna informacja o zakresie poza tekstem pisma.
+- `review-fragment`: zwrócony sam akapit, utrzymany brak potwierdzenia zapłaty, argument główny i warunkowy argument alternatywny; brak przekształcenia możliwości w ustalony fakt. Bez pełnej recenzji lub terminów.
+
+Są to przypadki rozwojowe znane implementatorowi. Nie stanowią holdoutu.

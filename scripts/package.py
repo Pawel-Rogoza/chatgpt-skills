@@ -8,16 +8,72 @@ import json
 import re
 import sys
 import zipfile
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from urllib.parse import unquote, urlsplit
 
 import yaml
 
 PLUGIN = "legal-ai-pl"
-SKILLS = ("pl-criminal-appeal", "pl-legal-document-review")
-SHARED = ("source-policy.md", "case-record.md", "temporal-law.md", "foreign-national.md")
-SPECIFIC = {"pl-criminal-appeal": "appeal-method.md",
-            "pl-legal-document-review": "appeal-review.md"}
+CONFIG = "config/skill-package.json"
+
+
+def unique_object(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"Duplicate JSON key: {key}")
+        result[key] = value
+    return result
+
+
+def relative_file(value: str) -> str:
+    if (not isinstance(value, str) or not value
+            or not re.fullmatch(r"[A-Za-z0-9_./-]+", value)
+            or PurePosixPath(value).is_absolute()
+            or any(p in ("", ".", "..") for p in value.split("/"))):
+        raise ValueError(f"Invalid relative file path: {value!r}")
+    return value
+
+
+def load_config(root: Path) -> list[dict]:
+    path = root / CONFIG
+    ensure_local(path, root)
+    data = json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=unique_object)
+    if (not isinstance(data, dict) or set(data) != {"schema_version", "skills"}
+            or type(data["schema_version"]) is not int or data["schema_version"] != 1
+            or not isinstance(data["skills"], list) or not data["skills"]):
+        raise ValueError("Invalid package configuration: expected schema_version 1 and nonempty skills")
+    names = set()
+    for skill in data["skills"]:
+        if not isinstance(skill, dict) or set(skill) != {"name", "local_files", "shared_references"}:
+            raise ValueError("Invalid skill configuration fields")
+        name = skill["name"]
+        if not isinstance(name, str) or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", name) or len(name) > 64:
+            raise ValueError(f"Invalid skill name: {name!r}")
+        if name in names:
+            raise ValueError(f"Duplicate skill: {name}")
+        names.add(name)
+        declared = set()
+        for field in ("local_files", "shared_references"):
+            entries = skill[field]
+            if not isinstance(entries, list):
+                raise ValueError(f"Expected file list: {name}/{field}")
+            for entry in entries:
+                relative_file(entry)
+                if field == "shared_references":
+                    if "/" in entry or not entry.endswith(".md"):
+                        raise ValueError(f"Shared reference must be a Markdown filename: {entry}")
+                    entry = "references/" + entry
+                if entry.casefold() in declared:
+                    raise ValueError(f"Duplicate package file: {name}/{entry}")
+                declared.add(entry.casefold())
+        if not {"SKILL.md", "agents/openai.yaml"}.issubset(skill["local_files"]):
+            raise ValueError(f"Missing required local files: {name}")
+        # A file may not also be the parent directory of another declared file.
+        for entry in declared:
+            if any(parent.as_posix() in declared for parent in PurePosixPath(entry).parents):
+                raise ValueError(f"Conflicting file/directory declarations: {name}/{entry}")
+    return data["skills"]
 
 
 def plugin_root(root: Path) -> Path:
@@ -25,33 +81,43 @@ def plugin_root(root: Path) -> Path:
 
 
 def ensure_local(path: Path, boundary: Path) -> None:
-    if not path.resolve().is_relative_to(boundary.resolve()):
+    try:
+        parts = path.absolute().relative_to(boundary.absolute()).parts
+    except ValueError:
+        raise ValueError(f"Path escapes package: {path}") from None
+    if ".." in parts or not path.resolve().is_relative_to(boundary.resolve()):
         raise ValueError(f"Path escapes package: {path}")
-    current = path
-    while current != boundary:
+    current = boundary
+    for part in ("", *parts):
+        current = current / part
         if current.is_symlink():
             raise ValueError(f"Symlink is not allowed in package input: {current}")
-        current = current.parent
 
 
 def sync(root: Path) -> None:
-    for name in SKILLS:
-        for filename in SHARED:
+    copies = []
+    for skill in load_config(root):
+        for filename in skill["shared_references"]:
             source = root / "source-policy" / filename
-            destination = plugin_root(root) / "skills" / name / "references" / filename
+            destination = plugin_root(root) / "skills" / skill["name"] / "references" / filename
             ensure_local(source, root)
             ensure_local(destination, root)
-            destination.parent.mkdir(parents=True, exist_ok=True)
-            destination.write_bytes(source.read_bytes())
+            if destination.exists() and not destination.is_file():
+                raise ValueError(f"Not a regular destination file: {destination}")
+            copies.append((destination, source.read_bytes()))
+    # Validate/read every input before overwriting any shared copy.
+    for destination, content in copies:
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_bytes(content)
 
 
 def package_files(root: Path) -> list[Path]:
     base = plugin_root(root)
     paths = [base / ".codex-plugin" / "plugin.json"]
-    for name in SKILLS:
-        folder = base / "skills" / name
-        paths.extend([folder / "SKILL.md", folder / "agents" / "openai.yaml"])
-        paths.extend(folder / "references" / f for f in (*SHARED, SPECIFIC[name]))
+    for skill in load_config(root):
+        folder = base / "skills" / skill["name"]
+        paths.extend(folder / f for f in skill["local_files"])
+        paths.extend(folder / "references" / f for f in skill["shared_references"])
     return sorted(paths)
 
 
@@ -69,7 +135,7 @@ def validate(root: Path) -> list[Path]:
             actual.add(path)
     if actual != set(paths):
         raise ValueError(f"Unexpected plugin files; update the explicit allowlist intentionally: {actual - set(paths)}")
-    manifest = json.loads(paths[0].read_text(encoding="utf-8"))
+    manifest = json.loads((base / ".codex-plugin/plugin.json").read_text(encoding="utf-8"))
     if manifest.get("name") != PLUGIN or manifest.get("skills") != "./skills/":
         raise ValueError("Plugin name or skills path does not match the package")
     version = manifest.get("version", "")
@@ -77,14 +143,17 @@ def validate(root: Path) -> list[Path]:
         raise ValueError("Expected a three-part release version with optional build metadata")
     if any(k in manifest for k in ("apps", "mcpServers", "hooks")):
         raise ValueError("The pilot package must remain instruction-only")
-    catalog = json.loads((root / ".agents/plugins/marketplace.json").read_text(encoding="utf-8"))
+    catalog_path = root / ".agents/plugins/marketplace.json"
+    ensure_local(catalog_path, root)
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
     matches = [p for p in catalog["plugins"] if p["name"] == PLUGIN]
     if len(matches) != 1 or matches[0]["source"] != {"source": "local", "path": f"./plugins/{PLUGIN}"}:
         raise ValueError("Marketplace must resolve this repository's plugin exactly once")
     policy = matches[0].get("policy", {})
     if policy.get("installation") != "AVAILABLE" or policy.get("authentication") != "ON_INSTALL":
         raise ValueError("Unexpected pilot installation policy")
-    for name in SKILLS:
+    for skill in load_config(root):
+        name = skill["name"]
         folder = base / "skills" / name
         text = (folder / "SKILL.md").read_text(encoding="utf-8")
         match = re.match(r"\A---\n(.*?)\n---\n", text, re.S)
@@ -98,7 +167,7 @@ def validate(root: Path) -> list[Path]:
         ui = yaml.safe_load((folder / "agents/openai.yaml").read_text(encoding="utf-8"))
         if ui.get("policy", {}).get("allow_implicit_invocation", True) is not True:
             raise ValueError(f"Implicit discovery unexpectedly disabled: {name}")
-        for filename in SHARED:
+        for filename in skill["shared_references"]:
             source = root / "source-policy" / filename
             ensure_local(source, root)
             if source.read_bytes() != (folder / "references" / filename).read_bytes():

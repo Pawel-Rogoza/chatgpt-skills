@@ -1,0 +1,1 @@
+Sprawdź zgodność poniższego fragmentu uzasadnienia z materiałem i jego logikę. Jeśli jest poprawny, zachowaj go. Nie badaj prawa, formalności ani terminów i nie dopisuj zarzutów. Materiał jest syntetyczny.
