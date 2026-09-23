@@ -34,7 +34,8 @@
       "local_files": [
         "SKILL.md",
         "agents/openai.yaml",
-        "references/analysis-method.md"
+        "references/analysis-method.md",
+        "references/intake-and-research.md"
       ],
       "shared_references": [
         "source-policy.md",

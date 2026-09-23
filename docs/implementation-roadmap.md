@@ -19,6 +19,10 @@
 - Pakiet 0.4.0: pięć skilli i 36 plików; [raport B1](../evals/results/2026-09-23-b1/report.md), [specyfikacja](b1-specification.md), [rejestr źródeł](../source-policy/source-register.json).
 - Niezależne próby, routing i zawodowy odbiór pozostają otwarte. Rejestr nie jest potwierdzeniem kompletnego aktualnego prawa.
 
+### Rozszerzenie A1 — rozpoznanie z wiadomości, 23.09.2026
+
+Na prośbę użytkownika przed dalszym B2 rozszerzono istniejący `pl-case-file-analysis` o opis klienta PL/UA/RU, wklejoną korespondencję, dokumenty i research powiązany ze sprawą. To samodzielna analiza dla zlecającego, także bez formalnych akt i bez tworzenia pisma. Nie dodano szóstego, nakładającego się skilla. Wydanie 0.5.0: pięć skilli, 37 plików; [specyfikacja](intake-specification.md), [raport](../evals/results/2026-09-23-intake/report.md). Próby własne i kontrola techniczna nie zastępują niezależnego odbioru.
+
 Poniższy plan zachowuje specyfikację i historyczną bazę z 22.09.2026.
 
 ## 1. Punkt startowy — nie pomiń tego

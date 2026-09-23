@@ -86,5 +86,25 @@
   {
     "prompt": "Zaskarż zatrzymanie przez Policję, bez postanowienia o tymczasowym aresztowaniu.",
     "expected": "neither"
+  },
+  {
+    "prompt": "Wklejam opis klienta z WhatsAppa po rosyjsku, bez dokumentów. Wyjaśnij mi po polsku, o co chodzi w sprawie.",
+    "expected": "pl-case-file-analysis"
+  },
+  {
+    "prompt": "Przeanalizuj ukraińską wiadomość klientki i załączone wezwanie; sprawdź przepisy i wyjaśnij mi jako adwokatowi problem.",
+    "expected": "pl-case-file-analysis"
+  },
+  {
+    "prompt": "Ось опис моєї справи та документи. Проаналізуй ситуацію і перевір польські правові підстави.",
+    "expected": "pl-case-file-analysis"
+  },
+  {
+    "prompt": "Вот переписка с работодателем. Разбери факты и противоречия.",
+    "expected": "pl-case-file-analysis"
+  },
+  {
+    "prompt": "Przetłumacz tylko ten opis sprawy z WhatsAppa z ukraińskiego na polski.",
+    "expected": "neither"
   }
 ]

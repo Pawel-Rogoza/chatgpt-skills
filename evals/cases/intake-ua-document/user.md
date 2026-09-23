@@ -1,0 +1,1 @@
+To wiadomość klientki i tekst jej załącznika. W czterech–sześciu zdaniach wyjaśnij mi, czy jej opis zgadza się z dokumentem i co jest pilne. Nie oceniaj jeszcze prawa ani nie pisz odpowiedzi do klientki.

@@ -1,0 +1,1 @@
+Jestem adwokatem. Wyjaśnij mi po polsku problem z wiadomości i sprawdź w oficjalnych źródłach polskie przepisy dotyczące tłumacza przy przesłuchaniu tego klienta jako świadka. Chcę krótką analizę z podstawą i ograniczeniami, nie projekt pisma. Przyjmij ocenę według stanu na 23.09.2026.

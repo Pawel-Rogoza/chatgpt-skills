@@ -1,4 +1,4 @@
 interface:
-  display_name: "Analiza akt sprawy"
-  short_description: "Chronologia, dowody, sprzeczności i luki w aktach"
-  default_prompt: "Użyj $pl-case-file-analysis do analizy przekazanego pakietu akt z lokalizatorami faktów i wskazaniem istotnych luk."
+  display_name: "Rozpoznanie i analiza sprawy"
+  short_description: "Opis klienta PL/UA/RU, dokumenty, analiza i research"
+  default_prompt: "Użyj $pl-case-file-analysis: przeanalizuj opis klienta i dostępne dokumenty, wykonaj potrzebny research i wyjaśnij mi po polsku, na czym polega sprawa, co jest pilne i czego brakuje."
