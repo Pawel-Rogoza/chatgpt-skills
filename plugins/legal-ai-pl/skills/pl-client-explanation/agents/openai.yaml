@@ -1,0 +1,4 @@
+interface:
+  display_name: "Objaśnienie dla klienta PL/UA/RU"
+  short_description: "Jasne objaśnienia sprawy dla klienta w PL, UA lub RU"
+  default_prompt: "Użyj $pl-client-explanation do przygotowania zrozumiałego objaśnienia załączonego pisma w języku preferowanym przez klienta."

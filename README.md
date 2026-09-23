@@ -4,19 +4,20 @@ Projekt skilli dla pracy adwokackiej w Polsce: analiza akt, apelacje karne oraz 
 
 Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz [recenzja z planem oceny](legal-ai-review-v0.2-pl.md).
 
-Dalsze prace: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). A0 i A1 mają implementację; A2 obejmuje objaśnienia dla klienta PL/UA/RU. [Raport A1](evals/results/2026-09-23/a1-report.md) rozróżnia techniczne sprawdzenia i próby własne.
+Dalsze prace: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). A0–A2 mają implementację i zweryfikowaną instalację lokalną. [Raport fali A](evals/results/2026-09-23/report.md) rozróżnia sprawdzenia techniczne, próby własne oraz brak niezależnego odbioru.
 
 Repozytorium przechowuje metodę, dokumentację i fikcyjne materiały testowe. Nie należy dodawać tu akt klientów, danych dostępowych ani poufnych notatek kancelarii. `.gitignore` jest pomocą organizacyjną, nie kontrolą dostępu.
 
-## Pakiet 0.2.0 — kontrolowany pilotaż
+## Pakiet 0.3.0 — kontrolowany pilotaż
 
 | Skill | Zadanie |
 |---|---|
+| [pl-client-explanation](plugins/legal-ai-pl/skills/pl-client-explanation/SKILL.md) | Wierne, proste objaśnienia dla klienta PL/UA/RU; projekt wiadomości |
 | [pl-case-file-analysis](plugins/legal-ai-pl/skills/pl-case-file-analysis/SKILL.md) | Mapa akt, chronologia, sprzeczności i luki z lokalizatorami |
 | [pl-criminal-appeal](plugins/legal-ai-pl/skills/pl-criminal-appeal/SKILL.md) | Koncepcja, zarzuty, żądania i projekt apelacji karnej |
 | [pl-legal-document-review](plugins/legal-ai-pl/skills/pl-legal-document-review/SKILL.md) | Recenzja istniejącego pisma, kontrola argumentów, faktów i cytatów |
 
-Wyniki wymagają przeglądu adwokata. Pakiet nie zawiera bazy prawa, OCR, klienta SAOS ani narzędzi obliczających terminy. Korzysta z narzędzi dostępnych w danym środowisku i ma wskazać brak możliwości sprawdzenia źródła. Nie egzekwuje izolacji spraw, nie podpisuje, nie wysyła ani nie składa pism.
+Wyniki wymagają przeglądu adwokata; objaśnienia PL/UA/RU także kontroli językowej przed realnym użyciem. Pakiet nie zawiera bazy prawa, OCR, klienta SAOS ani narzędzi obliczających terminy. Korzysta z narzędzi dostępnych w danym środowisku i ma wskazać brak możliwości sprawdzenia źródła. Nie egzekwuje izolacji spraw, nie podpisuje, nie wysyła ani nie składa pism.
 
 Każdy skill jest samodzielnym folderem z `SKILL.md` i referencjami. Wspólne reguły utrzymujemy w `source-policy/`; skrypt kopiuje je do pakietu, a kontrola blokuje rozbieżne kopie. Odwołania skilla nie wychodzą poza jego folder. Nie jest wymagany drugi skill ani prywatna ścieżka na komputerze autora.
 
@@ -31,7 +32,7 @@ codex plugin add legal-ai-pl@personal
 
 `personal` to identyfikator katalogu zapisany w `.agents/plugins/marketplace.json` tego repozytorium, nie polecenie udostępnienia publicznego. Jeśli masz już inne źródło o tej nazwie, sprawdź `codex plugin marketplace list` i nie zastępuj go bez rozstrzygnięcia konfliktu. Następnie otwórz nowe zadanie; w razie braku pozycji odśwież aplikację. Instalator może kwalifikować nazwę katalogu — użyj identyfikatora zwróconego przez CLI.
 
-W selektorze wybierz „Apelacja karna” albo „Recenzja pisma prawnego”. Nazwa skilla może otrzymać prefiks pluginu. Samo skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
+W selektorze wybierz „Analiza akt sprawy”, „Objaśnienie dla klienta PL/UA/RU”, „Apelacja karna” albo „Recenzja pisma prawnego”. Nazwa skilla może otrzymać prefiks pluginu. Samo skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
 
 Alternatywnie możesz skopiować **cały folder wybranego skilla**, łącznie z `references/` i `agents/`, do obsługiwanej lokalizacji skilli w swoim środowisku. Nie instaluj równolegle tej samej wersji jako osobnego skilla i pluginu, bo może to dać duplikaty.
 
@@ -46,6 +47,8 @@ Potwierdź w docelowym workspace: widoczność wszystkich skilli, odczyt ich ref
 - „Przygotuj roboczą koncepcję apelacji na korzyść oskarżonego. Wskaż zależności argumentów od akt; brakujące dane oznacz osobno”.
 - „Sprawdź ten projekt: zgodność zarzutów z uzasadnieniem i żądaniem oraz poprawność cytatów. Popraw wykryte błędy”.
 - „Oceń tylko ten pomysł na zarzut. Nie przygotowuj całej apelacji”.
+- „Przeanalizuj te akta: zrób chronologię i porównaj relacje z lokalizatorami”.
+- „Wyjaśnij klientowi po rosyjsku tę decyzję i przygotuj projekt wiadomości”.
 
 Do prób bez danych klientów użyj [pakietów syntetycznych](evals/README.md).
 
@@ -76,3 +79,5 @@ GitHub Actions wykonuje tę samą kontrolę i budowanie pakietu, bez wywołań m
 Zachowaj znaną wersję źródłową i surowe wyniki testów. Po zmianie pluginu odśwież/reinstaluj go zgodnie z obsługą katalogu w używanym kliencie i rozpocznij nowe zadanie. Zweryfikuj zainstalowany manifest; aktywna rozmowa może nadal zawierać wcześniejsze instrukcje.
 
 Cofnięcie polega na przywróceniu ocenionej wersji i ponownej instalacji, nie nadpisywaniu dokumentów spraw. Repozytorium nie nadaje licencji na materiały osób trzecich ani praw do importu akt do usług zewnętrznych.
+
+Aktualizacja i wycofanie wersji 0.3.0: [notatka wydania](docs/release-0.3.0.md). Nowe zadanie powinno odczytać zainstalowaną wersję; sama aktualizacja plików nie potwierdza automatycznego routingu.

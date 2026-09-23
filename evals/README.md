@@ -9,3 +9,5 @@ Przeprowadź próbę w nowym zadaniu, podając polecenie i materiały. W warianc
 Wyniki robocze zapisuj do ignorowanego `evals/runs/`. Publikuj wyłącznie wyniki z materiałami syntetycznymi, po sprawdzeniu ich zawartości. Testy techniczne w `tests/` sprawdzają pakowanie i referencje, nie skuteczność prawną. Rozszerzenie do 20 scenariuszy opisano w [recenzji architektury](../legal-ai-review-v0.2-pl.md).
 
 Przypadki `case-*` i [rubryka analizy akt](case-analysis-rubric.md) rozszerzają pilot o A1. `case-ocr/scan.pdf` jest rzeczywistym syntetycznym dokumentem obrazowym; trzeba go przekazać obok `user.md` i `materials.md`. Nie zastępuj odczytu obrazu samą deklaracją testera.
+
+Przypadki `client-*` i [rubryka objaśnień](client-explanation-rubric.md) obejmują po dwa zadania PL/UA/RU oraz granicę wysyłki. [Raport 23.09](results/2026-09-23/report.md) zawiera 18 własnych odpowiedzi autora, wyraźnie oddzielonych od niezależnych prób 22.09. Nie używaj ich jako baseline ani ukrytego zestawu odbiorczego.

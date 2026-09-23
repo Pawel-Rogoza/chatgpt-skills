@@ -42,5 +42,21 @@
   {
     "prompt": "Wyszukaj orzecznictwo bez analizy akt.",
     "expected": "neither"
+  },
+  {
+    "prompt": "Wyjaśnij klientowi po ukraińsku tę decyzję i przygotuj projekt wiadomości.",
+    "expected": "pl-client-explanation"
+  },
+  {
+    "prompt": "Opisz prostym rosyjskim klientowi, co wynika z analizy adwokata.",
+    "expected": "pl-client-explanation"
+  },
+  {
+    "prompt": "Przetłumacz zdanie: Widzimy się jutro.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Napisz pełną strategię legalizacji pobytu.",
+    "expected": "neither"
   }
 ]
