@@ -8,7 +8,7 @@ description: >-
   ani korekty wyłącznie językowej; tworzenie apelacji od podstaw obsługuje
   pl-criminal-appeal.
 metadata:
-  version: "0.3.0"
+  version: "0.4.0"
   status: "pilot"
 ---
 

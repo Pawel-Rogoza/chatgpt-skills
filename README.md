@@ -6,12 +6,15 @@ Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz
 
 Dalsze prace: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). A0–A2 mają implementację i zweryfikowaną instalację lokalną. [Raport fali A](evals/results/2026-09-23/report.md) rozróżnia sprawdzenia techniczne, próby własne oraz brak niezależnego odbioru.
 
+Kolejny etap B1 wdrożono jako wąski pilot kontroli pierwszego zastosowania aresztowania: [specyfikacja](docs/b1-specification.md), [raport](evals/results/2026-09-23-b1/report.md). Pełna obsługa przedłużenia oraz B2–B3 pozostają poza tym wydaniem.
+
 Repozytorium przechowuje metodę, dokumentację i fikcyjne materiały testowe. Nie należy dodawać tu akt klientów, danych dostępowych ani poufnych notatek kancelarii. `.gitignore` jest pomocą organizacyjną, nie kontrolą dostępu.
 
-## Pakiet 0.3.0 — kontrolowany pilotaż
+## Pakiet 0.4.0 — kontrolowany pilotaż
 
 | Skill | Zadanie |
 |---|---|
+| [pl-criminal-detention](plugins/legal-ai-pl/skills/pl-criminal-detention/SKILL.md) | Kontrola pierwszego zastosowania tymczasowego aresztowania i argumenty obrony |
 | [pl-client-explanation](plugins/legal-ai-pl/skills/pl-client-explanation/SKILL.md) | Wierne, proste objaśnienia dla klienta PL/UA/RU; projekt wiadomości |
 | [pl-case-file-analysis](plugins/legal-ai-pl/skills/pl-case-file-analysis/SKILL.md) | Mapa akt, chronologia, sprzeczności i luki z lokalizatorami |
 | [pl-criminal-appeal](plugins/legal-ai-pl/skills/pl-criminal-appeal/SKILL.md) | Koncepcja, zarzuty, żądania i projekt apelacji karnej |
@@ -32,7 +35,7 @@ codex plugin add legal-ai-pl@personal
 
 `personal` to identyfikator katalogu zapisany w `.agents/plugins/marketplace.json` tego repozytorium, nie polecenie udostępnienia publicznego. Jeśli masz już inne źródło o tej nazwie, sprawdź `codex plugin marketplace list` i nie zastępuj go bez rozstrzygnięcia konfliktu. Następnie otwórz nowe zadanie; w razie braku pozycji odśwież aplikację. Instalator może kwalifikować nazwę katalogu — użyj identyfikatora zwróconego przez CLI.
 
-W selektorze wybierz „Analiza akt sprawy”, „Objaśnienie dla klienta PL/UA/RU”, „Apelacja karna” albo „Recenzja pisma prawnego”. Nazwa skilla może otrzymać prefiks pluginu. Samo skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
+W selektorze wybierz „Tymczasowe aresztowanie — zastosowanie”, „Analiza akt sprawy”, „Objaśnienie dla klienta PL/UA/RU”, „Apelacja karna” albo „Recenzja pisma prawnego”. Nazwa skilla może otrzymać prefiks pluginu. Samo skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
 
 Alternatywnie możesz skopiować **cały folder wybranego skilla**, łącznie z `references/` i `agents/`, do obsługiwanej lokalizacji skilli w swoim środowisku. Nie instaluj równolegle tej samej wersji jako osobnego skilla i pluginu, bo może to dać duplikaty.
 
@@ -47,6 +50,7 @@ Potwierdź w docelowym workspace: widoczność wszystkich skilli, odczyt ich ref
 - „Przygotuj roboczą koncepcję apelacji na korzyść oskarżonego. Wskaż zależności argumentów od akt; brakujące dane oznacz osobno”.
 - „Sprawdź ten projekt: zgodność zarzutów z uzasadnieniem i żądaniem oraz poprawność cytatów. Popraw wykryte błędy”.
 - „Oceń tylko ten pomysł na zarzut. Nie przygotowuj całej apelacji”.
+- „Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania; wskaż argumenty i warunki alternatywnych środków”.
 - „Przeanalizuj te akta: zrób chronologię i porównaj relacje z lokalizatorami”.
 - „Wyjaśnij klientowi po rosyjsku tę decyzję i przygotuj projekt wiadomości”.
 
@@ -80,4 +84,4 @@ Zachowaj znaną wersję źródłową i surowe wyniki testów. Po zmianie pluginu
 
 Cofnięcie polega na przywróceniu ocenionej wersji i ponownej instalacji, nie nadpisywaniu dokumentów spraw. Repozytorium nie nadaje licencji na materiały osób trzecich ani praw do importu akt do usług zewnętrznych.
 
-Aktualizacja i wycofanie wersji 0.3.0: [notatka wydania](docs/release-0.3.0.md). Nowe zadanie powinno odczytać zainstalowaną wersję; sama aktualizacja plików nie potwierdza automatycznego routingu.
+Aktualizacja i wycofanie wersji 0.4.0: [notatka wydania](docs/release-0.4.0.md). Nowe zadanie powinno odczytać zainstalowaną wersję; sama aktualizacja plików nie potwierdza automatycznego routingu.

@@ -1,7 +1,7 @@
 {
   "name": "legal-ai-pl",
-  "version": "0.3.0+codex.20260923114921",
-  "description": "Analiza akt, apelacja karna, recenzja pism i obja\u015bnienia dla klienta PL/UA/RU. Pakiet pilota\u017cowy.",
+  "version": "0.4.0+codex.20260923185426",
+  "description": "Skille polskiej kancelarii: akta, apelacje, recenzja, obja\u015bnienia PL/UA/RU i kontrola zastosowania tymczasowego aresztowania. Pilot.",
   "author": {
     "name": "Pawel-Rogoza",
     "url": "https://github.com/Pawel-Rogoza"
@@ -9,8 +9,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Legal AI PL",
-    "shortDescription": "Akta, apelacje, recenzja i obja\u015bnienia PL/UA/RU",
-    "longDescription": "Cztery skille pracy adwokackiej: analiza akt, koncepcja apelacji karnej, recenzja pisma i obja\u015bnienie dla klienta PL/UA/RU. Nie zawiera bazy prawa ani narz\u0119dzi wysy\u0142ki. Wynik wymaga przegl\u0105du adwokata; obja\u015bnienia tak\u017ce oceny j\u0119zykowej.",
+    "shortDescription": "Akta, pisma, obja\u015bnienia i kontrola zastosowania aresztu",
+    "longDescription": "Pi\u0119\u0107 skilli pracy adwokackiej, w tym kontrola pierwszego postanowienia o zastosowaniu tymczasowego aresztowania. Pakiet instrukcji do pilota, bez bazy prawa i wysy\u0142ki. Wyniki wymagaj\u0105 przegl\u0105du adwokata; obja\u015bnienia tak\u017ce kontroli j\u0119zykowej.",
     "developerName": "Pawel-Rogoza",
     "category": "Productivity",
     "capabilities": [],
@@ -18,7 +18,8 @@
       "Przygotuj koncepcj\u0119 apelacji karnej na podstawie za\u0142\u0105czonych akt.",
       "Sprawd\u017a projekt pisma: argumentacj\u0119, fakty, \u017ar\u00f3d\u0142a i \u017c\u0105danie.",
       "Przeanalizuj pakiet akt i wska\u017c istotne sprzeczno\u015bci z lokalizatorami.",
-      "Wyja\u015bnij klientowi po ukrai\u0144sku tre\u015b\u0107 za\u0142\u0105czonego pisma."
+      "Wyja\u015bnij klientowi po ukrai\u0144sku tre\u015b\u0107 za\u0142\u0105czonego pisma.",
+      "Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj argumenty obrony."
     ]
   },
   "repository": "https://github.com/Pawel-Rogoza/chatgpt-skills"

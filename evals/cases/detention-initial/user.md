@@ -1,0 +1,1 @@
+Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj dwa krótkie akapity argumentacji do projektu zażalenia. Osobno wypisz zależności do sprawdzenia. Nie podawaj gotowego petitum, przepisów ani terminu; pracuj wyłącznie na fikcyjnym pakiecie.

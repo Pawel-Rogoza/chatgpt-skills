@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tymczasowe aresztowanie — zastosowanie"
+  short_description: "Kontrola zastosowania aresztu i argumenty obrony"
+  default_prompt: "Użyj $pl-criminal-detention do kontroli pierwszego postanowienia o zastosowaniu tymczasowego aresztowania i przygotowania argumentów obrony."

@@ -55,6 +55,21 @@
         "temporal-law.md",
         "foreign-national.md"
       ]
+    },
+    {
+      "name": "pl-criminal-detention",
+      "local_files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/detention-method.md",
+        "references/legal-sources.md"
+      ],
+      "shared_references": [
+        "source-policy.md",
+        "case-record.md",
+        "temporal-law.md",
+        "foreign-national.md"
+      ]
     }
   ]
 }
