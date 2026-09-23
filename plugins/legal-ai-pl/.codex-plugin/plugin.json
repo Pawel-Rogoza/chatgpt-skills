@@ -1,7 +1,7 @@
 {
   "name": "legal-ai-pl",
-  "version": "0.4.0+codex.20260923185426",
-  "description": "Skille polskiej kancelarii: akta, apelacje, recenzja, obja\u015bnienia PL/UA/RU i kontrola zastosowania tymczasowego aresztowania. Pilot.",
+  "version": "0.5.0+codex.20260923191651",
+  "description": "Skille polskiej kancelarii: rozpoznanie sprawy z relacji PL/UA/RU, dokumenty, research, obja\u015bnienia, apelacje, recenzja i kontrola zastosowania aresztu. Pilot.",
   "author": {
     "name": "Pawel-Rogoza",
     "url": "https://github.com/Pawel-Rogoza"
@@ -9,15 +9,15 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Legal AI PL",
-    "shortDescription": "Akta, pisma, obja\u015bnienia i kontrola zastosowania aresztu",
-    "longDescription": "Pi\u0119\u0107 skilli pracy adwokackiej, w tym kontrola pierwszego postanowienia o zastosowaniu tymczasowego aresztowania. Pakiet instrukcji do pilota, bez bazy prawa i wysy\u0142ki. Wyniki wymagaj\u0105 przegl\u0105du adwokata; obja\u015bnienia tak\u017ce kontroli j\u0119zykowej.",
+    "shortDescription": "Rozpoznanie sprawy, research, akta, pisma i obja\u015bnienia",
+    "longDescription": "Pi\u0119\u0107 skilli pracy adwokackiej. Rozpoznanie i analiza z opisu klienta PL/UA/RU oraz dokument\u00f3w, research zwi\u0105zany ze spraw\u0105, obja\u015bnienia dla klienta, apelacje, recenzja i kontrola pierwszego zastosowania aresztowania. Pilot instrukcji korzystaj\u0105cych z dost\u0119pnych narz\u0119dzi; wyniki wymagaj\u0105 przegl\u0105du adwokata.",
     "developerName": "Pawel-Rogoza",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
       "Przygotuj koncepcj\u0119 apelacji karnej na podstawie za\u0142\u0105czonych akt.",
       "Sprawd\u017a projekt pisma: argumentacj\u0119, fakty, \u017ar\u00f3d\u0142a i \u017c\u0105danie.",
-      "Przeanalizuj pakiet akt i wska\u017c istotne sprzeczno\u015bci z lokalizatorami.",
+      "Przeanalizuj wiadomo\u015b\u0107 klienta po rosyjsku i dokumenty, wykonaj potrzebny research i wyja\u015bnij mi po polsku, na czym polega sprawa.",
       "Wyja\u015bnij klientowi po ukrai\u0144sku tre\u015b\u0107 za\u0142\u0105czonego pisma.",
       "Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj argumenty obrony."
     ]

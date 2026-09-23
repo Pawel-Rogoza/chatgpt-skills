@@ -2,6 +2,8 @@
 
 **Aktualizacja 23.09.2026:** A0–A2 już zaimplementowano w gałęziach `codex/legal-ai-a0-packaging`, `codex/legal-ai-a1-case-analysis` i `codex/legal-ai-a2-client-explanation`. Zacznij od [raportu](../evals/results/2026-09-23/report.md), sprawdź bieżące PR-y i nie realizuj ponownie starego zlecenia. Pozostają niezależne próby, routing hosta i odbiór zawodowy. B1 także zaimplementowano: pierwsze zastosowanie tymczasowego aresztowania, gałąź `codex/legal-ai-b1-detention`, wydanie 0.4.0. Przeczytaj [raport B1](../evals/results/2026-09-23-b1/report.md). Kolejny skill: B2 po ustaleniu typu sprawy pobytowej; nie rozszerzaj automatycznie pilota na całe prawo migracyjne.
 
+**Uzupełnienie 23.09.2026:** zgodnie z kolejną prośbą użytkownika rozszerzono A1 w 0.5.0 o rozpoznanie z wiadomości klienta PL/UA/RU i research związany ze sprawą; nazwa techniczna pozostała `pl-case-file-analysis`. Przeczytaj [specyfikację](intake-specification.md) i [raport](../evals/results/2026-09-23-intake/report.md). Nie dodawaj drugiego skilla o tym samym zakresie. Granica: analiza dla zlecającego versus objaśnienie dla klienta.
+
 Poniżej zachowano historyczne polecenie A0–A2. Szczegółowy plan jest w repozytorium; nie trzeba przekazywać całej wcześniejszej rozmowy.
 
 ---

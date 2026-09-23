@@ -1,6 +1,6 @@
 # ChatGPT Skills — Legal AI PL
 
-Projekt skilli dla pracy adwokackiej w Polsce: analiza akt, apelacje karne oraz recenzja pism, z uwzględnieniem sytuacji cudzoziemców i języków PL/UA/RU.
+Projekt skilli dla pracy adwokackiej w Polsce: rozpoznanie sprawy z opisu klienta PL/UA/RU, dokumenty i research, objaśnienia dla klienta oraz praca nad pismami.
 
 Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz [recenzja z planem oceny](legal-ai-review-v0.2-pl.md).
 
@@ -10,13 +10,13 @@ Kolejny etap B1 wdrożono jako wąski pilot kontroli pierwszego zastosowania are
 
 Repozytorium przechowuje metodę, dokumentację i fikcyjne materiały testowe. Nie należy dodawać tu akt klientów, danych dostępowych ani poufnych notatek kancelarii. `.gitignore` jest pomocą organizacyjną, nie kontrolą dostępu.
 
-## Pakiet 0.4.0 — kontrolowany pilotaż
+## Pakiet 0.5.0 — kontrolowany pilotaż
 
 | Skill | Zadanie |
 |---|---|
 | [pl-criminal-detention](plugins/legal-ai-pl/skills/pl-criminal-detention/SKILL.md) | Kontrola pierwszego zastosowania tymczasowego aresztowania i argumenty obrony |
 | [pl-client-explanation](plugins/legal-ai-pl/skills/pl-client-explanation/SKILL.md) | Wierne, proste objaśnienia dla klienta PL/UA/RU; projekt wiadomości |
-| [pl-case-file-analysis](plugins/legal-ai-pl/skills/pl-case-file-analysis/SKILL.md) | Mapa akt, chronologia, sprzeczności i luki z lokalizatorami |
+| [pl-case-file-analysis](plugins/legal-ai-pl/skills/pl-case-file-analysis/SKILL.md) | Rozpoznanie z wiadomości PL/UA/RU i dokumentów, research, chronologia, sprzeczności i luki |
 | [pl-criminal-appeal](plugins/legal-ai-pl/skills/pl-criminal-appeal/SKILL.md) | Koncepcja, zarzuty, żądania i projekt apelacji karnej |
 | [pl-legal-document-review](plugins/legal-ai-pl/skills/pl-legal-document-review/SKILL.md) | Recenzja istniejącego pisma, kontrola argumentów, faktów i cytatów |
 
@@ -35,7 +35,7 @@ codex plugin add legal-ai-pl@personal
 
 `personal` to identyfikator katalogu zapisany w `.agents/plugins/marketplace.json` tego repozytorium, nie polecenie udostępnienia publicznego. Jeśli masz już inne źródło o tej nazwie, sprawdź `codex plugin marketplace list` i nie zastępuj go bez rozstrzygnięcia konfliktu. Następnie otwórz nowe zadanie; w razie braku pozycji odśwież aplikację. Instalator może kwalifikować nazwę katalogu — użyj identyfikatora zwróconego przez CLI.
 
-W selektorze wybierz „Tymczasowe aresztowanie — zastosowanie”, „Analiza akt sprawy”, „Objaśnienie dla klienta PL/UA/RU”, „Apelacja karna” albo „Recenzja pisma prawnego”. Nazwa skilla może otrzymać prefiks pluginu. Samo skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
+W selektorze wybierz „Tymczasowe aresztowanie — zastosowanie”, „Rozpoznanie i analiza sprawy”, „Objaśnienie dla klienta PL/UA/RU”, „Apelacja karna” albo „Recenzja pisma prawnego”. Nazwa skilla może otrzymać prefiks pluginu. Samo skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
 
 Alternatywnie możesz skopiować **cały folder wybranego skilla**, łącznie z `references/` i `agents/`, do obsługiwanej lokalizacji skilli w swoim środowisku. Nie instaluj równolegle tej samej wersji jako osobnego skilla i pluginu, bo może to dać duplikaty.
 
@@ -44,6 +44,14 @@ Alternatywnie możesz skopiować **cały folder wybranego skilla**, łącznie z 
 Pakiet używa wspieranego manifestu `.codex-plugin/plugin.json`. Administrator docelowego workspace powinien użyć dostępnej w nim ścieżki importu/dystrybucji pluginów, wskazując katalog `plugins/legal-ai-pl` lub zbudowane archiwum, jeśli interfejs obsługuje import pliku. Dostępność zależy od produktu, uprawnień i konfiguracji. Nie zakładaj, że rejestracja lokalnego katalogu wdraża plugin całemu zespołowi.
 
 Potwierdź w docelowym workspace: widoczność wszystkich skilli, odczyt ich referencji, uprawnienia do plików, narzędzia researchu i właściwą wersję. Przed aktami klientów ustal zasady danych i przetestuj granice dostępu. Źródła: [OpenAI — skille](https://learn.chatgpt.com/docs/build-skills), [pakowanie i dystrybucja](https://developers.openai.com/plugins/build/plugins).
+
+## Rozpoznanie sprawy z wiadomości klienta
+
+Wybierz „Rozpoznanie i analiza sprawy” (`pl-case-file-analysis`), wklej relację klienta, np. z WhatsAppa po rosyjsku lub ukraińsku, i dodaj dostępne dokumenty. Brak formalnych akt nie blokuje wstępnej analizy. Skill wyjaśnia problem zlecającemu, rozdziela relację od treści dokumentów, sprawdza potrzebne źródła prawa i wskazuje pilne kwestie oraz braki. Nie wymaga projektu pisma ani automatycznej odpowiedzi do klienta. Odczytuje przekazany materiał; nie łączy się sam z kontem WhatsApp.
+
+Przykład: „To wiadomość klienta po rosyjsku i jego dokumenty. Zrób research i wyjaśnij mi po polsku, na czym polega sprawa, co wiemy, co jest niejasne, jakie są możliwe warianty i co trzeba zrobić najpierw. Bez pisania pisma”.
+
+Do przygotowania wyjaśnienia **dla klienta** służy osobno `pl-client-explanation`. Samo tłumaczenie nie uruchamia pełnej analizy. [Zakres rozszerzenia](docs/intake-specification.md) i [raport prób](evals/results/2026-09-23-intake/report.md).
 
 ## Przykłady
 
@@ -84,4 +92,4 @@ Zachowaj znaną wersję źródłową i surowe wyniki testów. Po zmianie pluginu
 
 Cofnięcie polega na przywróceniu ocenionej wersji i ponownej instalacji, nie nadpisywaniu dokumentów spraw. Repozytorium nie nadaje licencji na materiały osób trzecich ani praw do importu akt do usług zewnętrznych.
 
-Aktualizacja i wycofanie wersji 0.4.0: [notatka wydania](docs/release-0.4.0.md). Nowe zadanie powinno odczytać zainstalowaną wersję; sama aktualizacja plików nie potwierdza automatycznego routingu.
+Aktualizacja i wycofanie wersji 0.5.0: [notatka wydania](docs/release-0.5.0.md). Nowe zadanie powinno odczytać zainstalowaną wersję; sama aktualizacja plików nie potwierdza automatycznego routingu.

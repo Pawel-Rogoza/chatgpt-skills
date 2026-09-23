@@ -8,7 +8,7 @@ description: >-
   ENA ani ekstradycji. Recenzję gotowego pisma jako główne zadanie
   obsługuje pl-legal-document-review.
 metadata:
-  version: "0.4.0"
+  version: "0.5.0"
   status: "pilot"
 ---
 
