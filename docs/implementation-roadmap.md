@@ -15,7 +15,7 @@
 
 ### Stan realizacji B1 — 23.09.2026
 
-- `pl-criminal-detention`: pierwsze zastosowanie aresztowania; osiem rozwojowych przypadków, jawne granice przedłużenia i innych procedur.
+- [PR #5](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/5), zależny od #4: `pl-criminal-detention`, pierwsze zastosowanie aresztowania; osiem rozwojowych przypadków, jawne granice przedłużenia i innych procedur.
 - Pakiet 0.4.0: pięć skilli i 36 plików; [raport B1](../evals/results/2026-09-23-b1/report.md), [specyfikacja](b1-specification.md), [rejestr źródeł](../source-policy/source-register.json).
 - Niezależne próby, routing i zawodowy odbiór pozostają otwarte. Rejestr nie jest potwierdzeniem kompletnego aktualnego prawa.
 

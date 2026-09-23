@@ -2,7 +2,7 @@
 
 **Implementacja i instalacja lokalna ukończone:** `pl-criminal-detention`, piąty skill pakietu 0.4.0. Zakres: kontrola pierwszego postanowienia o zastosowaniu tymczasowego aresztowania w zwykłej sprawie karnej, argumenty i projekt zażalenia obrony. Przedłużenie, zatrzymanie, detencja administracyjna, wykonanie kary, ENA i ekstradycja pozostają poza pełnym zakresem pilota.
 
-Baza: `2321f147ef5af55a521443ae7a91f498b0c33d27`, otwarty niescalony PR #4, sprawdzony przez GitHub na początku pracy. Zmiany powstały na `codex/legal-ai-b1-detention`. Nie scalano wcześniejszych PR-ów. Zastaną lokalną edycję historycznego raportu A pozostawiono poza zmianami B1.
+Baza: `2321f147ef5af55a521443ae7a91f498b0c33d27`, otwarty niescalony PR #4, sprawdzony przez GitHub na początku pracy. Zmiany powstały na `codex/legal-ai-b1-detention`, w [roboczym PR #5](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/5), zależnym od #4. Nie scalano wcześniejszych PR-ów. Zastaną lokalną edycję historycznego raportu A pozostawiono poza zmianami B1.
 
 ## Co dodano
 
@@ -17,6 +17,8 @@ Metoda rozdziela prawdopodobieństwo popełnienia czynu, konkretne ryzyka, potrz
 ## Sprawdzenia techniczne
 
 15 istniejących testów pakowania przeszło; pięć skilli przeszło `quick_validate.py`, a plugin `validate_plugin.py`. `check` potwierdził 36 plików. Dwukrotny build dał identyczne bajty; hash archiwum i wejść znajduje się w [run-manifest.json](run-manifest.json).
+
+GitHub Actions wykonuje ponownie check, testy i build; bieżące wyniki są w [kontrolach PR #5](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/5/checks). CI nie wywołuje modeli i nie ocenia jakości prawnej.
 
 Kod pakowania nie zmienił się. Porównanie czterech wcześniejszych folderów z bazowym commitem wykazało zgodność ich treści poza `metadata.version`, podniesionym do 0.4.0. Wspólna polityka pozostała niezmieniona. To kontrola braku zmiany metody, nie pełny test regresji zachowania.
 
