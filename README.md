@@ -62,6 +62,8 @@ python3 -m venv .venv
 .venv/bin/python scripts/package.py build
 ```
 
+Zawartość każdego skilla deklaruje `config/skill-package.json`; szczegóły i ograniczenia: [konfiguracja pakowania](docs/package-configuration.md). Nowy plik nie trafia do archiwum automatycznie.
+
 Po zmianie wspólnych reguł uruchom `scripts/package.py sync`, a potem ponownie `check`. Nie poprawiaj ich kopii w folderach skilli. Po zmianie wersji zaktualizuj manifest i `metadata.version` obu skilli. `build` nie naprawia niezgodności po cichu.
 
 Archiwum i suma SHA-256 trafiają do `dist/`, poza Gitem. Wersja manifestu może mieć sufiks `+codex.…` do odświeżenia lokalnego cache; wersja merytoryczna skilli pozostaje `0.1.0`. ZIP obejmuje wyłącznie jawnie wymienione pliki pluginu, bez dokumentacji projektu, testów, logów i danych spraw. Testy sprawdzają również odrzucenie dodatkowych plików, symlinków, brakujących referencji i niezgodności kopii. Nie zastępuje to kontroli treści dołączanych plików.

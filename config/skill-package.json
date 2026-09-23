@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "pl-criminal-appeal",
+      "local_files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/appeal-method.md"
+      ],
+      "shared_references": [
+        "source-policy.md",
+        "case-record.md",
+        "temporal-law.md",
+        "foreign-national.md"
+      ]
+    },
+    {
+      "name": "pl-legal-document-review",
+      "local_files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/appeal-review.md"
+      ],
+      "shared_references": [
+        "source-policy.md",
+        "case-record.md",
+        "temporal-law.md",
+        "foreign-national.md"
+      ]
+    }
+  ]
+}
