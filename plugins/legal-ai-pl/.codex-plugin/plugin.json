@@ -1,7 +1,7 @@
 {
   "name": "legal-ai-pl",
-  "version": "0.6.0",
-  "description": "Skille polskiej kancelarii: rozpoznanie sprawy, akta, pisma, objaśnienia, kontrola aresztu oraz pobyt czasowy i praca. Pilot.",
+  "version": "0.7.0",
+  "description": "Skille kancelarii: rozpoznanie, akta, pisma, objaśnienia, areszt, pobyt i praca oraz decyzja powrotowa. Pilot.",
   "author": {
     "name": "Pawel-Rogoza",
     "url": "https://github.com/Pawel-Rogoza"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Legal AI PL",
     "shortDescription": "Rozpoznanie sprawy, research, akta, pisma i objaśnienia",
-    "longDescription": "Sześć skilli pracy adwokackiej, w tym analiza sytuacji pobytowej związanej z zatrudnieniem i warianty zwykłego pobytu czasowego i pracy. Wyniki wymagają przeglądu adwokata.",
+    "longDescription": "Siedem skilli pracy adwokackiej. Nowy pilot decyzji powrotowej pierwszej instancji rozdziela administracyjne odwołanie i ryzyko wykonania. Wyniki wymagają przeglądu adwokata.",
     "developerName": "Pawel-Rogoza",
     "category": "Productivity",
     "capabilities": [],
@@ -20,7 +20,8 @@
       "Przeanalizuj wiadomość klienta po rosyjsku i dokumenty, wykonaj potrzebny research i wyjaśnij mi po polsku, na czym polega sprawa.",
       "Wyjaśnij klientowi po ukraińsku treść załączonego pisma.",
       "Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj argumenty obrony.",
-      "Oceń pobyt czasowy i pracę na podstawie dokumentów, wskaż warianty i następny krok."
+      "Oceń pobyt czasowy i pracę na podstawie dokumentów, wskaż warianty i następny krok.",
+      "Przeanalizuj decyzję powrotową pierwszej instancji, argumenty odwołania i pilne ryzyko wykonania."
     ]
   },
   "repository": "https://github.com/Pawel-Rogoza/chatgpt-skills"

@@ -1,0 +1,74 @@
+{
+  "run_type": "independent_forward_test",
+  "variant": "skill",
+  "cases": ["B3_01", "B3_02"],
+  "skill": {
+    "path": "<evaluation-workspace>\\legalai-b3-staging\\plugins\\legal-ai-pl\\skills\\pl-return-defense\\SKILL.md",
+    "version": "0.7.0",
+    "frozen_first_pass": true,
+    "modified": false
+  },
+  "source_reads": [
+    "legalai-hidden-evals/B3_01/user.md",
+    "legalai-hidden-evals/B3_01/materials.md",
+    "legalai-hidden-evals/B3_02/user.md",
+    "legalai-hidden-evals/B3_02/materials.md",
+    "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/SKILL.md",
+    "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/source-policy.md",
+    "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/case-record.md",
+    "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/return-method.md",
+    "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/temporal-law.md",
+    "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/legal-sources.md",
+    "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/foreign-national.md"
+  ],
+  "input_directory_listing": "Names of the four case directories only; no rubric files listed or opened.",
+  "rubrics_read": false,
+  "evaluation_plans_read": false,
+  "other_agents_outputs_read": false,
+  "external_research": {
+    "online_budget": 0,
+    "network_calls": 0,
+    "synthetic_normative_sources": {
+      "B3_01": "T03 only",
+      "B3_02": "T04 only"
+    },
+    "real_law_verified": false,
+    "skill_real_law_links_followed": false
+  },
+  "actions": [
+    "Read allowed task inputs and frozen skill references.",
+    "Calculated calendar dates with local PowerShell DateTime arithmetic; no legal verification inferred from arithmetic.",
+    "Produced complete Polish user-facing responses without submissions or contacts.",
+    "Checked output file existence, byte counts and SHA256 without reading any other outputs."
+  ],
+  "date_checks": {
+    "B3_01": "No unconditional deadline assigned: prior receipt authority means party-only service and later photos do not start the period under T03; possible separate service on counsel remains unresolved.",
+    "B3_02_appeal": {"delivery": "2027-07-05", "first_day": "2027-07-06", "last_day": "2027-07-15"},
+    "B3_02_voluntary_departure": {"delivery": "2027-07-05", "first_day": "2027-07-06", "last_day": "2027-07-30"},
+    "B3_02_conditional_restoration": [
+      {"obstacle_end": "2027-07-16", "last_day": "2027-07-21"},
+      {"obstacle_end": "2027-07-17", "last_day": "2027-07-22"},
+      {"obstacle_end": "2027-07-18", "last_day": "2027-07-23"},
+      {"obstacle_end": "2027-07-19", "last_day": "2027-07-24"}
+    ]
+  },
+  "outputs": [
+    {
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\skill-B3_01.md",
+      "bytes": 7937,
+      "sha256": "5A26C9F619E7D5CB51BFDDE385DFACC848A55D8E7A99953A6385D646FD411181"
+    },
+    {
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\skill-B3_02.md",
+      "bytes": 9585,
+      "sha256": "0BB7409561CF87462BC2B4A8E2F0F485D3315071E6C1D37893C884C6D8E97017"
+    }
+  ],
+  "execution_problems": [
+    "Initial shell rendering of SKILL.md used the default encoding and garbled Polish characters; corrected by rereading that file with explicit UTF-8 before authoring.",
+    "Initial mixed-object PowerShell table output omitted some date fields; repeated date verification with ConvertTo-Json and obtained all required dates."
+  ],
+  "blocking_problems": [],
+  "repository_changes": false,
+  "external_submissions_or_contacts": false
+}

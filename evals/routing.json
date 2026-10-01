@@ -138,5 +138,45 @@
   {
     "prompt": "Sprawdź i popraw istniejące odwołanie od odmowy pobytu.",
     "expected": "pl-legal-document-review"
+  },
+  {
+    "prompt": "Oceń decyzję komendanta placówki SG pierwszej instancji o zobowiązaniu do powrotu i możliwe argumenty administracyjnego odwołania.",
+    "expected": "pl-return-defense"
+  },
+  {
+    "prompt": "Przygotuj projekt odwołania od zwykłej decyzji powrotowej SG; osobno oceń rygor i planowany lot.",
+    "expected": "pl-return-defense"
+  },
+  {
+    "prompt": "Oceń tylko argument więzi rodzinnej do odwołania od decyzji powrotowej pierwszej instancji.",
+    "expected": "pl-return-defense"
+  },
+  {
+    "prompt": "Sprawdź istniejący projekt odwołania powrotowego: cytowania i zgodność faktów z aktami.",
+    "expected": "pl-legal-document-review"
+  },
+  {
+    "prompt": "Wyjaśnij klientowi po rosyjsku treść decyzji powrotowej, bez tworzenia argumentów.",
+    "expected": "pl-client-explanation"
+  },
+  {
+    "prompt": "Dostałem wiadomość klienta i nie wiem co to za procedura: uporządkuj dokumenty i wyjaśnij mi sprawę.",
+    "expected": "pl-case-file-analysis"
+  },
+  {
+    "prompt": "Napisz pełną skargę do WSA na decyzję powrotową drugiej instancji od początku.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj zażalenie na umieszczenie cudzoziemca w strzeżonym ośrodku.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj od początku sprawę o ochronę międzynarodową i narrację azylową.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj pełne odwołanie od szczególnej decyzji ministra w reżimie terrorystycznym.",
+    "expected": "neither"
   }
 ]
