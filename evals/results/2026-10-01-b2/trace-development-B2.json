@@ -1,0 +1,101 @@
+{
+  "evaluation_type": "explicit development and regression; not a holdout",
+  "prior_hidden_inputs_seen": [
+    "B2_01",
+    "B2_02"
+  ],
+  "development_cases": [
+    "residence-clean",
+    "residence-criminal",
+    "residence-employer",
+    "residence-pending",
+    "residence-practice",
+    "residence-ru-status",
+    "residence-temporal"
+  ],
+  "regression_cases": [
+    "appeal-concept",
+    "review-record"
+  ],
+  "skill_versions": {
+    "pl-residence-strategy": "0.6.0",
+    "pl-criminal-appeal": "0.6.0",
+    "pl-legal-document-review": "0.6.0"
+  },
+  "files_read_this_run": [
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-clean\\user.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-clean\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-criminal\\user.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-criminal\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-employer\\user.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-employer\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-pending\\user.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-pending\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-practice\\user.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-practice\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-ru-status\\user.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-ru-status\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-temporal\\user.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\residence-temporal\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\appeal-concept\\user.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\appeal-concept\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\review-record\\user.md",
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases\\review-record\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-criminal-appeal\\SKILL.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-legal-document-review\\SKILL.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-criminal-appeal\\references\\source-policy.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-criminal-appeal\\references\\case-record.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-criminal-appeal\\references\\appeal-method.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-criminal-appeal\\references\\foreign-national.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-legal-document-review\\references\\source-policy.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-legal-document-review\\references\\case-record.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-legal-document-review\\references\\appeal-review.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-legal-document-review\\references\\foreign-national.md"
+  ],
+  "previously_read_skill_files_reused": [
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\SKILL.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\source-policy.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\case-record.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\residence-method.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\temporal-law.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\legal-sources.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\foreign-national.md"
+  ],
+  "directory_metadata_read": [
+    "<evaluation-workspace>\\chatgpt-skills\\evals\\cases directory names only, filtered to residence-* and the two specified regressions"
+  ],
+  "prohibited_materials_read": [],
+  "tool_policy": {
+    "mode": "closed-world",
+    "tools_used": [
+      "functions.exec",
+      "tools.exec_command"
+    ],
+    "online_tools": "prohibited and unused",
+    "external_actions": "none",
+    "repository_edits": "none",
+    "sources": "Only assigned case user.md/materials.md and applicable skills/references",
+    "outputs": "Explicitly assigned evaluation output directory"
+  },
+  "case_isolation": "Each development or regression response uses only its own fixtures. Hidden T01/T02 rules were not applied to development cases.",
+  "limitations": [
+    "Not an independent holdout: the executor previously saw hidden B2_01/B2_02 inputs.",
+    "No rubrics, evaluation rubrics, other agents outputs, or implementation plans were read.",
+    "No current real law or real office procedure was verified or claimed.",
+    "Unprovided legal rules are treated as dependencies rather than filled from memory.",
+    "The fictional practice and temporal cards were applied only in their own cases.",
+    "No response was signed, submitted, emailed, or used to change portal data."
+  ],
+  "outputs": [
+    "<evaluation-workspace>\\legalai-eval-outputs\\development-residence-clean.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\development-residence-criminal.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\development-residence-employer.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\development-residence-pending.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\development-residence-practice.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\development-residence-ru-status.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\development-residence-temporal.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\regression-appeal-concept.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\regression-review-record.md"
+  ],
+  "execution_problems": []
+}

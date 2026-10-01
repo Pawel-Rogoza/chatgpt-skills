@@ -1,0 +1,60 @@
+{
+  "executor_role": "independent skill forward-test execution",
+  "tests": [
+    "B2_01",
+    "B2_02"
+  ],
+  "skill": "pl-residence-strategy",
+  "skill_version": "0.6.0",
+  "files_read": [
+    "<evaluation-workspace>\\legalai-hidden-evals\\B2_01\\user.md",
+    "<evaluation-workspace>\\legalai-hidden-evals\\B2_01\\materials.md",
+    "<evaluation-workspace>\\legalai-hidden-evals\\B2_02\\user.md",
+    "<evaluation-workspace>\\legalai-hidden-evals\\B2_02\\materials.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\SKILL.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\source-policy.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\case-record.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\residence-method.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\temporal-law.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\legal-sources.md",
+    "<evaluation-workspace>\\chatgpt-skills\\plugins\\legal-ai-pl\\skills\\pl-residence-strategy\\references\\foreign-national.md"
+  ],
+  "prohibited_materials_read": [],
+  "tool_policy": {
+    "mode": "closed-world",
+    "online_tools": "prohibited and unused",
+    "tools_used": [
+      "functions.exec",
+      "tools.exec_command"
+    ],
+    "permitted_sources": "test user.md and materials.md plus skill and references",
+    "external_actions": "none",
+    "repository_edits": "none",
+    "output_scope": "explicitly assigned evaluation output directory"
+  },
+  "limitations": [
+    "T01 and T02 are fictional complete normative fixtures for the exercises, not real Polish law.",
+    "No external verification of current law or real office procedure was conducted or claimed.",
+    "Initial shell read displayed replacement characters; fixtures and SKILL.md were reread explicitly as UTF-8 before drafting.",
+    "No rubrics, evaluation rubrics, other agent outputs, or implementation plans were read.",
+    "No source outside the listed files was read.",
+    "Unprovided facts and procedural effects remain conditional in responses."
+  ],
+  "deterministic_checks": [
+    {
+      "test": "B2_02",
+      "event": "employment ended",
+      "event_date": "2027-04-30",
+      "rule": "12 calendar days from the following day",
+      "first_day": "2027-05-01",
+      "deadline": "2027-05-12"
+    }
+  ],
+  "outputs": [
+    "<evaluation-workspace>\\legalai-eval-outputs\\skill-B2_01.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\skill-B2_02.md"
+  ],
+  "execution_problems": [
+    "Initial terminal encoding issue resolved by explicit UTF-8 reread."
+  ]
+}

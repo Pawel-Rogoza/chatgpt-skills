@@ -7,7 +7,7 @@ description: >-
   tłumaczenia zdania, pisania pisma procesowego, pełnej strategii
   migracyjnej ani wysyłki wiadomości.
 metadata:
-  version: "0.5.0"
+  version: "0.7.0"
   status: "pilot"
 ---
 

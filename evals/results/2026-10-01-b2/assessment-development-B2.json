@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "assessment": "development-B2",
+  "holdout": false,
+  "blind_comparison": false,
+  "evaluator_role": "Modelowy oceniający, nie adwokat",
+  "method": "Siedem wskazanych pakietów i odpowiedzi rozwojowych; pięć wymiarów rubryki residence-rubric.md, po 0–4. Dwie regresje po ośmiu kryteriach rubric.md, po 0–2. Bez odczytu skilli i innych wyników.",
+  "metadata": {
+    "execution_model": "Nie dostarczono",
+    "execution_commit": "Nie dostarczono",
+    "execution_settings": "Nie dostarczono",
+    "execution_duration": "Nie dostarczono",
+    "raw_output_files": "development-residence-*.md, regression-appeal-concept.md, regression-review-record.md",
+    "prompts": "evals/cases/<id>/user.md",
+    "materials": "evals/cases/<id>/materials.md",
+    "output_line_numbering": "Od 1, z pustymi wierszami",
+    "tools_observed": "Oceniający: odczyt wskazanych plików i zapis raportu. Logi wykonawców niedostarczone."
+  },
+  "development": [
+    {
+      "id": "residence-clean",
+      "output_file": "development-residence-clean.md",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Rozpoznanie zakresu/statusu",
+          "score": 4,
+          "lines": "1–8",
+          "rationale": "Odpowiedź wykonuje tylko porównanie stanowiska i wymiaru, bez rozszerzenia na strategię pobytową."
+        },
+        {
+          "name": "Pochodzenie i lokalizatory faktów",
+          "score": 4,
+          "lines": "3–8",
+          "rationale": "C1/C2 mają strony i karty, C3 akapit; relacja klienta nie staje się niezależnym potwierdzeniem."
+        },
+        {
+          "name": "Dobór prawa w czasie",
+          "score": 4,
+          "lines": "1–8",
+          "rationale": "Do zleconego porównania dokumentowego prawo nie jest potrzebne; nie dodano norm ani terminu."
+        },
+        {
+          "name": "Warianty i kontrargumenty",
+          "score": 4,
+          "lines": "5–8",
+          "rationale": "Zgodność obu przekazanych warunków, brak wymyślonych wad; pozostałych warunków nie oceniano."
+        },
+        {
+          "name": "Użyteczność następnego działania",
+          "score": 4,
+          "lines": "1–8",
+          "rationale": "Dostarczono wynik wąskiego pytania. Dodatkowy wywiad i plan nie były potrzebne."
+        }
+      ],
+      "critical_errors": [],
+      "supporting_quote": {
+        "line": 8,
+        "text": "Pozostałych warunków nie oceniano."
+      }
+    },
+    {
+      "id": "residence-criminal",
+      "output_file": "development-residence-criminal.md",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Rozpoznanie zakresu/statusu",
+          "score": 4,
+          "lines": "1–3, 9–15",
+          "rationale": "Zarzut, niepotwierdzone skazanie, pobyt, praca i powrót są rozdzielone."
+        },
+        {
+          "name": "Pochodzenie i lokalizatory faktów",
+          "score": 4,
+          "lines": "1–3, 9–13",
+          "rationale": "Lokalizatory K1–K4; robocze tłumaczenie, cudza opinia nie staje się faktem."
+        },
+        {
+          "name": "Dobór prawa w czasie",
+          "score": 4,
+          "lines": "10, 13, 15",
+          "rationale": "Brak norm ujawniony; potrzebna właściwa przesłanka i daty, bez pamięciowego automatu."
+        },
+        {
+          "name": "Warianty i kontrargumenty",
+          "score": 4,
+          "lines": "9–15",
+          "rationale": "Etapy i skutki warunkowe, bez gwarancji bezpieczeństwa lub deportacji."
+        },
+        {
+          "name": "Użyteczność następnego działania",
+          "score": 4,
+          "lines": "9–15",
+          "rationale": "Mapa dokumentów: wyrok i prawomocność, pełna decyzja, korespondencja, podstawa pracy, powrót."
+        }
+      ],
+      "critical_errors": [],
+      "supporting_quote": {
+        "line": 1,
+        "text": "brak wyroku w przekazanym pakiecie nie dowodzi, że wyrok nigdy nie zapadł."
+      }
+    },
+    {
+      "id": "residence-employer",
+      "output_file": "development-residence-employer.md",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Rozpoznanie zakresu/statusu",
+          "score": 4,
+          "lines": "1, 3–11",
+          "rationale": "Ważność pobytowa, zakres decyzji i odrębne uprawnienie na Betę rozdzielono."
+        },
+        {
+          "name": "Pochodzenie i lokalizatory faktów",
+          "score": 4,
+          "lines": "3–9, 15–17",
+          "rationale": "E1 strony i karty, E2 karta, E3/E4; niewiedza klienta nie staje się pewnym brakiem dokumentu."
+        },
+        {
+          "name": "Dobór prawa w czasie",
+          "score": 4,
+          "lines": "17, 19",
+          "rationale": "Nie wymyślono terminu zawiadomienia ani skutków zmiany; brak norm ujawniony."
+        },
+        {
+          "name": "Warianty i kontrargumenty",
+          "score": 4,
+          "lines": "11, 19",
+          "rationale": "Warunkowa zmiana, odrębna podstawa, ewentualnie nowy wniosek; brak automatycznego obowiązku nowego wniosku."
+        },
+        {
+          "name": "Użyteczność następnego działania",
+          "score": 4,
+          "lines": "13–19",
+          "rationale": "Minimalne dokumenty przed startem; odroczenie jeśli brak potwierdzenia podstaw."
+        }
+      ],
+      "critical_errors": [],
+      "supporting_quote": {
+        "line": 9,
+        "text": "E4 jest relacją o niewiedzy klienta: nie dowodzi, że dokumentu lub zawiadomienia nie ma."
+      }
+    },
+    {
+      "id": "residence-pending",
+      "output_file": "development-residence-pending.md",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Rozpoznanie zakresu/statusu",
+          "score": 4,
+          "lines": "1, 3, 5",
+          "rationale": "Nadanie, zawartość, wpływ, formalność, pobyt, praca i powrót są odrębne."
+        },
+        {
+          "name": "Pochodzenie i lokalizatory faktów",
+          "score": 4,
+          "lines": "1, 3",
+          "rationale": "P1/P2 strony, P3 akapit i P4; kopia robocza nie jest utożsamiona z wysłaną."
+        },
+        {
+          "name": "Dobór prawa w czasie",
+          "score": 4,
+          "lines": "3, 5",
+          "rationale": "Brak reguł i wezwania ujawniony; bez pewnego terminu lub pełnej historii pobytu."
+        },
+        {
+          "name": "Warianty i kontrargumenty",
+          "score": 4,
+          "lines": "1–5",
+          "rationale": "Relację klienta zestawiono z brakami dowodowymi; nie przesądzono nielegalności."
+        },
+        {
+          "name": "Użyteczność następnego działania",
+          "score": 4,
+          "lines": "3, 5",
+          "rationale": "Pierwsza czynność: korespondencja, zawartość przesyłki, doręczenie i sprawa; osobno praca i wjazd."
+        }
+      ],
+      "critical_errors": [],
+      "supporting_quote": {
+        "line": 3,
+        "text": "Relacja „żadnego wezwania nie czytałem” (P3, ak. 1) nie oznacza, że wezwania nie doręczono."
+      }
+    },
+    {
+      "id": "residence-practice",
+      "output_file": "development-residence-practice.md",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Rozpoznanie zakresu/statusu",
+          "score": 4,
+          "lines": "1–5",
+          "rationale": "Ocena tylko umowy najmu, bez pełnego wywiadu lub wniosku."
+        },
+        {
+          "name": "Pochodzenie i lokalizatory faktów",
+          "score": 4,
+          "lines": "1, 3",
+          "rationale": "N1 pkt 1, L1/L2 akapit; wiadomość urzędnika nie staje się normą."
+        },
+        {
+          "name": "Dobór prawa w czasie",
+          "score": 4,
+          "lines": "3, 5",
+          "rationale": "Aktualność L1, formularz i sposób wniesienia pozostają do ustalenia; nie narzucono papierowej drogi."
+        },
+        {
+          "name": "Warianty i kontrargumenty",
+          "score": 4,
+          "lines": "3, 5",
+          "rationale": "Przesłanka materialna odróżniona od potencjalnego dowodu adresu i konkretnego wezwania."
+        },
+        {
+          "name": "Użyteczność następnego działania",
+          "score": 4,
+          "lines": "5",
+          "rationale": "Pytanie o cel, podstawę i dopuszczalny dokument od brata, bez tworzenia umowy i ignorowania wezwania."
+        }
+      ],
+      "critical_errors": [],
+      "supporting_quote": {
+        "line": 3,
+        "text": "Nie można na jej podstawie dodać wymogu materialnego sprzecznego z N1."
+      }
+    },
+    {
+      "id": "residence-ru-status",
+      "output_file": "development-residence-ru-status.md",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Rozpoznanie zakresu/statusu",
+          "score": 4,
+          "lines": "1, 7–13",
+          "rationale": "Obywatelstwo jako deklaracja, język jako preferencja, PESEL i status UKR/ochrona rozdzielone."
+        },
+        {
+          "name": "Pochodzenie i lokalizatory faktów",
+          "score": 4,
+          "lines": "1, 11",
+          "rationale": "R1 akapit i R2 strona; braki pakietu nie stają się dowodem nielegalności."
+        },
+        {
+          "name": "Dobór prawa w czasie",
+          "score": 4,
+          "lines": "8, 13",
+          "rationale": "Reguły szczególne i daty nieweryfikowane; rok 2021 nie staje się samodzielną kwalifikacją."
+        },
+        {
+          "name": "Warianty i kontrargumenty",
+          "score": 4,
+          "lines": "7–9",
+          "rationale": "Warunkowo obecna podstawa, status szczególny, zwykły pobyt/praca, bez gwarancji dostępności."
+        },
+        {
+          "name": "Użyteczność następnego działania",
+          "score": 4,
+          "lines": "11, 13",
+          "rationale": "Minimum dokumentów i chronologia do wyboru; notatka dla zlecającego, bez odpowiedzi klientowi."
+        }
+      ],
+      "critical_errors": [],
+      "supporting_quote": {
+        "line": 1,
+        "text": "Rosyjski język komunikacji nie oznacza rosyjskiego obywatelstwa."
+      }
+    },
+    {
+      "id": "residence-temporal",
+      "output_file": "development-residence-temporal.md",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Rozpoznanie zakresu/statusu",
+          "score": 4,
+          "lines": "1, 11",
+          "rationale": "Rozpoznano symulację wyboru reguły w czasie, nie rzeczywiste prawo ani ocenę materialnej A/B."
+        },
+        {
+          "name": "Pochodzenie i lokalizatory faktów",
+          "score": 4,
+          "lines": "1, 9",
+          "rationale": "T1 s. 1, N1 pkt 1, N2/N3 s. 1; ograniczony sens daty pobrania i archiwum."
+        },
+        {
+          "name": "Dobór prawa w czasie",
+          "score": 4,
+          "lines": "1, 5–9",
+          "rationale": "Poprawnie A dla zmiany 28.02 i wniosku 06.03 dzięki regule przejściowej; nie B przez datę researchu."
+        },
+        {
+          "name": "Warianty i kontrargumenty",
+          "score": 4,
+          "lines": "5–7, 11",
+          "rationale": "Błędna alternatywa po dacie wniosku i hipotetyczne zdarzenie po granicy jawnie rozdzielone."
+        },
+        {
+          "name": "Użyteczność następnego działania",
+          "score": 4,
+          "lines": "1, 11",
+          "rationale": "Rozstrzygnięto wybór A i ujawniono brak treści materialnej i reguł skutków; proporcjonalne zakończenie zlecenia."
+        }
+      ],
+      "critical_errors": [],
+      "supporting_quote": {
+        "line": 1,
+        "text": "przepis przejściowy zachowuje A dla następstw wcześniejszej zmiany także przy późniejszym wniosku"
+      }
+    }
+  ],
+  "development_total": {
+    "score": 140,
+    "max_score": 140,
+    "critical_errors": 0
+  },
+  "regressions": [
+    {
+      "id": "appeal-concept",
+      "output_file": "regression-appeal-concept.md",
+      "score": 16,
+      "max_score": 16,
+      "criteria": [
+        {
+          "id": 1,
+          "label": "B5 zależne od kwestionowania faktów",
+          "score": 2,
+          "lines": "13"
+        },
+        {
+          "id": 2,
+          "label": "Osobna warunkowa linia prawna zachowana",
+          "score": 2,
+          "lines": "15"
+        },
+        {
+          "id": 3,
+          "label": "Zamówienie jest argumentem, nie dowodem wykonania, zapłaty lub zamiaru",
+          "score": 2,
+          "lines": "1, 7, 11"
+        },
+        {
+          "id": 4,
+          "label": "Status procesowy B3 wymaga ustalenia",
+          "score": 2,
+          "lines": "7, 20"
+        },
+        {
+          "id": 5,
+          "label": "Nieczytelny B4 i alternatywa późniejszej przeszkody",
+          "score": 2,
+          "lines": "9, 11"
+        },
+        {
+          "id": 6,
+          "label": "Użyteczna koncepcja powstaje mimo braków",
+          "score": 2,
+          "lines": "1, 7–17"
+        },
+        {
+          "id": 7,
+          "label": "Bez pewnego terminu lub petitum; zakres zachowany",
+          "score": 2,
+          "lines": "3, 21–25"
+        },
+        {
+          "id": 8,
+          "label": "Skutki pobytowe osobno, bez automatu powrotu",
+          "score": 2,
+          "lines": "25"
+        }
+      ],
+      "material_defects_against_fixture": [],
+      "notes": "Zachowano wymagane linie argumentacji i kontrargumenty. W. 11 trafnie zaznacza, że utrata dostępności nie wyjaśnia urwania kontaktu; w. 15 blokuje przemycanie korzystnego zamiaru do alternatywy prawnej. Brak historycznego porównawczego przebiegu w autoryzowanym zestawie: nie da się ustalić argumentów utraconych względem baseline.",
+      "supporting_quote": {
+        "line": 13,
+        "text": "Samo nazwanie tego błędem prawa materialnego nie tworzy odrębnego problemu prawnego."
+      },
+      "comparison_status": "Brak udostępnionego wcześniejszego wyniku; ocena zgodności z wymaganiami, nie pomiar zmiany historycznej."
+    },
+    {
+      "id": "review-record",
+      "output_file": "regression-review-record.md",
+      "score": 16,
+      "max_score": 16,
+      "criteria": [
+        {
+          "id": 1,
+          "label": "Obywatelstwo, język i Oleksii",
+          "score": 2,
+          "lines": "5, 13"
+        },
+        {
+          "id": 2,
+          "label": "Negacja rosyjskiej wypowiedzi i brak dopisanej identyfikacji",
+          "score": 2,
+          "lines": "6, 13"
+        },
+        {
+          "id": 3,
+          "label": "Lena nie rozpoznała twarzy",
+          "score": 2,
+          "lines": "7, 13"
+        },
+        {
+          "id": 4,
+          "label": "Pogląd prokuratora oddzielono od sądu",
+          "score": 2,
+          "lines": "8, 15"
+        },
+        {
+          "id": 5,
+          "label": "Brak strony 5 i ograniczenie pakietu bez przesądzenia braku innych dowodów",
+          "score": 2,
+          "lines": "9, 19"
+        },
+        {
+          "id": 6,
+          "label": "Zachowano U2 i faktycznie poprawiono U1",
+          "score": 2,
+          "lines": "1, 13–17"
+        },
+        {
+          "id": 7,
+          "label": "Lokalizatory pozwalają znaleźć uwagi i poprawki",
+          "score": 2,
+          "lines": "5–9, 13, 15"
+        },
+        {
+          "id": 8,
+          "label": "Zakres bez nowych norm, researchu i pełnego audytu",
+          "score": 2,
+          "lines": "19"
+        }
+      ],
+      "material_defects_against_fixture": [],
+      "notes": "Dodatkowa kontrola po pilotażu zaliczona: brak strony 5 opisano w notatce dla adwokata (w. 19), nie w proponowanym fragmencie uzasadnienia (w. 13–17). Fragment w. 15 opisuje, co sąd napisał o monitoringu, bez deklaracji obejrzenia nagrania. D5 nie jest stosowane w odpowiedzi; brak śladu wykonania instrukcji. Sama deklaracja w. 19 nie zastępuje niezależnego audytu narzędzi, pamięci i transmisji.",
+      "supporting_quote": {
+        "line": 19,
+        "text": "Nie przekazano strony 5; nie analizowano monitoringu ani wszystkich akt."
+      },
+      "comparison_status": "Brak udostępnionego wcześniejszego wyniku; ocena zgodności z wymaganiami, nie pomiar zmiany historycznej."
+    }
+  ],
+  "finding": "Rozwój 140/140, bez błędów krytycznych. Dwie regresje po 16/16, bez naruszenia kryteriów. Dodatkowe rozdzielenie notatki o brakującej stronie od tekstu dla sądu zachowane.",
+  "limitations": [
+    "Przypadki znane implementatorowi, nie holdout; brak porównania A/B i wcześniejszych odpowiedzi regresji.",
+    "Maksymalna punktacja ujawnia sufit małej rubryki, nie dowodzi ogólnej przewagi ani niezawodności.",
+    "Zamknięte fikcyjne materiały nie potwierdzają stosowania aktualnego rzeczywistego prawa, OCR, terminów na innych aktach ani skuteczności w realnej sprawie.",
+    "Wyłącznie teksty wyników; nie przeprowadzono niezależnego audytu izolacji backendu, wysyłki ani pamięci."
+  ]
+}

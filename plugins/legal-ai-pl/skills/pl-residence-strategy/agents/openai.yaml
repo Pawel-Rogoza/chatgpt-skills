@@ -1,0 +1,5 @@
+interface:
+  display_name: "Pobyt czasowy i praca"
+  short_description: "Status pobytu, warunki pracy i warianty działania"
+  default_prompt: "Użyj $pl-residence-strategy do oceny pobytu czasowego i pracy na podstawie dokumentów oraz wskazania wariantów i następnego kroku."
+

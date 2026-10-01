@@ -1,19 +1,21 @@
 # ChatGPT Skills — Legal AI PL
 
-Projekt skilli dla pracy adwokackiej w Polsce: rozpoznanie sprawy z opisu klienta PL/UA/RU, dokumenty i research, objaśnienia dla klienta oraz praca nad pismami.
+Projekt skilli dla pracy adwokackiej w Polsce: rozpoznanie sprawy z opisu klienta PL/UA/RU, dokumenty i research, objaśnienia dla klienta, pisma oraz pobyt, praca i decyzje powrotowe.
 
 Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz [recenzja z planem oceny](legal-ai-review-v0.2-pl.md).
 
 Dalsze prace: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). A0–A2 mają implementację i zweryfikowaną instalację lokalną. [Raport fali A](evals/results/2026-09-23/report.md) rozróżnia sprawdzenia techniczne, próby własne oraz brak niezależnego odbioru.
 
-Kolejny etap B1 wdrożono jako wąski pilot kontroli pierwszego zastosowania aresztowania: [specyfikacja](docs/b1-specification.md), [raport](evals/results/2026-09-23-b1/report.md). Pełna obsługa przedłużenia oraz B2–B3 pozostają poza tym wydaniem.
+Kolejny etap B1 wdrożono jako wąski pilot kontroli pierwszego zastosowania aresztowania: [specyfikacja](docs/b1-specification.md), [raport](evals/results/2026-09-23-b1/report.md). Pełna obsługa przedłużenia aresztowania pozostaje poza pilotem. B2 dodano jako zwykły pobyt czasowy i pracę, a B3 jako decyzję powrotową SG pierwszej instancji oraz administracyjne odwołanie.
 
 Repozytorium przechowuje metodę, dokumentację i fikcyjne materiały testowe. Nie należy dodawać tu akt klientów, danych dostępowych ani poufnych notatek kancelarii. `.gitignore` jest pomocą organizacyjną, nie kontrolą dostępu.
 
-## Pakiet 0.5.0 — kontrolowany pilotaż
+## Pakiet 0.7.0 — kontrolowany pilotaż
 
 | Skill | Zadanie |
 |---|---|
+| [pl-return-defense](plugins/legal-ai-pl/skills/pl-return-defense/SKILL.md) | Decyzja powrotowa pierwszej instancji: argumenty odwołania i odrębna ocena wykonania |
+| [pl-residence-strategy](plugins/legal-ai-pl/skills/pl-residence-strategy/SKILL.md) | Ocena pobytu czasowego i pracy, warunków zatrudnienia oraz wariantów działania |
 | [pl-criminal-detention](plugins/legal-ai-pl/skills/pl-criminal-detention/SKILL.md) | Kontrola pierwszego zastosowania tymczasowego aresztowania i argumenty obrony |
 | [pl-client-explanation](plugins/legal-ai-pl/skills/pl-client-explanation/SKILL.md) | Wierne, proste objaśnienia dla klienta PL/UA/RU; projekt wiadomości |
 | [pl-case-file-analysis](plugins/legal-ai-pl/skills/pl-case-file-analysis/SKILL.md) | Rozpoznanie z wiadomości PL/UA/RU i dokumentów, research, chronologia, sprzeczności i luki |
@@ -35,7 +37,7 @@ codex plugin add legal-ai-pl@personal
 
 `personal` to identyfikator katalogu zapisany w `.agents/plugins/marketplace.json` tego repozytorium, nie polecenie udostępnienia publicznego. Jeśli masz już inne źródło o tej nazwie, sprawdź `codex plugin marketplace list` i nie zastępuj go bez rozstrzygnięcia konfliktu. Następnie otwórz nowe zadanie; w razie braku pozycji odśwież aplikację. Instalator może kwalifikować nazwę katalogu — użyj identyfikatora zwróconego przez CLI.
 
-W selektorze wybierz „Tymczasowe aresztowanie — zastosowanie”, „Rozpoznanie i analiza sprawy”, „Objaśnienie dla klienta PL/UA/RU”, „Apelacja karna” albo „Recenzja pisma prawnego”. Nazwa skilla może otrzymać prefiks pluginu. Samo skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
+W selektorze wybierz "Decyzja powrotowa - odwołanie", "Pobyt czasowy i praca", "Tymczasowe aresztowanie - zastosowanie", "Rozpoznanie i analiza sprawy", "Objaśnienie dla klienta PL/UA/RU", "Apelacja karna" albo "Recenzja pisma prawnego". Nazwa skilla może otrzymać prefiks pluginu. Skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
 
 Alternatywnie możesz skopiować **cały folder wybranego skilla**, łącznie z `references/` i `agents/`, do obsługiwanej lokalizacji skilli w swoim środowisku. Nie instaluj równolegle tej samej wersji jako osobnego skilla i pluginu, bo może to dać duplikaty.
 
@@ -92,4 +94,12 @@ Zachowaj znaną wersję źródłową i surowe wyniki testów. Po zmianie pluginu
 
 Cofnięcie polega na przywróceniu ocenionej wersji i ponownej instalacji, nie nadpisywaniu dokumentów spraw. Repozytorium nie nadaje licencji na materiały osób trzecich ani praw do importu akt do usług zewnętrznych.
 
-Aktualizacja i wycofanie wersji 0.5.0: [notatka wydania](docs/release-0.5.0.md). Nowe zadanie powinno odczytać zainstalowaną wersję; sama aktualizacja plików nie potwierdza automatycznego routingu.
+Aktualizacja i wycofanie wersji 0.6.0: [notatka wydania](docs/release-0.6.0.md). Nowe zadanie powinno odczytać zainstalowaną wersję; sama aktualizacja plików nie potwierdza automatycznego routingu.
+
+## B2: pobyt czasowy i praca
+
+Wybierz „Pobyt czasowy i praca” i przekaż decyzję z warunkami oraz potrzebne dokumenty zatrudnienia i przebiegu wniosku. Skill ocenia odrębnie pobyt, konkretną pracę i ewentualną podróż; proponuje warianty z przesłankami i minimalnymi brakami. Pierwszy zakres nie obejmuje pełnego prawa migracyjnego ani odwołania od decyzji powrotowej. [Specyfikacja](docs/b2-specification.md), [przypadki i rubryka](evals/residence-rubric.md), [raport](evals/results/2026-10-01-b2/report.md).
+
+## B3: decyzja powrotowa
+
+[Specyfikacja](docs/b3-specification.md), [rubryka](evals/return-rubric.md), [raport](evals/results/2026-10-01-b3/report.md) i [wydanie 0.7.0](docs/release-0.7.0.md). Pilot ocenia zwykłą decyzję SG pierwszej instancji, administracyjne odwołanie i osobno wykonanie; nie obejmuje pełnej skargi do WSA, detencji ani prowadzenia sprawy ochronnej od początku.

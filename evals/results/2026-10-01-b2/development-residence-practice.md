@@ -1,0 +1,5 @@
+Według dostarczonej syntetycznej karty N1, pkt 1 umowa najmu nie jest przesłanką tego zezwolenia. Zatem mieszkanie u brata bez takiej umowy (L2, ak. 1) samo w sobie nie oznacza niespełnienia tej przesłanki.
+
+Wiadomość pracownika L1, ak. 1 opisuje praktykę urzędu, lecz nie ma daty ani podstawy prawnej. Nie można na jej podstawie dodać wymogu materialnego sprzecznego z N1. Jednocześnie N1 nie ustala aktualnego formularza ani sposobu wniesienia pisma: wzmianka o dawnym składaniu papierowym nie rozstrzyga tych kwestii.
+
+Jeśli urząd rzeczywiście żąda dokumentu najmu, trzeba ustalić aktualność i cel żądania: czy chodzi o dowód konkretnego faktu, np. adresu, oraz na jakiej podstawie. Można zapytać o dopuszczalny dokument potwierdzający zamieszkanie u brata, bez tworzenia fikcyjnej umowy. Nie należy ani uznać każdej instrukcji za nową przesłankę, ani ignorować konkretnego wezwania bez sprawdzenia. Ocena dotyczy wyłącznie reguły testowej i znaczenia braku umowy najmu, nie rzeczywistego prawa polskiego.

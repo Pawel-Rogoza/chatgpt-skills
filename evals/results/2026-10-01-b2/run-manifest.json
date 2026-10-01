@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-01",
+  "release": "0.6.0",
+  "base_commit": "94d0e7d79ccc6f54cd8b3f5c73f884f0c22a6c68",
+  "variant_mapping": {
+    "A": "with pl-residence-strategy",
+    "B": "baseline without legal skills"
+  },
+  "fixture_author": "Independent model agent, no implementation access",
+  "runner_contexts": "Fresh independent agent per variant; both cases executed in its context, not a fresh context per case",
+  "model_control": "Inherited parent model and settings for both runners; exact snapshot and temperature not exposed",
+  "tools": "Closed world, online budget zero in both variants; local file reads permitted",
+  "assessment": "Independent model agent, blinded labels, not lawyer; eight 0-2 dimensions per case, distinct from development rubric",
+  "holdout": "Inputs and keys hidden from implementer until freeze and execution; now published development material",
+  "technical": {
+    "check": "45 files passed",
+    "build": "passed",
+    "quick_validate": "passed",
+    "unit_local": "12 passed, 3 skipped for Windows symlink permission",
+    "unit_full_initial": "4 errors in 3 symlink methods (WinError1314); other 12 passed",
+    "unit_linux_ci": {
+      "conclusion": "success",
+      "run_id": 36863109912,
+      "job_id": 110371920371,
+      "commit": "f512508be31f7c06ee088aa6870d6d251ad84a91",
+      "url": "https://github.com/Pawel-Rogoza/chatgpt-skills/actions/runs/36863109912",
+      "tests": "15 unchanged tests, all passed"
+    }
+  },
+  "development_responses_copied": 7,
+  "trace_publication": "Absolute execution paths sanitized; responses preserved byte for byte",
+  "instructions": {
+    "SKILL.md": "3fe637f32d9aca56c896c858732650530b3309f1ab5b302516174ed876b857e9",
+    "references/residence-method.md": "a16dd55a04ac1932af95cd0bc506f0e069e8416647c1cd5a209e7d4731879f6b",
+    "references/legal-sources.md": "23a3e22ed1e9eeed78bd79531ab478c45f5f94ff864c9ebe2536046aa68a78aa"
+  },
+  "files": [
+    {
+      "file": "inputs/B2_01/user.md",
+      "sha256": "a20ad3a891f1888aa8ac000eec2834559f626c9ae8968200ef2f619d60a7cc23"
+    },
+    {
+      "file": "inputs/B2_01/materials.md",
+      "sha256": "f38d374bb98b3dd412be1e91f8e3181fb7aca695e2f7d032df62aaf284563bf7"
+    },
+    {
+      "file": "inputs/B2_01/rubric.md",
+      "sha256": "51ac2a23571f4e0b565d95a4f7f826a439c2ea53abf78d5f202e4e4ade0fc1eb"
+    },
+    {
+      "file": "variant-A-B2_01.md",
+      "sha256": "6a1a8b25951d79717af827f3bc8ca20bb9ce590ed14d07dd1d343bf615e0a45c"
+    },
+    {
+      "file": "variant-B-B2_01.md",
+      "sha256": "e2cc2e067619930b346a2111c5483a5a961f63026bf008eb2f5db5176d31777d"
+    },
+    {
+      "file": "inputs/B2_02/user.md",
+      "sha256": "b18ab128bfca84d8ca65409efbc7671b3baf9e5e82d99a975e72d1e6caa22e57"
+    },
+    {
+      "file": "inputs/B2_02/materials.md",
+      "sha256": "abc762a26e6e37d0890c2b84414c84b653d6d7b2583cb8d9485f94b51ed88169"
+    },
+    {
+      "file": "inputs/B2_02/rubric.md",
+      "sha256": "ed17ae2c95bc4443fd2baeb6405ac568775b2b8c2edd6caf859b178a671b7a30"
+    },
+    {
+      "file": "variant-A-B2_02.md",
+      "sha256": "b212a16320c86afb56679c3784e2bdd0f8d601e6b4e4b0f251776cf3ce06b379"
+    },
+    {
+      "file": "variant-B-B2_02.md",
+      "sha256": "949c42c312d017ee3808a8e04a2297ad162a90a9f82efaafd7046cc692aabcd9"
+    }
+  ],
+  "limitations": [
+    "No host automatic routing test",
+    "No online legal-research behavioral test",
+    "No professional admission or client language acceptance",
+    "No new local plugin installation"
+  ],
+  "development_assessment": {
+    "score": 140,
+    "max": 140,
+    "critical_defects": [],
+    "regression": {
+      "appeal-concept": "16/16",
+      "review-record": "16/16"
+    },
+    "limitation": "Criteria-based checks, no historical comparison run"
+  }
+}

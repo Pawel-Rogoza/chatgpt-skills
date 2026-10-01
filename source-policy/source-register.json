@@ -1,5 +1,5 @@
 {
-  "scope": "Rejestr sprawdzeń B1, nie baza prawa ani potwierdzenie kompletności źródeł",
+  "scope": "Rejestr sprawdzeń B1-B3, nie baza prawa ani potwierdzenie kompletności źródeł",
   "sources": [
     {
       "id": "kpk-eli-2026-490-metadata",
@@ -46,6 +46,141 @@
       "use_conditions": "Przewodnik wskazuje copyright Rady Europy/ETPC oraz procedurę zgody na reprodukcję/tłumaczenie. Repo przechowuje link i krótką własną mapę, bez kopii przewodnika.",
       "gaps": [
         "Wyroków przytoczonych w przewodniku nie odczytano; nie oznaczamy ich jako sprawdzonego orzecznictwa"
+      ]
+    },
+    {
+      "id": "foreigners-2013-metadata",
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/2013/1650",
+      "kind": "official-act-metadata",
+      "scope": "Przygotowanie metody B2; szczegółowe wnioski wymagają researchu w sprawie",
+      "checked_at": "2026-10-01",
+      "access": "retrieved",
+      "full_text": "metadata only",
+      "reviewed": "Tytuł, teksty i powiązania zmian",
+      "freshness": "Metadane wskazują zmiany do 2026/203; nie przeprowadzono pełnej rekonstrukcji na datę sprawy",
+      "use_conditions": "Publiczny odczyt; repo przechowuje link i własną metodę, nie kopię całego aktu. Warunków masowego pobierania nie audytowano.",
+      "gaps": [
+        "Brak pełnego audytu nowelizacji i praktyki urzędów; brak certyfikacji aktualności na dowolną datę"
+      ]
+    },
+    {
+      "id": "foreigners-2025-1079-u",
+      "url": "https://eli.gov.pl/api/acts/DU/2025/1079/text/U/D20251079Lj.pdf",
+      "kind": "official-consolidated-text",
+      "scope": "Przygotowanie metody B2; szczegółowe wnioski wymagają researchu w sprawie",
+      "checked_at": "2026-10-01",
+      "access": "retrieved via web",
+      "full_text": "PDF dostępny, 495 stron; odczyt fragmentów",
+      "reviewed": "Art. 108, 114, 119-120; wersje wariantowe i przypisy",
+      "freshness": "Kopia z datą redakcyjną 07.04.2026; część zmian ma warunkowe wejście w życie. Nie jest potwierdzeniem prawa na 01.10.2026",
+      "use_conditions": "Publiczny odczyt; repo przechowuje link i własną metodę, nie kopię całego aktu. Warunków masowego pobierania nie audytowano.",
+      "gaps": [
+        "Brak pełnego audytu nowelizacji i praktyki urzędów; brak certyfikacji aktualności na dowolną datę"
+      ]
+    },
+    {
+      "id": "foreigners-2013-original-html",
+      "url": "https://eli.gov.pl/api/acts/DU/2013/1650/text.html",
+      "kind": "official-original-act",
+      "scope": "Przygotowanie metody B2; szczegółowe wnioski wymagają researchu w sprawie",
+      "checked_at": "2026-10-01",
+      "access": "retrieved via web",
+      "full_text": "Original HTML",
+      "reviewed": "Identyfikacja pierwotnego tekstu z 2013",
+      "freshness": "Nie używać pierwotnego HTML jako aktualnego tekstu ujednoliconego",
+      "use_conditions": "Publiczny odczyt; repo przechowuje link i własną metodę, nie kopię całego aktu. Warunków masowego pobierania nie audytowano.",
+      "gaps": [
+        "Brak pełnego audytu nowelizacji i praktyki urzędów; brak certyfikacji aktualności na dowolną datę"
+      ]
+    },
+    {
+      "id": "foreign-work-2025-621",
+      "url": "https://eli.gov.pl/api/acts/DU/2025/621/text/O/D20250621.pdf",
+      "kind": "official-original-act",
+      "scope": "Przygotowanie metody B2; szczegółowe wnioski wymagają researchu w sprawie",
+      "checked_at": "2026-10-01",
+      "access": "retrieved via web",
+      "full_text": "PDF dostępny, 52 strony; odczyt fragmentów",
+      "reviewed": "Tytuł, art. 3 i rozdzielenie podstaw pobytu i pracy",
+      "freshness": "Ustawa z 2025; nowelizacje i właściwość czasową sprawdzać dla konkretnej sprawy",
+      "use_conditions": "Publiczny odczyt; repo przechowuje link i własną metodę, nie kopię całego aktu. Warunków masowego pobierania nie audytowano.",
+      "gaps": [
+        "Brak pełnego audytu nowelizacji i praktyki urzędów; brak certyfikacji aktualności na dowolną datę"
+      ]
+    },
+    {
+      "id": "ua-2026-203",
+      "url": "https://eli.gov.pl/eli/DU/2026/203/ogl",
+      "kind": "official-act-metadata",
+      "scope": "Przygotowanie metody B2; szczegółowe wnioski wymagają researchu w sprawie",
+      "checked_at": "2026-10-01",
+      "access": "retrieved via web",
+      "full_text": "Metadata page only",
+      "reviewed": "Identyfikacja tytułu aktu",
+      "freshness": "Nie potwierdza statusu konkretnej osoby ani pełnego prawa po zmianie",
+      "use_conditions": "Publiczny odczyt; repo przechowuje link i własną metodę, nie kopię całego aktu. Warunków masowego pobierania nie audytowano.",
+      "gaps": [
+        "Brak pełnego audytu nowelizacji i praktyki urzędów; brak certyfikacji aktualności na dowolną datę"
+      ]
+    },
+    {
+      "id": "mos-residence-work",
+      "url": "https://mos.cudzoziemcy.gov.pl/prawo/zezwolenie-na-pobyt-czasowy/",
+      "kind": "official-operational-information",
+      "scope": "Przygotowanie metody B2; szczegółowe wnioski wymagają researchu w sprawie",
+      "checked_at": "2026-10-01",
+      "access": "discovery_only",
+      "full_text": "Search index only; direct open failed",
+      "reviewed": "Tytuł i odsyłacze ze znalezionego wyniku",
+      "freshness": "Nie traktować indeksu wyszukiwarki jako odczytu pełnej aktualnej strony MOS",
+      "use_conditions": "Publiczny odczyt; repo przechowuje link i własną metodę, nie kopię całego aktu. Warunków masowego pobierania nie audytowano.",
+      "gaps": [
+        "Brak pełnego audytu nowelizacji i praktyki urzędów; brak certyfikacji aktualności na dowolną datę"
+      ]
+    },
+    {
+      "id": "foreigners-return-2025-1079-u",
+      "url": "https://eli.gov.pl/api/acts/DU/2025/1079/text/U/D20251079Lj.pdf",
+      "kind": "official-consolidated-text",
+      "scope": "Przygotowanie metody B3",
+      "checked_at": "2026-10-01",
+      "access": "retrieved via web",
+      "full_text": "495 stron dostępnych; odczyt wybranych fragmentów, nie całości",
+      "reviewed": "Art. 321, 329/329a i początek 330, art. 348-349; identyfikacja 302-303 i wpisów SIS",
+      "freshness": "Data redakcyjna 07.04.2026, wariantowe przepisy i późniejsze zmiany wymagają kontroli na datę konkretnej sprawy",
+      "use_conditions": "Repo przechowuje link i własną metodę, bez kopii całego PDF. Brak audytu warunków masowego pobierania.",
+      "gaps": [
+        "Nie przeprowadzono pełnej rekonstrukcji zmian lub oceny orzecznictwa; wyliczenie przepisów nie oznacza ich kompletnej walidacji"
+      ]
+    },
+    {
+      "id": "kpa-2025-1691-t",
+      "url": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf",
+      "kind": "official-consolidated-act",
+      "scope": "Odwołanie i odrębne wykonanie w B3",
+      "checked_at": "2026-10-01",
+      "access": "retrieved via web",
+      "full_text": "46 stron dostępnych; odczyt fragmentów",
+      "reviewed": "Art. 127-130 w kontekście odwołania, rygoru i wyjątków",
+      "freshness": "Tekst jednolity 2025/1691; nie potwierdza wszystkich zmian na dowolną datę sprawy",
+      "use_conditions": "Publiczny odczyt; repo przechowuje link i własną metodę. Brak audytu masowego pobierania.",
+      "gaps": [
+        "Doręczenia, przywrócenie terminu, pełny kontekst i właściwy instrument wymagają sprawdzenia w konkretnej sprawie"
+      ]
+    },
+    {
+      "id": "mos-return-appeal",
+      "url": "https://www.mos.cudzoziemcy.gov.pl/opcje/decyzja-o-zobowiazaniu-do-powrotu/odwolanie-od-decyzji/",
+      "kind": "official-operational-information",
+      "scope": "Operacyjne punkty wejścia B3",
+      "checked_at": "2026-10-01",
+      "access": "discovery_only",
+      "full_text": "Search index only; direct open failed",
+      "reviewed": "Wynik wyszukiwania z informacją o organie i terminie",
+      "freshness": "Nie potwierdzono pełnej aktualnej treści strony",
+      "use_conditions": "Link i własna metoda, bez kopii poradnika",
+      "gaps": [
+        "Wynik wyszukiwania nie jest odczytem pełnej normy ani potwierdzeniem kanału"
       ]
     }
   ]

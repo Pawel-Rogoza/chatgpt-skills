@@ -106,5 +106,77 @@
   {
     "prompt": "Przetłumacz tylko ten opis sprawy z WhatsAppa z ukraińskiego na polski.",
     "expected": "neither"
+  },
+  {
+    "prompt": "Oceń sytuację pobytową i możliwości zwykłego pobytu czasowego i pracy na podstawie tych dokumentów.",
+    "expected": "pl-residence-strategy"
+  },
+  {
+    "prompt": "Mam pobyt i pracę u Alfa. Oceń warianty zmiany pracodawcy na Beta.",
+    "expected": "pl-residence-strategy"
+  },
+  {
+    "prompt": "Czy przy wniosku o pobyt i pracę mogę zacząć inną pracę i wyjechać? Oceń dokumenty i warianty.",
+    "expected": "pl-residence-strategy"
+  },
+  {
+    "prompt": "Przygotuj pełną strategię uzyskania ochrony międzynarodowej.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj pełny wniosek o Niebieską Kartę UE.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Zrób tylko chronologię z tych dokumentów pobytowych, bez oceny strategii.",
+    "expected": "pl-case-file-analysis"
+  },
+  {
+    "prompt": "Wyjaśnij klientowi po rosyjsku zatwierdzony plan zmiany zezwolenia.",
+    "expected": "pl-client-explanation"
+  },
+  {
+    "prompt": "Sprawdź i popraw istniejące odwołanie od odmowy pobytu.",
+    "expected": "pl-legal-document-review"
+  },
+  {
+    "prompt": "Oceń decyzję komendanta placówki SG pierwszej instancji o zobowiązaniu do powrotu i możliwe argumenty administracyjnego odwołania.",
+    "expected": "pl-return-defense"
+  },
+  {
+    "prompt": "Przygotuj projekt odwołania od zwykłej decyzji powrotowej SG; osobno oceń rygor i planowany lot.",
+    "expected": "pl-return-defense"
+  },
+  {
+    "prompt": "Oceń tylko argument więzi rodzinnej do odwołania od decyzji powrotowej pierwszej instancji.",
+    "expected": "pl-return-defense"
+  },
+  {
+    "prompt": "Sprawdź istniejący projekt odwołania powrotowego: cytowania i zgodność faktów z aktami.",
+    "expected": "pl-legal-document-review"
+  },
+  {
+    "prompt": "Wyjaśnij klientowi po rosyjsku treść decyzji powrotowej, bez tworzenia argumentów.",
+    "expected": "pl-client-explanation"
+  },
+  {
+    "prompt": "Dostałem wiadomość klienta i nie wiem co to za procedura: uporządkuj dokumenty i wyjaśnij mi sprawę.",
+    "expected": "pl-case-file-analysis"
+  },
+  {
+    "prompt": "Napisz pełną skargę do WSA na decyzję powrotową drugiej instancji od początku.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj zażalenie na umieszczenie cudzoziemca w strzeżonym ośrodku.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj od początku sprawę o ochronę międzynarodową i narrację azylową.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj pełne odwołanie od szczególnej decyzji ministra w reżimie terrorystycznym.",
+    "expected": "neither"
   }
 ]

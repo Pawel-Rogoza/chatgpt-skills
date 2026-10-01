@@ -1,0 +1,48 @@
+{
+  "run_id": "retest-B3_01",
+  "fixture_status": "forward development retest; formerly hidden fixture now development",
+  "task_date": "2027-06-18",
+  "mode": "closed-world",
+  "online": 0,
+  "verified_real_current_law_claim": false,
+  "output": "legalai-eval-outputs/retest-B3_01.md",
+  "read_inputs": [
+    "legalai-hidden-evals/B3_01/user.md",
+    "legalai-hidden-evals/B3_01/materials.md",
+    "chatgpt-skills/plugins/legal-ai-pl/skills/pl-return-defense/SKILL.md",
+    "chatgpt-skills/plugins/legal-ai-pl/skills/pl-return-defense/references/source-policy.md",
+    "chatgpt-skills/plugins/legal-ai-pl/skills/pl-return-defense/references/case-record.md",
+    "chatgpt-skills/plugins/legal-ai-pl/skills/pl-return-defense/references/return-method.md",
+    "chatgpt-skills/plugins/legal-ai-pl/skills/pl-return-defense/references/temporal-law.md",
+    "chatgpt-skills/plugins/legal-ai-pl/skills/pl-return-defense/references/legal-sources.md",
+    "chatgpt-skills/plugins/legal-ai-pl/skills/pl-return-defense/references/foreign-national.md"
+  ],
+  "excluded_materials_read": [],
+  "normative_basis": ["T03 s. 1 pkt 1", "T03 s. 1 pkt 2", "T03 s. 2 pkt 3", "T03 s. 2 pkt 4"],
+  "law_source_policy": "Only T03 supplies exercise rules. Skill references guide method, not substantive replacement law. No internet, statutes, case law or real-law verification imported.",
+  "calendar_check": {
+    "tool": "PowerShell deterministic DateTime.AddDays",
+    "assumption": "Counterfactual effective service on 2027-06-12",
+    "day_1": "2027-06-13",
+    "day_14": "2027-06-26",
+    "actual_deadline_established": false,
+    "weekend_adjustment": false
+  },
+  "response_decisions": [
+    "Lead with urgent appeal and separate stay request; neither filing guarantees a stay.",
+    "Prior filed representative authority prevents party-only delivery from triggering term under T03; absence of representative receipt in packet is not proof of no other service.",
+    "Provide adverse conditional June 26 date without labeling it actual deadline; seek service records and file now.",
+    "Identify appeal and stay addressee and first-instance mediation exactly from R01/T03.",
+    "Challenge return, entry ban, no voluntary period and immediate enforceability; connect each argument to evidence, requested examination and limits.",
+    "Treat Zeta work authorization as important contrary evidence while separating permit from residence legality and actual working conditions.",
+    "Do not assert readable WP-Z-6 or family records were previously filed; invite new evidence.",
+    "Use lease, stated address and signed service receipt to challenge inference from one unsuccessful visit.",
+    "Assess actual family care, infant welfare and postpartum assistance; no automatic citizenship or marriage shield.",
+    "Medical record dated June 16 is new evidence after June 10 decision, not an ignored pre-decision document.",
+    "Flag missing translation, filing-channel details, residence basis, service and execution facts without blocking available analysis.",
+    "No court complaint, automatic restoration remedy, invented country risk, detention estimate or guaranteed outcome."
+  ],
+  "external_actions": [],
+  "repository_edits": false,
+  "problems": []
+}
