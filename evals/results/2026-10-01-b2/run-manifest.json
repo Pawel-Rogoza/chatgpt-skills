@@ -18,7 +18,14 @@
     "quick_validate": "passed",
     "unit_local": "12 passed, 3 skipped for Windows symlink permission",
     "unit_full_initial": "4 errors in 3 symlink methods (WinError1314); other 12 passed",
-    "unit_linux_ci": "must verify linked PR run"
+    "unit_linux_ci": {
+      "conclusion": "success",
+      "run_id": 36863109912,
+      "job_id": 110371920371,
+      "commit": "f512508be31f7c06ee088aa6870d6d251ad84a91",
+      "url": "https://github.com/Pawel-Rogoza/chatgpt-skills/actions/runs/36863109912",
+      "tests": "15 unchanged tests, all passed"
+    }
   },
   "development_responses_copied": 7,
   "trace_publication": "Absolute execution paths sanitized; responses preserved byte for byte",
@@ -74,5 +81,15 @@
     "No online legal-research behavioral test",
     "No professional admission or client language acceptance",
     "No new local plugin installation"
-  ]
+  ],
+  "development_assessment": {
+    "score": 140,
+    "max": 140,
+    "critical_defects": [],
+    "regression": {
+      "appeal-concept": "16/16",
+      "review-record": "16/16"
+    },
+    "limitation": "Criteria-based checks, no historical comparison run"
+  }
 }
