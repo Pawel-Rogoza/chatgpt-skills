@@ -1,5 +1,8 @@
 # Plan kolejnych wdrożeń Legal AI PL
 
+**Domknięcie 01.10.2026:** B2 i B3 scalono do main; pakiet 0.7.0 z siedmioma skillami zainstalowano i włączono lokalnie. Host wykrywa wszystkie siedem bez błędów. [Raport instalacji](../evals/results/2026-10-01-local-install/report.md) oddziela discovery od nieprzetestowanego automatycznego routingu i jakości odpowiedzi. Następny zakres: [C1 — WSA w sprawie powrotowej](c1-specification.md), na razie specyfikacja. Poniższe opisy otwartych PR-ów i stare zlecenia są historyczne.
+
+
 ### Aktualny stan — 01.10.2026
 
 `main` zawiera całą dotychczasową historię do 0.5.0. B2 wdrożono jako zwykły pobyt czasowy i pracę, zgodnie z wyborem właściciela projektu: [specyfikacja](b2-specification.md). Wydanie 0.6.0 dodaje szósty skill, samodzielne referencje i materiały rozwojowe. Wyniki niezależnych prób i kontroli technicznej: [raport B2](../evals/results/2026-10-01-b2/report.md).

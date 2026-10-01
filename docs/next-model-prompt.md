@@ -1,5 +1,8 @@
 # Polecenie do przekazania następnemu modelowi
 
+**Domknięcie 01.10.2026:** B2 i B3 scalono do main; pakiet 0.7.0 z siedmioma skillami zainstalowano i włączono lokalnie. Host wykrywa wszystkie siedem bez błędów. [Raport instalacji](../evals/results/2026-10-01-local-install/report.md) oddziela discovery od nieprzetestowanego automatycznego routingu i jakości odpowiedzi. Następny zakres: [C1 — WSA w sprawie powrotowej](c1-specification.md), na razie specyfikacja. Poniższe opisy otwartych PR-ów i stare zlecenia są historyczne.
+
+
 **Aktualny punkt startowy 01.10.2026:** dotychczasowe pięć skilli i pełna historia 0.5.0 są na main. B2 wdrożono jako zwykły pobyt czasowy i pracę, wydanie 0.6.0: [specyfikacja](b2-specification.md), [raport](../evals/results/2026-10-01-b2/report.md). Sprawdź bieżące gałęzie i PR przed kontynuacją. B3 również zaimplementowano jako zwykłą decyzję SG pierwszej instancji i administracyjne odwołanie, z odrębną oceną wykonania: [specyfikacja](b3-specification.md), [raport](../evals/results/2026-10-01-b3/report.md). Wydanie 0.7.0 ma siedem skilli. Kolejny etap domenowy C1 (WSA) wymaga określenia przedmiotu skargi i nowych testów; nie realizuj automatycznie całej fali C/D. Nie realizuj ponownie historycznego zlecenia A0-A2 poniżej.
 
 

@@ -1,0 +1,133 @@
+[
+  {
+    "skills": [
+      {
+        "name": "legal-ai-pl:pl-case-file-analysis",
+        "description": "Rozpoznaj i wyjaśnij adwokatowi sprawę z opisu klienta PL/UA/RU, wklejonych wiadomości (np. WhatsApp) lub dokumentów, także bez akt. Użyj do analizy faktów, chronologii, porównania dowodów i researchu prawnego powiązanego ze sprawą. Nie przejmuj samego tłumaczenia, prostego streszczenia, abstrakcyjnego researchu ani pisania pisma. Objaśnienie przeznaczone dla klienta obsługuje pl-client-explanation.",
+        "interface": {
+          "displayName": "Rozpoznanie i analiza sprawy",
+          "shortDescription": "Opis klienta PL/UA/RU, dokumenty, analiza i research",
+          "iconSmall": null,
+          "iconLarge": null,
+          "iconSmallUrl": null,
+          "iconLargeUrl": null,
+          "brandColor": null,
+          "defaultPrompt": "Użyj $pl-case-file-analysis: przeanalizuj opis klienta i dostępne dokumenty, wykonaj potrzebny research i wyjaśnij mi po polsku, na czym polega sprawa, co jest pilne i czego brakuje."
+        },
+        "path": "plugins/legal-ai-pl/skills/pl-case-file-analysis/SKILL.md",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "legal-ai-pl@personal"
+      },
+      {
+        "name": "legal-ai-pl:pl-client-explanation",
+        "description": "Wyjaśnij klientowi pismo, decyzję lub analizę sprawy prostym językiem polskim, ukraińskim albo rosyjskim; przygotuj projekt wiadomości z potrzebnymi czynnościami lub dokumentami. Nie przejmuj zwykłego tłumaczenia zdania, pisania pisma procesowego, pełnej strategii migracyjnej ani wysyłki wiadomości.",
+        "interface": {
+          "displayName": "Objaśnienie dla klienta PL/UA/RU",
+          "shortDescription": "Jasne objaśnienia sprawy dla klienta w PL, UA lub RU",
+          "iconSmall": null,
+          "iconLarge": null,
+          "iconSmallUrl": null,
+          "iconLargeUrl": null,
+          "brandColor": null,
+          "defaultPrompt": "Użyj $pl-client-explanation do przygotowania zrozumiałego objaśnienia załączonego pisma w języku preferowanym przez klienta."
+        },
+        "path": "plugins/legal-ai-pl/skills/pl-client-explanation/SKILL.md",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "legal-ai-pl@personal"
+      },
+      {
+        "name": "legal-ai-pl:pl-criminal-appeal",
+        "description": "Przygotuj koncepcję, zarzuty, żądania lub projekt apelacji karnej w Polsce na podstawie akt i celu zaskarżenia. Użyj także do oceny konkretnego pomysłu na zarzut. Recenzję istniejącego pisma jako główne zadanie obsługuje pl-legal-document-review; kasacja, zażalenie i odwołanie administracyjne wymagają odrębnej metody.",
+        "interface": {
+          "displayName": "Apelacja karna",
+          "shortDescription": "Koncepcja i projekt polskiej apelacji karnej",
+          "iconSmall": null,
+          "iconLarge": null,
+          "iconSmallUrl": null,
+          "iconLargeUrl": null,
+          "brandColor": null,
+          "defaultPrompt": null
+        },
+        "path": "plugins/legal-ai-pl/skills/pl-criminal-appeal/SKILL.md",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "legal-ai-pl@personal"
+      },
+      {
+        "name": "legal-ai-pl:pl-criminal-detention",
+        "description": "Przeanalizuj pierwsze postanowienie sądu o zastosowaniu tymczasowego aresztowania w polskiej sprawie karnej; przygotuj argumenty lub projekt zażalenia obrony. Pierwszy zakres pilota nie obejmuje pełnej obsługi przedłużenia, zatrzymania, wykonania kary, detencji administracyjnej, ENA ani ekstradycji. Recenzję gotowego pisma jako główne zadanie obsługuje pl-legal-document-review.",
+        "interface": {
+          "displayName": "Tymczasowe aresztowanie — zastosowanie",
+          "shortDescription": "Kontrola zastosowania aresztu i argumenty obrony",
+          "iconSmall": null,
+          "iconLarge": null,
+          "iconSmallUrl": null,
+          "iconLargeUrl": null,
+          "brandColor": null,
+          "defaultPrompt": "Użyj $pl-criminal-detention do kontroli pierwszego postanowienia o zastosowaniu tymczasowego aresztowania i przygotowania argumentów obrony."
+        },
+        "path": "plugins/legal-ai-pl/skills/pl-criminal-detention/SKILL.md",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "legal-ai-pl@personal"
+      },
+      {
+        "name": "legal-ai-pl:pl-legal-document-review",
+        "description": "Sprawdź istniejące polskie pismo prawne, zwłaszcza karne: argumentację, fakty, cytaty, zakres i żądania; wskaż błędy oraz proponowane poprawki. Użyj do recenzji projektu, audytu cytowań lub oceny zgodności z aktami. Nie uruchamiaj pełnej recenzji do zwykłego streszczenia, tłumaczenia ani korekty wyłącznie językowej; tworzenie apelacji od podstaw obsługuje pl-criminal-appeal.",
+        "interface": {
+          "displayName": "Recenzja pisma prawnego",
+          "shortDescription": "Kontrola argumentacji, faktów i źródeł pisma",
+          "iconSmall": null,
+          "iconLarge": null,
+          "iconSmallUrl": null,
+          "iconLargeUrl": null,
+          "brandColor": null,
+          "defaultPrompt": null
+        },
+        "path": "plugins/legal-ai-pl/skills/pl-legal-document-review/SKILL.md",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "legal-ai-pl@personal"
+      },
+      {
+        "name": "legal-ai-pl:pl-residence-strategy",
+        "description": "Oceń sytuację pobytową związaną z zatrudnieniem w Polsce i warianty zwykłego zezwolenia na pobyt czasowy i pracę, także przy zmianie pracodawcy lub warunków. Użyj do strategii dla adwokata na podstawie relacji i dokumentów. Pierwszy pilot nie obejmuje pełnej obsługi pobytu rodzinnego, stałego, Niebieskiej Karty UE ani ochrony. Odwołanie od zobowiązania do powrotu i skarga do WSA to inne zadania.",
+        "interface": {
+          "displayName": "Pobyt czasowy i praca",
+          "shortDescription": "Status pobytu, warunki pracy i warianty działania",
+          "iconSmall": null,
+          "iconLarge": null,
+          "iconSmallUrl": null,
+          "iconLargeUrl": null,
+          "brandColor": null,
+          "defaultPrompt": "Użyj $pl-residence-strategy do oceny pobytu czasowego i pracy na podstawie dokumentów oraz wskazania wariantów i następnego kroku."
+        },
+        "path": "plugins/legal-ai-pl/skills/pl-residence-strategy/SKILL.md",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "legal-ai-pl@personal"
+      },
+      {
+        "name": "legal-ai-pl:pl-return-defense",
+        "description": "Przeanalizuj zwykłą decyzję Straży Granicznej pierwszej instancji o zobowiązaniu cudzoziemca do powrotu i przygotuj koncepcję lub zamówiony projekt administracyjnego odwołania. Oddziel zaskarżenie od wykonania i pilnej ochrony. Pełna skarga do WSA, sprawa ochronna, szczególna decyzja ministra, detencja, ENA i ekstradycja to inne zadania.",
+        "interface": {
+          "displayName": "Decyzja powrotowa - odwołanie",
+          "shortDescription": "Analiza odwołania i wykonania decyzji powrotowej",
+          "iconSmall": null,
+          "iconLarge": null,
+          "iconSmallUrl": null,
+          "iconLargeUrl": null,
+          "brandColor": null,
+          "defaultPrompt": "Użyj $pl-return-defense do analizy tej decyzji powrotowej pierwszej instancji, możliwych argumentów odwoławczych oraz pilnego ryzyka wykonania."
+        },
+        "path": "plugins/legal-ai-pl/skills/pl-return-defense/SKILL.md",
+        "scope": "user",
+        "enabled": true,
+        "pluginId": "legal-ai-pl@personal"
+      }
+    ],
+    "errors": []
+  }
+]

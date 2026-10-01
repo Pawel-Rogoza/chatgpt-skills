@@ -10,6 +10,8 @@ Kolejny etap B1 wdrożono jako wąski pilot kontroli pierwszego zastosowania are
 
 Repozytorium przechowuje metodę, dokumentację i fikcyjne materiały testowe. Nie należy dodawać tu akt klientów, danych dostępowych ani poufnych notatek kancelarii. `.gitignore` jest pomocą organizacyjną, nie kontrolą dostępu.
 
+B2 i B3 scalono do `main`. [Raport lokalnej instalacji 0.7.0](evals/results/2026-10-01-local-install/report.md): siedem skilli wykrytych przez hosta, bez błędów; routing modelu i odbiór zawodowy pozostają otwarte. Następny zakres: [specyfikacja C1 — skarga do WSA w sprawie powrotowej](docs/c1-specification.md).
+
 ## Pakiet 0.7.0 — kontrolowany pilotaż
 
 | Skill | Zadanie |
