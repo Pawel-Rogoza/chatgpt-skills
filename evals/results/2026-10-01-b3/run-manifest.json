@@ -24,7 +24,13 @@
     "build": "passed",
     "quick_validate": "passed",
     "unit_local": "12 passed, 3 skipped for Windows symlink permission",
-    "unit_linux_ci": "to verify in PR"
+    "unit_linux_ci": {
+      "conclusion": "success",
+      "run_id": 36864690375,
+      "commit": "bf3c690e82a58bb19c9d17e18d648548a9947eb9",
+      "url": "https://github.com/Pawel-Rogoza/chatgpt-skills/actions/runs/36864690375",
+      "tests": "15 unchanged tests, all passed"
+    }
   },
   "trace_publication": "Execution paths sanitized in metadata, raw responses preserved byte for byte",
   "instructions": {
@@ -91,6 +97,14 @@
       "sha256": "a989353efa4b42195e722d1b9f0785b01a6a95f6c752a9a16b9dc203221db46f"
     },
     {
+      "file": "assessment-retest-B3.json",
+      "sha256": "d7ce395dbcc8ba13d0877fd9b36e76243b035be30314e831c42536cafff16982"
+    },
+    {
+      "file": "assessment-retest-B3.md",
+      "sha256": "5fdb898cdab5acbe79bc0e3098bb8516ad68a49fd89a3175c2d5f891c0d4c6a0"
+    },
+    {
       "file": "development-return-clean.md",
       "sha256": "0133ee2436995c1b4f972f21836c8c3903e898be0cbe0560bc9997e9ec36c60b"
     },
@@ -135,5 +149,19 @@
     "No host automatic routing test",
     "No online legal-research behavioral test",
     "No professional admission or new local plugin installation"
-  ]
+  ],
+  "development_assessment": {
+    "score": 160,
+    "max": 160,
+    "critical_defects": [],
+    "scope": "First-pass staged skill, eight development cases"
+  },
+  "retest_assessment": {
+    "case": "B3_01",
+    "score": 16,
+    "max": 16,
+    "critical_defects": [],
+    "conditional_date": "2027-06-26, protective assumption not established deadline",
+    "scope": "Development after correction, fresh agent, single run not proof of repeatability"
+  }
 }

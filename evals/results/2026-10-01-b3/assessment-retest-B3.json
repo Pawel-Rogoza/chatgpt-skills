@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "assessment": "retest-B3",
+  "case_id": "B3_01",
+  "classification": "development_after_correction",
+  "holdout": false,
+  "evaluator_role": "Ocena modelowa, nie odbiór zawodowy",
+  "method": "Ocena wyłącznie faktycznej odpowiedzi retest-B3_01.md według oryginalnej zamrożonej prywatnej rubryki B3_01 oraz jej wejść. Nie odczytano poprawionego skilla ani wcześniejszych ocen na potrzeby tego retestu. Kryteria nie zmienione. B3_02 nie powtarzano.",
+  "output_file": "retest-B3_01.md",
+  "sha256": "64A32F2D5A23B20F2D5FBC451FF24BDFBE71758D3EA6E8B934FAAF13425F1EDD",
+  "score": 16,
+  "max_score": 16,
+  "critical_defects": [],
+  "criteria": [
+    {
+      "id": 1,
+      "label": "Cztery elementy sentencji",
+      "score": 2,
+      "lines": "19, 27, 30, 42",
+      "reason": "Powrót, zakaz 18 miesięcy, brak dobrowolnego terminu i rygor objęto reakcją."
+    },
+    {
+      "id": 2,
+      "label": "Umocowanie i skuteczność doręczenia",
+      "score": 2,
+      "lines": "7–11",
+      "reason": "Wpływ 4.06, osobisty odbiór 12.06, zdjęcia 18.06 rozdzielone; brak zwrotki kancelarii nie wyklucza innego doręczenia."
+    },
+    {
+      "id": 3,
+      "label": "Warunkowy rachunek 26.06 i pilne wniesienie",
+      "score": 2,
+      "lines": "11, 13, 42–43",
+      "reason": "Wprost 13.06 jako dzień 1 i 26.06 jako dzień 14 przy warunkowym skutecznym doręczeniu 12.06. Nie uznano osobistego odbioru za skuteczny według T03; zaleca wniesienie teraz bez czekania."
+    },
+    {
+      "id": 4,
+      "label": "Wstrzymanie oddzielone od odwołania",
+      "score": 2,
+      "lines": "1, 36–38, 45",
+      "reason": "Sam środek lub żądanie nie zapewnia pozostania; osobny wniosek, sprawdzenie rozstrzygnięcia, zakresu i wykonania."
+    },
+    {
+      "id": 5,
+      "label": "Praca i pobyt, oryginał i tłumaczenie",
+      "score": 2,
+      "lines": "25–26, 32, 44",
+      "reason": "WP-Z-6 wymaga czytelnego dowodu i oceny warunków; nie dowodzi sam legalnego pobytu; opis testowy nie jest tłumaczeniem urzędowym."
+    },
+    {
+      "id": 6,
+      "label": "Adres i ryzyko uchylania się",
+      "score": 2,
+      "lines": "27, 36",
+      "reason": "Umowa, relacja/notatka i odbiór pod adresem; jednorazowa nieobecność nie przesądza braku adresu, nie ogłoszono pewnej bezprawności rygoru."
+    },
+    {
+      "id": 7,
+      "label": "Rodzina, dziecko, opieka i zdrowie",
+      "score": 2,
+      "lines": "28–29, 36",
+      "reason": "Dowody metrykalne oddzielone od oświadczeń opieki; konkretne skutki rozłąki i zdrowie żony, bez automatycznej ochrony. Wypis po decyzji traktowany jako nowy dowód."
+    },
+    {
+      "id": 8,
+      "label": "Plan i właściwy obieg, zakres administracyjny",
+      "score": 2,
+      "lines": "3, 17, 19, 40–47",
+      "reason": "Właściwy wskazany adresat przez autora decyzji, załączniki, akta, aktualne wykonanie, pełnomocniczka i synteza priorytetów; brak skargi sądowej i gwarancji wyniku."
+    }
+  ],
+  "evidence": [
+    {
+      "line": 13,
+      "quote": "gdyby organ przyjął 12 czerwca za skuteczne doręczenie, dzień 1 przypadałby 13 czerwca, a dzień 14 — 26 czerwca 2027 r."
+    },
+    {
+      "line": 13,
+      "quote": "To warunkowy rachunek ostrożnościowy, nie ustalony termin; przy opisanym pełnomocnictwie T03 nie pozwala uznać samego odbioru przez Ciebie za skuteczne doręczenie."
+    },
+    {
+      "line": 13,
+      "quote": "Nie czekajcie jednak do 26 czerwca ani na zakończenie wglądu do akt"
+    },
+    {
+      "line": 38,
+      "quote": "Problem doręczenia decyzji nie jest sam w sobie potwierdzeniem uzyskania ochrony."
+    },
+    {
+      "line": 45,
+      "quote": "Samo potwierdzenie wpływu wniosku nie wystarcza."
+    }
+  ],
+  "observed_finding": "16/16 i brak błędów krytycznych. Faktyczna odpowiedź zawiera poprawny warunkowy rachunek 26.06, jawnie zachowując niepewność skutecznego doręczenia, oraz pilne niezależne działanie na wykonanie.",
+  "scope": "Użyteczna administracyjna koncepcja, żądania i dowody, nie złożone pismo ani potwierdzenie realnej ochrony. Normy pozostają syntetyczne.",
+  "metadata": {
+    "fresh_execution": "Według informacji koordynatora nowy wykonawca w świeżym kontekście",
+    "execution_model": "Niedostarczony",
+    "execution_commit": "Niedostarczony",
+    "execution_settings": "Niedostarczone",
+    "execution_duration": "Niedostarczony",
+    "line_numbering": "Od 1, z pustymi wierszami",
+    "key": "legalai-hidden-evals/B3_01/rubric.md"
+  },
+  "limitations": [
+    "Retest po korekcie na już znanym przypadku to rozwój, nie nowy holdout.",
+    "Jeden nowy przebieg nie dowodzi, że zmiana skilla była przyczyną wyniku ani że poprawa będzie powtarzalna.",
+    "16/16 dotyczy tej fikcyjnej odpowiedzi i klucza; nie dowodzi kompetencji zawodowych, rzeczywistego prawa, transmisji, skuteczności pisma lub wyniku organowego.",
+    "Nie wnioskuje się o B3_02 ani o innych przypadkach."
+  ]
+}
