@@ -1,0 +1,4 @@
+interface:
+  display_name: "SIS - wpis i prawa do danych"
+  short_description: "Rodzaj wpisu SIS, dostęp, sprostowanie i usunięcie"
+  default_prompt: "Użyj $pl-sis-alert-review do rozpoznania wpisu SIS, państwa odpowiedzialnego, relacji do decyzji źródłowej oraz właściwej ścieżki dostępu, sprostowania lub usunięcia danych."

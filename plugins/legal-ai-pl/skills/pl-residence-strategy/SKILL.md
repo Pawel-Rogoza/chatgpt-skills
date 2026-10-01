@@ -8,7 +8,7 @@ description: >-
   pobytu rodzinnego, stałego, Niebieskiej Karty UE ani ochrony.
   Odwołanie od zobowiązania do powrotu i skarga do WSA to inne zadania.
 metadata:
-  version: "0.7.0"
+  version: "0.8.0"
   status: "pilot"
 ---
 
@@ -22,7 +22,7 @@ Przeczytaj [zasady źródeł](references/source-policy.md) i [dokumenty sprawy](
 
 Rozdziel trzy pytania: podstawa pobytu w Polsce, dopuszczalność konkretnej pracy oraz możliwość wyjazdu i ponownego wjazdu. Odpowiedź na jedno nie rozstrzyga pozostałych. Status wniosku i jego braki formalne wymagają dowodów; sama kopia robocza lub potwierdzenie nadania nie dowodzą treści prawidłowo wniesionego wniosku.
 
-Jeśli rzeczywista podstawa prowadzi do innej procedury, nazwij ją, uporządkuj dostępne fakty i wskaż potrzebną osobną analizę. Nie dopasowuj sprawy do pobytu i pracy tylko dlatego, że klient jest zatrudniony. Konkretna decyzja powrotowa, ochrona, pobyt rodzinny lub szczególny status UA nie stają się kompleksowo obsłużone tym skillem.
+Jeśli rzeczywista podstawa prowadzi do innej procedury, nazwij ją, uporządkuj dostępne fakty i wskaż potrzebną osobną analizę. Nie dopasowuj sprawy do pobytu i pracy tylko dlatego, że klient jest zatrudniony. Konkretna decyzja powrotowa, ochrona i pobyt rodzinny wymagają właściwej metody. UKR/CUKR rozpoznaj metodą `pl-ukraine-residence-status`; nie zastępuj szczególnego reżimu zwykłym zezwoleniem tylko ze względu na zatrudnienie. Przy porównaniu z CUKR sprawdź skutek wniosku dla już toczącej się sprawy pobytowej.
 
 ## Warianty działania
 
@@ -40,3 +40,5 @@ Przedstaw to, co ustalono, realne warianty z przesłankami i następny krok. Uja
 
 Pilną zależność, np. kończącą się podstawę pobytu, nieustalony termin lub zamiar rozpoczęcia nowej pracy, wskaż na początku i kontynuuj niezależne prace. Oddziel pytania i niesprawdzone założenia dla adwokata od ewentualnego tekstu dla klienta lub organu. Przegląd adwokata jest potrzebny przed użyciem; przygotowanie analizy nie upoważnia do złożenia wniosku, wysłania wiadomości ani zmiany danych w portalu.
 
+
+Przy nieustalonym lub spornym wpisie SIS rozpoznaj kategorię, państwo wpisujące i podstawę decyzji. Metodę praw do danych wskazuje `pl-sis-alert-review`. Wniosek o dane nie zastępuje zaskarżenia decyzji ani ochrony przed wykonaniem; usunięcie wpisu nie uchyla samo zakazu.

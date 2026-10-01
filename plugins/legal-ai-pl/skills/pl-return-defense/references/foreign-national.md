@@ -6,6 +6,8 @@ Jeżeli wątek może zmienić strategię lub skutki rozstrzygnięcia, sprawdź d
 
 Oddziel legalizację pobytu, zobowiązanie do powrotu, ochronę, ENA, ekstradycję i INTERPOL. Dla odrębnego postępowania ustal właściwy środek i reguły; ta referencja nie jest kompletnym skillem migracyjnym. Nie zapewniaj, że zaskarżenie automatycznie wstrzymuje wykonanie. Przy zagrożeniu wolności lub powrotu wskaż konkretną pilną kwestię, bez zgadywania terminu.
 
+Przy wzmiance o SIS ustal kategorię, państwo wpisujące i decyzję źródłową. Wpis powrotowy, odmowa wjazdu/pobytu i wpis policyjny mają różne cele; nie zamieniaj samej nazwy systemu w zakaz wjazdu lub ENA. Oddziel prawa do danych od zaskarżenia decyzji i ochrony przed wykonaniem. Usunięcie SIS nie dowodzi uchylenia decyzji ani usunięcia wpisu krajowego.
+
 Materiały UdSC, MOS, SG i urzędu wojewódzkiego mogą wskazywać praktykę i zmiany. Wniosek o treści prawa sprawdź w właściwym akcie. Praktyki jednego urzędu nie uogólniaj bez podstawy.
 
 Zachowaj pisownię dokumentową i oryginalną, a warianty transliteracji opisz z pochodzeniem. Nie łącz automatycznie osób o podobnych nazwiskach. W tłumaczeniu kontroluj negacje, sprawcę czynności, role procesowe, daty i pojęcia prawne; przy niejednoznaczności zachowaj oryginał i wyjaśnij warianty.

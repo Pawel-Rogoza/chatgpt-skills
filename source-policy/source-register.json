@@ -1,5 +1,5 @@
 {
-  "scope": "Rejestr sprawdzeń B1-B3, nie baza prawa ani potwierdzenie kompletności źródeł",
+  "scope": "Rejestr wybranych sprawdzeń B1–B3 i UKR/CUKR; nie baza prawa ani potwierdzenie kompletności oraz SIS",
   "sources": [
     {
       "id": "kpk-eli-2026-490-metadata",
@@ -181,6 +181,201 @@
       "use_conditions": "Link i własna metoda, bez kopii poradnika",
       "gaps": [
         "Wynik wyszukiwania nie jest odczytem pełnej normy ani potwierdzeniem kanału"
+      ]
+    },
+    {
+      "id": "eu-protection-2026-1912",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D1912",
+      "kind": "official-act",
+      "scope": "Research UKR/CUKR i styku powrotowego",
+      "checked_at": "2026-10-01",
+      "access": "retrieved; zob. zakres odczytu",
+      "full_text": "zob. reviewed; nie deklarujemy pełnego odczytu akt i całych ustaw",
+      "reviewed": "Pełny widoczny tekst HTML w EUR-Lex przez przeglądarkę; art. 1–3 i motywy, pierwotne daty wymagają sprostowania",
+      "freshness": "Sprawdzenie wskazanego tekstu na 01.10.2026; aktualność i właściwą wersję badaj dla konkretnej sprawy",
+      "use_conditions": "Link i własna mapa; bez pełnych kopii publikacji w repo",
+      "gaps": [
+        "Nie jest to kompletny audyt prawa, praktyki ani orzecznictwa; luki opisano w raporcie researchu"
+      ]
+    },
+    {
+      "id": "eu-protection-2026-90680",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D1912R%2801%29",
+      "kind": "official-corrigendum",
+      "scope": "Research UKR/CUKR i styku powrotowego",
+      "checked_at": "2026-10-01",
+      "access": "retrieved; zob. zakres odczytu",
+      "full_text": "zob. reviewed; nie deklarujemy pełnego odczytu akt i całych ustaw",
+      "reviewed": "Pełny widoczny tekst sprostowania; art. 2: 4.08.2026, art. 3: 5.08.2026",
+      "freshness": "Sprawdzenie wskazanego tekstu na 01.10.2026; aktualność i właściwą wersję badaj dla konkretnej sprawy",
+      "use_conditions": "Link i własna mapa; bez pełnych kopii publikacji w repo",
+      "gaps": [
+        "Nie jest to kompletny audyt prawa, praktyki ani orzecznictwa; luki opisano w raporcie researchu"
+      ]
+    },
+    {
+      "id": "ua-protection-2026-862",
+      "url": "https://eli.gov.pl/api/acts/DU/2026/862/text/T/D20260862L.pdf",
+      "kind": "official-consolidated-text",
+      "scope": "Research UKR/CUKR i styku powrotowego",
+      "checked_at": "2026-10-01",
+      "access": "retrieved; zob. zakres odczytu",
+      "full_text": "zob. reviewed; nie deklarujemy pełnego odczytu akt i całych ustaw",
+      "reviewed": "Wybrane fragmenty art. 106–110a; PDF 76 stron, nie całość",
+      "freshness": "Sprawdzenie wskazanego tekstu na 01.10.2026; aktualność i właściwą wersję badaj dla konkretnej sprawy",
+      "use_conditions": "Link i własna mapa; bez pełnych kopii publikacji w repo",
+      "gaps": [
+        "Nie jest to kompletny audyt prawa, praktyki ani orzecznictwa; luki opisano w raporcie researchu"
+      ]
+    },
+    {
+      "id": "ua-assistance-2025-337",
+      "url": "https://eli.gov.pl/api/acts/DU/2025/337/text/U/D20250337Lj.pdf",
+      "kind": "official-consolidated-text",
+      "scope": "Research UKR/CUKR i styku powrotowego",
+      "checked_at": "2026-10-01",
+      "access": "retrieved; zob. zakres odczytu",
+      "full_text": "zob. reviewed; nie deklarujemy pełnego odczytu akt i całych ustaw",
+      "reviewed": "Wybrane fragmenty art. 42c–42x; PDF 61 stron, redakcja 22.05.2026, warianty zależne od komunikatu",
+      "freshness": "Sprawdzenie wskazanego tekstu na 01.10.2026; aktualność i właściwą wersję badaj dla konkretnej sprawy",
+      "use_conditions": "Link i własna mapa; bez pełnych kopii publikacji w repo",
+      "gaps": [
+        "Nie jest to kompletny audyt prawa, praktyki ani orzecznictwa; luki opisano w raporcie researchu"
+      ]
+    },
+    {
+      "id": "ua-cukr-faq",
+      "url": "https://www.gov.pl/web/udsc/cukr-QA",
+      "kind": "official-operational-guidance",
+      "scope": "Research UKR/CUKR i styku powrotowego",
+      "checked_at": "2026-10-01",
+      "access": "retrieved; zob. zakres odczytu",
+      "full_text": "zob. reviewed; nie deklarujemy pełnego odczytu akt i całych ustaw",
+      "reviewed": "Wybrane odpowiedzi o warunkach, starcie 4.05.2026, wniosku, odbiorze, pracy i końcu uprawnienia; fragment końca UKR w 2027 nieaktualny wobec decyzji UE",
+      "freshness": "Sprawdzenie wskazanego tekstu na 01.10.2026; aktualność i właściwą wersję badaj dla konkretnej sprawy",
+      "use_conditions": "Link i własna mapa; bez pełnych kopii publikacji w repo",
+      "gaps": [
+        "Nie jest to kompletny audyt prawa, praktyki ani orzecznictwa; luki opisano w raporcie researchu"
+      ]
+    },
+    {
+      "id": "ua-identity-alert",
+      "url": "https://www.gov.pl/web/udsc/wazna-informacja-dla-obywateli-ukrainy-posiadajacych-numer-pesel-ze-statusem-ukr",
+      "kind": "official-operational-guidance",
+      "scope": "Research UKR/CUKR i styku powrotowego",
+      "checked_at": "2026-10-01",
+      "access": "retrieved; zob. zakres odczytu",
+      "full_text": "zob. reviewed; nie deklarujemy pełnego odczytu akt i całych ustaw",
+      "reviewed": "Treść alertu z 27.07.2026 o PESEL na oświadczenie i skutkach braku potwierdzenia",
+      "freshness": "Sprawdzenie wskazanego tekstu na 01.10.2026; aktualność i właściwą wersję badaj dla konkretnej sprawy",
+      "use_conditions": "Link i własna mapa; bez pełnych kopii publikacji w repo",
+      "gaps": [
+        "Nie jest to kompletny audyt prawa, praktyki ani orzecznictwa; luki opisano w raporcie researchu"
+      ]
+    },
+    {
+      "id": "ua-sg-return-example",
+      "url": "https://www.strazgraniczna.pl/pl/aktualnosci/15737,Obywatel-Ukrainy-przymusowo-opuscil-Polske-Otrzymal-5-letni-zakaz-wjazdu-do-stre.html",
+      "kind": "official-practice-report",
+      "scope": "Research UKR/CUKR i styku powrotowego",
+      "checked_at": "2026-10-01",
+      "access": "retrieved; zob. zakres odczytu",
+      "full_text": "zob. reviewed; nie deklarujemy pełnego odczytu akt i całych ustaw",
+      "reviewed": "Komunikat 5.06.2026; opis pojedynczej decyzji i jej wykonania, bez akt",
+      "freshness": "Sprawdzenie wskazanego tekstu na 01.10.2026; aktualność i właściwą wersję badaj dla konkretnej sprawy",
+      "use_conditions": "Link i własna mapa; bez pełnych kopii publikacji w repo",
+      "gaps": [
+        "Nie jest to kompletny audyt prawa, praktyki ani orzecznictwa; luki opisano w raporcie researchu"
+      ]
+    },
+    {
+      "id": "echr-ahmed-summary",
+      "url": "https://hudoc.echr.coe.int/eng?i=002-9056",
+      "kind": "official-registry-summary-not-judgment",
+      "scope": "Research UKR/CUKR i styku powrotowego",
+      "checked_at": "2026-10-01",
+      "access": "retrieved; zob. zakres odczytu",
+      "full_text": "zob. reviewed; nie deklarujemy pełnego odczytu akt i całych ustaw",
+      "reviewed": "Streszczenie 17.12.1996, 25964/94 przez wyszukiwarkę; bez pełnego wyroku",
+      "freshness": "Sprawdzenie wskazanego tekstu na 01.10.2026; aktualność i właściwą wersję badaj dla konkretnej sprawy",
+      "use_conditions": "Link i własna mapa; bez pełnych kopii publikacji w repo",
+      "gaps": [
+        "Nie jest to kompletny audyt prawa, praktyki ani orzecznictwa; luki opisano w raporcie researchu"
+      ]
+    },
+    {
+      "id": "sis-uodo-rights",
+      "url": "https://uodo.gov.pl/pl/554/2751",
+      "kind": "official-source",
+      "scope": "Projekt pilota SIS",
+      "checked_at": "2026-10-01",
+      "access": "retrieved",
+      "full_text": "zob. reviewed",
+      "reviewed": "Treść praw, ograniczeń i współpracy; data modyfikacji 2025",
+      "freshness": "Właściwą wersję i praktykę sprawdź dla sprawy",
+      "use_conditions": "Link i własna mapa, bez kopii publikacji",
+      "gaps": [
+        "Nie wykonano pełnego audytu późniejszych zmian, formalności i właściwej drogi sądowej"
+      ]
+    },
+    {
+      "id": "sis-uodo-poland",
+      "url": "https://uodo.gov.pl/pl/554/2752",
+      "kind": "official-source",
+      "scope": "Projekt pilota SIS",
+      "checked_at": "2026-10-01",
+      "access": "retrieved",
+      "full_text": "zob. reviewed",
+      "reviewed": "Treść organu i wymogów; strona starsza, kanały wymagają sprawdzenia",
+      "freshness": "Właściwą wersję i praktykę sprawdź dla sprawy",
+      "use_conditions": "Link i własna mapa, bez kopii publikacji",
+      "gaps": [
+        "Nie wykonano pełnego audytu późniejszych zmian, formalności i właściwej drogi sądowej"
+      ]
+    },
+    {
+      "id": "sis-kgp-rights",
+      "url": "https://www.policja.pl/pol/sirene/prawo-osob-do-informac/57656,Prawo-osob-do-informacji.html",
+      "kind": "official-source",
+      "scope": "Projekt pilota SIS",
+      "checked_at": "2026-10-01",
+      "access": "retrieved",
+      "full_text": "zob. reviewed",
+      "reviewed": "Fragmenty organu, kontaktów, podstaw i pkt VII: podpis, elektroniczne kanały; ePUAP tylko do 31.12.2025; nie audyt całych formalności",
+      "freshness": "Właściwą wersję i praktykę sprawdź dla sprawy",
+      "use_conditions": "Link i własna mapa, bez kopii publikacji",
+      "gaps": [
+        "Nie wykonano pełnego audytu późniejszych zmian, formalności i właściwej drogi sądowej"
+      ]
+    },
+    {
+      "id": "sis-eu-categories",
+      "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-information-system/alerts-and-data-sis_en",
+      "kind": "official-source",
+      "scope": "Projekt pilota SIS",
+      "checked_at": "2026-10-01",
+      "access": "retrieved",
+      "full_text": "zob. reviewed",
+      "reviewed": "Treść kategorii wpisów",
+      "freshness": "Właściwą wersję i praktykę sprawdź dla sprawy",
+      "use_conditions": "Link i własna mapa, bez kopii publikacji",
+      "gaps": [
+        "Nie wykonano pełnego audytu późniejszych zmian, formalności i właściwej drogi sądowej"
+      ]
+    },
+    {
+      "id": "sis-eu-1861",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1861",
+      "kind": "official-source",
+      "scope": "Projekt pilota SIS",
+      "checked_at": "2026-10-01",
+      "access": "retrieved",
+      "full_text": "zob. reviewed",
+      "reviewed": "Widoczny pierwotny tekst przez EUR-Lex; art. 44–47,52–54 i mapa pozostałych; bez pełnej rekonstrukcji zmian",
+      "freshness": "Właściwą wersję i praktykę sprawdź dla sprawy",
+      "use_conditions": "Link i własna mapa, bez kopii publikacji",
+      "gaps": [
+        "Nie wykonano pełnego audytu późniejszych zmian, formalności i właściwej drogi sądowej"
       ]
     }
   ]

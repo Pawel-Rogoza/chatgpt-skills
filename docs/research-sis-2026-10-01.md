@@ -1,0 +1,11 @@
+# SIS — research i zakres pilota na 01.10.2026
+
+SIS pojawia się przy granicy, pobycie i sprawach karnych; osobny skill pozwala rozpoznać problem także poza Ukrainą.
+
+[Komisja Europejska](https://home-affairs.ec.europa.eu/policies/schengen/schengen-information-system/alerts-and-data-sis_en) rozróżnia m.in. wpis powrotowy, odmowę wjazdu/pobytu i zatrzymanie. Wpis nie jest uniwersalnym zakazem wjazdu ani synonimem ENA. Rozporządzenia [2018/1860](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1860), [2018/1861](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1861) i [2018/1862](https://eur-lex.europa.eu/eli/reg/2018/1862/oj) regulują różne kategorie. To punkty wejścia do wersji właściwych; tego researchu nie traktuj jako kompletnego audytu wszystkich zmian do 2026.
+
+[UODO](https://uodo.gov.pl/pl/554/2751) wyjaśnia prawo dostępu, sprostowania błędu i usunięcia danych przetwarzanych bezprawnie. Dostęp może być ograniczony. Zmiany dokonuje państwo wpisujące; złożenie wniosku w innym państwie wymaga współpracy. Sam interes w podróży nie przesądza usunięcia. W Polsce ścieżka prowadzi do COT KSI — KGP; [strona KGP](https://www.policja.pl/pol/sirene/prawo-osob-do-informac/57656,Prawo-osob-do-informacji.html) zawiera aktualne kontakty i kanały. Poradnik UODO o Polsce jest starszy: KGP wskazuje ePUAP tylko do 31.12.2025, a aktualnie m.in. e-Doręczenia i podpisany wniosek elektroniczny. Nie należy zalecać starego kanału z archiwalnego poradnika.
+
+Projekt `pl-sis-alert-review`: rozpoznanie kategorii/państwa, analiza dokumentów, projekt wniosku o dane oraz rozpoznanie podstaw sprostowania/usunięcia. Oddzielna kontrola decyzji źródłowej i pilnych środków. Karta innego państwa może wymagać konsultacji między państwami — nie gwarantuje usunięcia ani przekroczenia granicy. Wpis krajowy i SIS mogą mieć różny los.
+
+Pilot nie obejmuje pełnej skargi WSA, prowadzenia ENA, ekstradycji ani automatycznego sprawdzania bazy. Otwarte: pełna rekonstrukcja zmian rozporządzeń i polskiej ustawy SIS/VIS, aktualne formalności konkretnego żądania, właściwa droga sądowa dla konkretnej odmowy, modelowe próby i odbiór adwokata. Odczytano strony Komisji, UODO, fragmenty KGP oraz pierwotny tekst 2018/1861; 2018/1860 tylko zakres wyszukiwarkowy, 2018/1862 jest nieodczytanym punktem wejścia.

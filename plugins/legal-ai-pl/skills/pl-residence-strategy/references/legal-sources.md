@@ -10,3 +10,5 @@ Dla postępowania użyj [KPA w ELI](https://eli.gov.pl/eli/DU/1960/168/ogl), z u
 
 Dla szczególnego statusu UA najpierw zidentyfikuj faktyczną podstawę i daty; [ustawa Dz.U. 2026 poz. 203](https://eli.gov.pl/eli/DU/2026/203/ogl) jest sygnałem konieczności sprawdzenia zmian, nie potwierdzeniem określonego statusu klienta. Pełną analizę takiego reżimu wykonuj właściwą metodą poza zakresem pierwszego pilota B2. Nie powielaj bezterminowo historycznych reguł.
 
+
+Dla styku UKR/CUKR sprawdź [ustawę ochronną 2026/862](https://eli.gov.pl/eli/DU/2026/862/ogl), [decyzję UE 2026/1912](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D1912) wraz ze [sprostowaniem 2026/90680](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D1912R%2801%29) oraz art. 42c–42x ustawy pomocowej. Ochrona UE, krajowy termin i ważność dokumentu są odrębne. Przy CUKR zweryfikuj umorzenie trwającej sprawy pobytu czasowego z art. 42i; nie obiecuj równoległego utrzymania obu postępowań.

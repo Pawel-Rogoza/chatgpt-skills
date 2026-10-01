@@ -178,5 +178,33 @@
   {
     "prompt": "Przygotuj pełne odwołanie od szczególnej decyzji ministra w reżimie terrorystycznym.",
     "expected": "neither"
+  },
+  {
+    "prompt": "Oceń UKR, utratę statusu i możliwość CUKR na podstawie dokumentów.",
+    "expected": "pl-ukraine-residence-status"
+  },
+  {
+    "prompt": "Czy nowe przepisy dotyczące obowiązków wojskowych zmieniają ochronę czasową tego klienta?",
+    "expected": "pl-ukraine-residence-status"
+  },
+  {
+    "prompt": "Przygotuj odwołanie od decyzji SG o deportacji obywatela Ukrainy.",
+    "expected": "pl-return-defense"
+  },
+  {
+    "prompt": "Przetłumacz tylko słowo deportacja na ukraiński.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Klient jest w SIS. Przygotuj wniosek o dostęp do danych i ustal państwo wpisu.",
+    "expected": "pl-sis-alert-review"
+  },
+  {
+    "prompt": "Oceń podstawy usunięcia błędnego wpisu SIS dotyczącego tej osoby.",
+    "expected": "pl-sis-alert-review"
+  },
+  {
+    "prompt": "Zrób wykres czasu działania systemu SIS w naszej firmie IT.",
+    "expected": "neither"
   }
 ]
