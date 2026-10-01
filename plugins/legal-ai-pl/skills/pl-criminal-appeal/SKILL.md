@@ -7,7 +7,7 @@ description: >-
   pl-legal-document-review; kasacja, zażalenie i odwołanie administracyjne
   wymagają odrębnej metody.
 metadata:
-  version: "0.6.0"
+  version: "0.7.0"
   status: "pilot"
 ---
 

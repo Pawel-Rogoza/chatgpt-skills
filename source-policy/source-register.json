@@ -1,5 +1,5 @@
 {
-  "scope": "Rejestr sprawdzeń B1-B2, nie baza prawa ani potwierdzenie kompletności źródeł",
+  "scope": "Rejestr sprawdzeń B1-B3, nie baza prawa ani potwierdzenie kompletności źródeł",
   "sources": [
     {
       "id": "kpk-eli-2026-490-metadata",
@@ -136,6 +136,51 @@
       "use_conditions": "Publiczny odczyt; repo przechowuje link i własną metodę, nie kopię całego aktu. Warunków masowego pobierania nie audytowano.",
       "gaps": [
         "Brak pełnego audytu nowelizacji i praktyki urzędów; brak certyfikacji aktualności na dowolną datę"
+      ]
+    },
+    {
+      "id": "foreigners-return-2025-1079-u",
+      "url": "https://eli.gov.pl/api/acts/DU/2025/1079/text/U/D20251079Lj.pdf",
+      "kind": "official-consolidated-text",
+      "scope": "Przygotowanie metody B3",
+      "checked_at": "2026-10-01",
+      "access": "retrieved via web",
+      "full_text": "495 stron dostępnych; odczyt wybranych fragmentów, nie całości",
+      "reviewed": "Art. 321, 329/329a i początek 330, art. 348-349; identyfikacja 302-303 i wpisów SIS",
+      "freshness": "Data redakcyjna 07.04.2026, wariantowe przepisy i późniejsze zmiany wymagają kontroli na datę konkretnej sprawy",
+      "use_conditions": "Repo przechowuje link i własną metodę, bez kopii całego PDF. Brak audytu warunków masowego pobierania.",
+      "gaps": [
+        "Nie przeprowadzono pełnej rekonstrukcji zmian lub oceny orzecznictwa; wyliczenie przepisów nie oznacza ich kompletnej walidacji"
+      ]
+    },
+    {
+      "id": "kpa-2025-1691-t",
+      "url": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf",
+      "kind": "official-consolidated-act",
+      "scope": "Odwołanie i odrębne wykonanie w B3",
+      "checked_at": "2026-10-01",
+      "access": "retrieved via web",
+      "full_text": "46 stron dostępnych; odczyt fragmentów",
+      "reviewed": "Art. 127-130 w kontekście odwołania, rygoru i wyjątków",
+      "freshness": "Tekst jednolity 2025/1691; nie potwierdza wszystkich zmian na dowolną datę sprawy",
+      "use_conditions": "Publiczny odczyt; repo przechowuje link i własną metodę. Brak audytu masowego pobierania.",
+      "gaps": [
+        "Doręczenia, przywrócenie terminu, pełny kontekst i właściwy instrument wymagają sprawdzenia w konkretnej sprawie"
+      ]
+    },
+    {
+      "id": "mos-return-appeal",
+      "url": "https://www.mos.cudzoziemcy.gov.pl/opcje/decyzja-o-zobowiazaniu-do-powrotu/odwolanie-od-decyzji/",
+      "kind": "official-operational-information",
+      "scope": "Operacyjne punkty wejścia B3",
+      "checked_at": "2026-10-01",
+      "access": "discovery_only",
+      "full_text": "Search index only; direct open failed",
+      "reviewed": "Wynik wyszukiwania z informacją o organie i terminie",
+      "freshness": "Nie potwierdzono pełnej aktualnej treści strony",
+      "use_conditions": "Link i własna metoda, bez kopii poradnika",
+      "gaps": [
+        "Wynik wyszukiwania nie jest odczytem pełnej normy ani potwierdzeniem kanału"
       ]
     }
   ]

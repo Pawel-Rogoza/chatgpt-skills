@@ -1,0 +1,30 @@
+{
+  "mode": "baseline_without_skills",
+  "cases": ["B3_01", "B3_02"],
+  "readfiles": [
+    "<evaluation-workspace>\\legalai-hidden-evals\\B3_01\\user.md",
+    "<evaluation-workspace>\\legalai-hidden-evals\\B3_01\\materials.md",
+    "<evaluation-workspace>\\legalai-hidden-evals\\B3_02\\user.md",
+    "<evaluation-workspace>\\legalai-hidden-evals\\B3_02\\materials.md"
+  ],
+  "toolpolicy": {
+    "closed_world": true,
+    "online_tools_used": false,
+    "skills_read_or_used": false,
+    "rubrics_read": false,
+    "repository_or_other_outputs_read": false,
+    "tools_used": ["exec_command: read only the four permitted input files; verify existence and byte lengths of own three outputs without reading their content", "apply_patch: create requested response and trace artifacts"],
+    "repository_modified": false
+  },
+  "limits": [
+    "All legal analysis is conditional on the synthetic T03 and T04 rules; no real-law or current-law verification claimed.",
+    "Initial PowerShell output displayed Polish characters incorrectly; permitted materials were reread with explicit UTF-8 console output. No additional input files were read.",
+    "Uncertain service, waiver validity, obstacle cessation and formal residence-application sufficiency are identified rather than resolved by assumptions.",
+    "No court-stage remedies or unavailable modes of challenging a valid waiver were added.",
+    "Artifacts saved to explicit local paths requested by the evaluation coordinator; no repository edit or external storage operation performed."
+  ],
+  "outputs": [
+    "<evaluation-workspace>\\legalai-eval-outputs\\baseline-B3_01.md",
+    "<evaluation-workspace>\\legalai-eval-outputs\\baseline-B3_02.md"
+  ]
+}

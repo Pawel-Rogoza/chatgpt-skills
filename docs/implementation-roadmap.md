@@ -2,9 +2,9 @@
 
 ### Aktualny stan — 01.10.2026
 
-`main` zawiera całą dotychczasową historię do 0.5.0. B2 wdrażamy jako zwykły pobyt czasowy i pracę, zgodnie z wyborem właściciela projektu: [specyfikacja](b2-specification.md). Wydanie 0.6.0 dodaje szósty skill, samodzielne referencje i materiały rozwojowe. Wyniki niezależnych prób i kontroli technicznej: [raport B2](../evals/results/2026-10-01-b2/report.md).
+`main` zawiera całą dotychczasową historię do 0.5.0. B2 wdrożono jako zwykły pobyt czasowy i pracę, zgodnie z wyborem właściciela projektu: [specyfikacja](b2-specification.md). Wydanie 0.6.0 dodaje szósty skill, samodzielne referencje i materiały rozwojowe. Wyniki niezależnych prób i kontroli technicznej: [raport B2](../evals/results/2026-10-01-b2/report.md).
 
-Kolejny etap B3: analiza decyzji powrotowej pierwszej instancji i reakcji na administracyjnym etapie odwołania. B2 nie obejmuje pełnych spraw ochronnych ani szczególnych reżimów UA. Historyczne statusy i polecenie A0–A2 poniżej nie są aktualnym zleceniem do ponownej implementacji.
+B3 wdrożono w 0.7.0: analiza zwykłej decyzji powrotowej SG pierwszej instancji i administracyjnego odwołania, z osobną oceną wykonania. [Specyfikacja](b3-specification.md), [raport](../evals/results/2026-10-01-b3/report.md). Pakiet ma siedem skilli. Implementacje są lokalnie i w roboczych [PR #7](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/7) / [PR #8](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/8), oba mają zielone pełne CI. Main pozostaje na 0.5.0 do scalenia. Kolejny etap domenowy C1 (WSA) wymaga odrębnego zawężenia zakresu oraz testów; obecna sesja nie realizuje fali C/D. B2 nie obejmuje pełnych spraw ochronnych ani szczególnych reżimów UA. Historyczne statusy i polecenie A0–A2 poniżej nie są aktualnym zleceniem do ponownej implementacji.
 
 **Data:** 22.09.2026  
 **Przeznaczenie:** plan wykonawczy dla innego modelu i osoby prowadzącej projekt.  

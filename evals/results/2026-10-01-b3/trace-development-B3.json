@@ -1,0 +1,124 @@
+{
+  "run_type": "development_forward_test",
+  "variant": "skill",
+  "cases": [
+    "return-clean",
+    "return-criminal",
+    "return-detention",
+    "return-execution",
+    "return-family",
+    "return-service",
+    "return-sis",
+    "return-wsa"
+  ],
+  "skill": {
+    "path": "<evaluation-workspace>\\legalai-b3-staging\\plugins\\legal-ai-pl\\skills\\pl-return-defense\\SKILL.md",
+    "version": "0.7.0",
+    "frozen_first_pass": true,
+    "modified": false,
+    "references_reused_from_same_agent_prior_B3_turn": [
+      "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/SKILL.md",
+      "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/source-policy.md",
+      "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/case-record.md",
+      "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/return-method.md",
+      "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/temporal-law.md",
+      "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/legal-sources.md",
+      "legalai-b3-staging/plugins/legal-ai-pl/skills/pl-return-defense/references/foreign-national.md"
+    ]
+  },
+  "source_reads": [
+    "legalai-b3-staging/evals/cases/return-clean/user.md",
+    "legalai-b3-staging/evals/cases/return-clean/materials.md",
+    "legalai-b3-staging/evals/cases/return-criminal/user.md",
+    "legalai-b3-staging/evals/cases/return-criminal/materials.md",
+    "legalai-b3-staging/evals/cases/return-detention/user.md",
+    "legalai-b3-staging/evals/cases/return-detention/materials.md",
+    "legalai-b3-staging/evals/cases/return-execution/user.md",
+    "legalai-b3-staging/evals/cases/return-execution/materials.md",
+    "legalai-b3-staging/evals/cases/return-family/user.md",
+    "legalai-b3-staging/evals/cases/return-family/materials.md",
+    "legalai-b3-staging/evals/cases/return-service/user.md",
+    "legalai-b3-staging/evals/cases/return-service/materials.md",
+    "legalai-b3-staging/evals/cases/return-sis/user.md",
+    "legalai-b3-staging/evals/cases/return-sis/materials.md",
+    "legalai-b3-staging/evals/cases/return-wsa/user.md",
+    "legalai-b3-staging/evals/cases/return-wsa/materials.md"
+  ],
+  "rubrics_read": false,
+  "assessor_outputs_read": false,
+  "other_outputs_read": false,
+  "online_budget": 0,
+  "network_calls": 0,
+  "real_law_verified": false,
+  "normative_basis": {
+    "return_execution": "Only fictional R1-R3; no length of appeal period supplied",
+    "other_cases": "Document-based analysis; real-law-dependent details explicitly left for verification"
+  },
+  "outputs": [
+    {
+      "case": "return-clean",
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\development-return-clean.md",
+      "bytes": 341,
+      "sha256": "0133EE2436995C1B4F972F21836C8C3903E898BE0CBE0560BC9997E9EC36C60B"
+    },
+    {
+      "case": "return-criminal",
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\development-return-criminal.md",
+      "bytes": 2318,
+      "sha256": "00C8CC8993044EDD32720CED5E298A9FAB391EE73E028762C820727CA4DB1FF8"
+    },
+    {
+      "case": "return-detention",
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\development-return-detention.md",
+      "bytes": 2381,
+      "sha256": "24633AE3ED49037BC0DFE8AA19859C891B32A7E7AD6795EF13973EED71330AB3"
+    },
+    {
+      "case": "return-execution",
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\development-return-execution.md",
+      "bytes": 2153,
+      "sha256": "F6B0E5CFD9A300B5F1152078E0458B5E4AD570226C75737085DF6642A5E3F838"
+    },
+    {
+      "case": "return-family",
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\development-return-family.md",
+      "bytes": 2501,
+      "sha256": "F65AF4BD8988F42B75B4982301EF6DC27DDBCE5412283F1FFDC1E428CED09875"
+    },
+    {
+      "case": "return-service",
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\development-return-service.md",
+      "bytes": 3079,
+      "sha256": "7CFE07FA5B4670CF8D0FB19B88BA2A88C84594A3C2C3137F128D90A3148AE685"
+    },
+    {
+      "case": "return-sis",
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\development-return-sis.md",
+      "bytes": 1352,
+      "sha256": "FEF454179875CC361BA869EDA5664E3DDF8FBB2D87389385DBAB8441E03D6E63"
+    },
+    {
+      "case": "return-wsa",
+      "path": "<evaluation-workspace>\\legalai-eval-outputs\\development-return-wsa.md",
+      "bytes": 2936,
+      "sha256": "1517A7EC84F045738912E07FED362AF8C05D057C5820F8FADE452BB7B708D125"
+    }
+  ],
+  "scope_notes": {
+    "return_clean": "Only document author and document date compared",
+    "return_criminal": "No pleading; distinguishes accusation from conviction and from administrative relevance",
+    "return_detention": "Independent return and judicial detention proceedings, urgent document triage only",
+    "return_execution": "Urgent concept before synthetic next-day 06:00 flight; appeal, request and granted stay separated",
+    "return_family": "Evidence-based family argument; declined fabrication of persecution",
+    "return_service": "No pleading; service and residence gaps do not stop independent analysis",
+    "return_sis": "Only evaluation of lifetime-ban claim; no deletion request",
+    "return_wsa": "Recognized second-instance judicial-review route; cannot supply complete usable WSA complaint from missing decisions, service evidence and applicable norms"
+  },
+  "execution_problems": [],
+  "material_limitations": [
+    "Seven fixtures supply no closed-world legal norms; no procedural periods or competent-court details invented.",
+    "return-wsa lacks full decisions, appeal, service evidence and norms required for a complete usable complaint; response provides requested preliminary triage and explains concrete dependencies."
+  ],
+  "repository_or_skill_changes": false,
+  "external_submissions_or_contacts": false
+}

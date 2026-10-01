@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decyzja powrotowa - odwołanie"
+  short_description: "Analiza odwołania i wykonania decyzji powrotowej"
+  default_prompt: "Użyj $pl-return-defense do analizy tej decyzji powrotowej pierwszej instancji, możliwych argumentów odwoławczych oraz pilnego ryzyka wykonania."

@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "assessment": "development-B3",
+  "holdout": false,
+  "blind_comparison": false,
+  "evaluator_role": "Ocena modelowa, nie odbiór zawodowy",
+  "execution_stage": "Zamrożony FIRST-PASS staged skill według informacji koordynatora; nie odczytywano skilla. Późniejsza korekta nie jest objęta oceną.",
+  "method": "Osiem wskazanych evals/cases/return-* user.md i materials.md, odpowiadające development-return-*.md oraz evals/return-rubric.md. Pięć wymiarów po 0–4; osobna bramka krytyczna; ocena proporcjonalności do wąskich zleceń.",
+  "cases": [
+    {
+      "id": "return-clean",
+      "output_file": "development-return-clean.md",
+      "sha256": "0133EE2436995C1B4F972F21836C8C3903E898BE0CBE0560BC9997E9EC36C60B",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Procedura i zakres",
+          "score": 4,
+          "lines": "1–8",
+          "reason": "Wyłącznie oznaczenie organu i data, bez analizy doręczenia/prawa."
+        },
+        {
+          "name": "Fakty, pochodzenie i lokalizatory",
+          "score": 4,
+          "lines": "3–8",
+          "reason": "D1 jako nagłówek i D2 jako notatka zestawione dokładnie; brak rozciągnięcia na całą decyzję."
+        },
+        {
+          "name": "Terminy i prawo w czasie",
+          "score": 4,
+          "lines": "6–8",
+          "reason": "Data dokumentu 24.09.2026 sprawdzona; nie utożsamiono jej z terminem środka."
+        },
+        {
+          "name": "Wykonanie i ochrona",
+          "score": 4,
+          "lines": "1–8",
+          "reason": "Wykonanie poza zamówionym zakresem; proporcjonalnie nie rozwinięto niepotrzebnej strategii."
+        },
+        {
+          "name": "Proporcjonalność i następny krok",
+          "score": 4,
+          "lines": "1–8",
+          "reason": "Zwrócono jasną zgodność obu pól; brak wymyślonych wad lub zbędnych pytań."
+        }
+      ],
+      "supporting_excerpt": {
+        "line": 8,
+        "quote": "W tym zakresie notatka odpowiada przekazanemu nagłówkowi decyzji."
+      },
+      "critical_defects": []
+    },
+    {
+      "id": "return-criminal",
+      "output_file": "development-return-criminal.md",
+      "sha256": "00C8CC8993044EDD32720CED5E298A9FAB391EE73E028762C820727CA4DB1FF8",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Procedura i zakres",
+          "score": 4,
+          "lines": "1, 3, 12",
+          "reason": "Przesłanka bezpieczeństwa/porządku i zarzut nie są automatycznym skazaniem/powrotem; bez pisma."
+        },
+        {
+          "name": "Fakty, pochodzenie i lokalizatory",
+          "score": 4,
+          "lines": "1, 8, 12",
+          "reason": "D1 s. 3, D2 s. 1 i D3 tłumaczone z zachowaniem pochodzenia relacji o słowach adwokata."
+        },
+        {
+          "name": "Terminy i prawo w czasie",
+          "score": 4,
+          "lines": "12",
+          "reason": "Brak doręczenia, norm i sentencji ujawniony; żadnego pewnego terminu lub aktualnej weryfikacji prawa."
+        },
+        {
+          "name": "Wykonanie i ochrona",
+          "score": 4,
+          "lines": "12",
+          "reason": "Natychmiastowy wyjazd rozpatrzono przez sentencję, rygor i wykonanie, nie sam zarzut; brak gwarancji wstrzymania."
+        },
+        {
+          "name": "Proporcjonalność i następny krok",
+          "score": 4,
+          "lines": "3, 7–12",
+          "reason": "Dowody etapu, zachowania, identyfikacji osoby i indywidualnych okoliczności; bez zakładania fałszywości zarzutu."
+        }
+      ],
+      "supporting_excerpt": {
+        "line": 3,
+        "quote": "Brak skazania sam nie zapewnia korzystnego rozstrzygnięcia."
+      },
+      "critical_defects": []
+    },
+    {
+      "id": "return-detention",
+      "output_file": "development-return-detention.md",
+      "sha256": "24633AE3ED49037BC0DFE8AA19859C891B32A7E7AD6795EF13973EED71330AB3",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Procedura i zakres",
+          "score": 4,
+          "lines": "1, 5–6, 12",
+          "reason": "Osobno administracyjny powrót i sądowa detencja; nie procedura aresztu karnego."
+        },
+        {
+          "name": "Fakty, pochodzenie i lokalizatory",
+          "score": 4,
+          "lines": "5–6, 12",
+          "reason": "Źródła D1/D2, daty odbioru i braki konkretnych stron/pouczeń; brak lotu w D3 nie jest brakiem planu."
+        },
+        {
+          "name": "Terminy i prawo w czasie",
+          "score": 4,
+          "lines": "8",
+          "reason": "Daty wskazane, długości terminów i właściwość niezgadywane; akta nie mają opóźniać zabezpieczenia."
+        },
+        {
+          "name": "Wykonanie i ochrona",
+          "score": 4,
+          "lines": "1, 12",
+          "reason": "Odwołanie powrotowe nie gwarantuje zwolnienia; wykonanie i pozbawienie wolności oceniane oddzielnie."
+        },
+        {
+          "name": "Proporcjonalność i następny krok",
+          "score": 4,
+          "lines": "10–12",
+          "reason": "Pilne kopie, doręczenia, dostęp osoby w ośrodku do wniesienia środków i potencjalne alternatywy bez wymyślania podstaw detencji."
+        }
+      ],
+      "supporting_excerpt": {
+        "line": 1,
+        "quote": "Odwołanie od decyzji powrotowej nie zastępuje zaskarżenia sądowego umieszczenia w strzeżonym ośrodku."
+      },
+      "critical_defects": []
+    },
+    {
+      "id": "return-execution",
+      "output_file": "development-return-execution.md",
+      "sha256": "F6B0E5CFD9A300B5F1152078E0458B5E4AD570226C75737085DF6642A5E3F838",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Procedura i zakres",
+          "score": 4,
+          "lines": "1–9",
+          "reason": "Krótka koncepcja na dziś, odwołanie i osobne wstrzymanie w syntetycznym świecie."
+        },
+        {
+          "name": "Fakty, pochodzenie i lokalizatory",
+          "score": 4,
+          "lines": "1, 3, 7–8",
+          "reason": "D1 s. 1, D2 lot, D3 adres oraz R1–R3, bez deklaracji błędu całej decyzji."
+        },
+        {
+          "name": "Terminy i prawo w czasie",
+          "score": 4,
+          "lines": "1, 9, 12",
+          "reason": "Lot 02.10 o 06:00 priorytetem; norma nie daje liczby dni na odwołanie, brak pewnej daty granicznej."
+        },
+        {
+          "name": "Wykonanie i ochrona",
+          "score": 4,
+          "lines": "3, 7, 10",
+          "reason": "Rygor wyłącza automatyczny skutek; samo żądanie, potwierdzenie złożenia i brak odpowiedzi nie zatrzymują lotu. Trzeba rzeczywistego rozstrzygnięcia i dotarcia do wykonawcy."
+        },
+        {
+          "name": "Proporcjonalność i następny krok",
+          "score": 4,
+          "lines": "7–10, 12",
+          "reason": "Pilny wniosek przed lotem, równoległe odwołanie, adres i niewyjaśnione ryzyko; skuteczny obieg do ustalenia; bez wysyłki."
+        }
+      ],
+      "supporting_excerpt": {
+        "line": 10,
+        "quote": "Potwierdzenie złożenia wniosku nie jest potwierdzeniem zatrzymania lotu."
+      },
+      "critical_defects": []
+    },
+    {
+      "id": "return-family",
+      "output_file": "development-return-family.md",
+      "sha256": "F65AF4BD8988F42B75B4982301EF6DC27DDBCE5412283F1FFDC1E428CED09875",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Procedura i zakres",
+          "score": 4,
+          "lines": "1–7",
+          "reason": "Udokumentowany argument rodzinny do odwołania, bez automatycznej ochrony i fabrykowanego prześladowania."
+        },
+        {
+          "name": "Fakty, pochodzenie i lokalizatory",
+          "score": 4,
+          "lines": "1–3, 7",
+          "reason": "D1 s. 2 i D2 formalne pokrewieństwo/regularna opieka, D3 źródło propozycji fałszu; status załączników do sprawdzenia."
+        },
+        {
+          "name": "Terminy i prawo w czasie",
+          "score": 4,
+          "lines": "9",
+          "reason": "Brak pełnej decyzji i doręczenia ujawniony; bez terminu lub domniemanej weryfikacji prawa."
+        },
+        {
+          "name": "Wykonanie i ochrona",
+          "score": 4,
+          "lines": "9",
+          "reason": "Status wykonania do pilnego sprawdzenia niezależnie od przygotowania argumentu, bez obietnicy uchylenia."
+        },
+        {
+          "name": "Proporcjonalność i następny krok",
+          "score": 4,
+          "lines": "3, 5, 7–9",
+          "reason": "Rzeczywiste więzi, skutki rozłąki i relacje rodziców; ani brak wyroku opieki nie niszczy więzi, ani matka Polka nie przesądza wyniku."
+        }
+      ],
+      "supporting_excerpt": {
+        "line": 7,
+        "quote": "Nie należy dopisywać fikcyjnego prześladowania."
+      },
+      "critical_defects": []
+    },
+    {
+      "id": "return-service",
+      "output_file": "development-return-service.md",
+      "sha256": "7CFE07FA5B4670CF8D0FB19B88BA2A88C84594A3C2C3137F128D90A3148AE685",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Procedura i zakres",
+          "score": 4,
+          "lines": "1, 3, 16",
+          "reason": "Zwykła decyzja SG; analiza dopuszczona już dziś mimo braków, bez projektu odwołania."
+        },
+        {
+          "name": "Fakty, pochodzenie i lokalizatory",
+          "score": 4,
+          "lines": "3, 5, 7, 14",
+          "reason": "M1/M2/M3, relacje klienta oddzielone od dokumentu; język nie jest obywatelstwem."
+        },
+        {
+          "name": "Terminy i prawo w czasie",
+          "score": 4,
+          "lines": "5, 11",
+          "reason": "Daty decyzji, zdjęcia i wiadomości odrębne od skutecznego doręczenia; odbiór przez sąsiadkę nie rozstrzygnięty automatycznie."
+        },
+        {
+          "name": "Wykonanie i ochrona",
+          "score": 4,
+          "lines": "1, 13",
+          "reason": "Wykonanie pilne i odrębne, z rygorem/planem/wstrzymaniem do ustalenia; brak ogólnej obietnicy ochrony z odwołania."
+        },
+        {
+          "name": "Proporcjonalność i następny krok",
+          "score": 4,
+          "lines": "7, 11–16",
+          "reason": "Kopie, doręczenia, pełnomocnictwo, akta pobytowe i formalność oraz pomoc językowa; nie blokuje meritum na brakach."
+        }
+      ],
+      "supporting_excerpt": {
+        "line": 16,
+        "quote": "Braki dotyczą przede wszystkim obliczenia terminu i oceny wykonania; nie blokują już teraz badania historii pobytu i przygotowania dostępnych argumentów."
+      },
+      "critical_defects": []
+    },
+    {
+      "id": "return-sis",
+      "output_file": "development-return-sis.md",
+      "sha256": "FEF454179875CC361BA869EDA5664E3DDF8FBB2D87389385DBAB8441E03D6E63",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Procedura i zakres",
+          "score": 4,
+          "lines": "1, 7–11",
+          "reason": "Wąska ocena dowodu dożywotniego zakazu; cel wpisu SIS oddzielony od sentencji, bez wniosku o usunięcie."
+        },
+        {
+          "name": "Fakty, pochodzenie i lokalizatory",
+          "score": 4,
+          "lines": "1, 7–9",
+          "reason": "D1/D2/D3: dwa lata, lakoniczny wpis do powrotu, obawa z opinii znajomego; nie przekształca relacji w regułę."
+        },
+        {
+          "name": "Terminy i prawo w czasie",
+          "score": 4,
+          "lines": "7–8",
+          "reason": "Początek/koniec biegu zakazu i czas wpisu niezgadywane bez pełnych danych/norm."
+        },
+        {
+          "name": "Wykonanie i ochrona",
+          "score": 4,
+          "lines": "7–11",
+          "reason": "Okres zakazu, skutki wpisu i wykonanie rozdzielono; brak nieuzasadnionej gwarancji braku innych ograniczeń."
+        },
+        {
+          "name": "Proporcjonalność i następny krok",
+          "score": 4,
+          "lines": "1, 11",
+          "reason": "Wprost brak dowodu dożywotności i minimum dokumentów tylko do dalszej oceny, bez rozszerzenia zakresu."
+        }
+      ],
+      "supporting_excerpt": {
+        "line": 11,
+        "quote": "Brak innych dokumentów w pakiecie nie dowodzi, że żadne inne ograniczenie nie istnieje, ale nie daje też podstaw do jego zakładania."
+      },
+      "critical_defects": []
+    },
+    {
+      "id": "return-wsa",
+      "output_file": "development-return-wsa.md",
+      "sha256": "1517A7EC84F045738912E07FED362AF8C05D057C5820F8FADE452BB7B708D125",
+      "score": 20,
+      "max_score": 20,
+      "dimensions": [
+        {
+          "name": "Procedura i zakres",
+          "score": 4,
+          "lines": "1, 16–18",
+          "reason": "Rozpoznano WSA po drugiej instancji; nie pozorne kolejne odwołanie administracyjne."
+        },
+        {
+          "name": "Fakty, pochodzenie i lokalizatory",
+          "score": 4,
+          "lines": "1, 7–12",
+          "reason": "D1 decyzja II instancji, D2 zdjęcie i D3 zapowiedź; brak danych meritum/rodziny ujawniony, nie dopisany."
+        },
+        {
+          "name": "Terminy i prawo w czasie",
+          "score": 4,
+          "lines": "8–9, 16",
+          "reason": "Brak dowodu doręczenia i norm oznaczony; nie zgaduje terminu, sądu ani obiegu z samej nazwy organu."
+        },
+        {
+          "name": "Wykonanie i ochrona",
+          "score": 4,
+          "lines": "1, 11, 14",
+          "reason": "Pilna ochrona równolegle ze skargą, weryfikacja daty/formy wykonania, brak ochrony z samego zamiaru lub żądania."
+        },
+        {
+          "name": "Proporcjonalność i następny krok",
+          "score": 4,
+          "lines": "7–18",
+          "reason": "Lista rozstrzygających ustaleń i uczciwe ograniczenie pełnej skargi przez brak obu decyzji/odwołania/prawa; bez odmowy całej użytecznej pracy."
+        }
+      ],
+      "supporting_excerpt": {
+        "line": 14,
+        "quote": "Nie należy czekać ze sprawdzeniem wykonania na kompletne uzasadnienie skargi."
+      },
+      "critical_defects": []
+    }
+  ],
+  "totals": {
+    "score": 160,
+    "max_score": 160,
+    "cases": 8,
+    "critical_defects_observed": 0
+  },
+  "useful_scope": [
+    "return-clean: pełne wykonanie wąskiego porównania dwóch pól. Brak strategii/wykonania jest właściwy, nie luką.",
+    "return-criminal i return-family: konkretne dowody i argumenty można opracować mimo braków prawnych; bez fałszywej narracji, automatu lub gotowego pisma.",
+    "return-detention: odrębne ścieżki sądowej detencji i administracyjnego powrotu uporządkowane, bez wstawiania procedur aresztowych.",
+    "return-execution: lot 02.10 o 06:00 nie ginie w ogólnych brakach; wstrzymanie przed obszernością apelacji, rzeczywisty skutek i dotarcie rozstrzygnięcia do jednostki sprawdzane.",
+    "return-service: niewyjaśnione doręczenie ogranicza termin, ale nie blokuje sprawdzenia podstawy pobytu i wykonania.",
+    "return-sis: odpowiada wyłącznie o dowodzie dożywotności, bez samowolnego wniosku o usunięcie danych.",
+    "return-wsa: pełna skarga nie została sporządzona. Wykonano wstępny komponent zlecenia: rozpoznanie właściwego etapu, pilna ochrona, lista braków niezbędnych do konkretnego pisma. Pakiet nie pozwala rzetelnie zredagować pełnej skargi; rubryka premiuje właściwą metodę, nie pozór kompletnego dokumentu."
+  ],
+  "findings": "160/160 w ośmiu znanych zadaniach rozwojowych, bez błędów krytycznych. Wyniki trafnie rozpoznają zakres, luki dowodowe i odrębną ochronę; nie potwierdzają działania późniejszej korekty ani ogólnej przewagi skilla.",
+  "metadata": {
+    "execution_commit": "Niedostarczony",
+    "execution_model": "Niedostarczony",
+    "execution_settings": "Niedostarczone",
+    "execution_duration": "Niedostarczony",
+    "line_numbering": "Wiersze surowego wyniku od 1, z pustymi wierszami",
+    "logs": "Brak logów narzędzi wykonawcy; wysyłkę ocenia się wyłącznie z tekstowego wyniku."
+  },
+  "limitations": [
+    "Przypadki rozwojowe znane implementatorowi; nie holdout i brak porównania anonimowych wariantów.",
+    "Maksymalna punktacja przy niewielkich zadaniach ujawnia sufit rubryki, nie dowodzi niezawodności ani przewagi.",
+    "Brak w tych zadaniach pełnego żądania obliczenia ostrożnościowej daty na podstawie kompletnej syntetycznej normy i niepewnego doręczenia; nie ekstrapolować na takie zadania.",
+    "Pierwsza próba nie jest testem późniejszej korekty; nie czytano ani nie oceniano nowego retestu.",
+    "Materiały i normy syntetyczne nie walidują aktualnego prawa, rzeczywistej wysyłki, OCR, transmisji/backendu ani wyniku administracyjnego lub sądowego."
+  ]
+}
