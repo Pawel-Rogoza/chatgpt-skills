@@ -8,7 +8,7 @@ description: >-
   prostego streszczenia, abstrakcyjnego researchu ani pisania pisma.
   Objaśnienie przeznaczone dla klienta obsługuje pl-client-explanation.
 metadata:
-  version: "0.5.0"
+  version: "0.6.0"
   status: "pilot"
 ---
 

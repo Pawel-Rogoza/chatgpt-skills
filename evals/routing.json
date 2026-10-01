@@ -106,5 +106,37 @@
   {
     "prompt": "Przetłumacz tylko ten opis sprawy z WhatsAppa z ukraińskiego na polski.",
     "expected": "neither"
+  },
+  {
+    "prompt": "Oceń sytuację pobytową i możliwości zwykłego pobytu czasowego i pracy na podstawie tych dokumentów.",
+    "expected": "pl-residence-strategy"
+  },
+  {
+    "prompt": "Mam pobyt i pracę u Alfa. Oceń warianty zmiany pracodawcy na Beta.",
+    "expected": "pl-residence-strategy"
+  },
+  {
+    "prompt": "Czy przy wniosku o pobyt i pracę mogę zacząć inną pracę i wyjechać? Oceń dokumenty i warianty.",
+    "expected": "pl-residence-strategy"
+  },
+  {
+    "prompt": "Przygotuj pełną strategię uzyskania ochrony międzynarodowej.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj pełny wniosek o Niebieską Kartę UE.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Zrób tylko chronologię z tych dokumentów pobytowych, bez oceny strategii.",
+    "expected": "pl-case-file-analysis"
+  },
+  {
+    "prompt": "Wyjaśnij klientowi po rosyjsku zatwierdzony plan zmiany zezwolenia.",
+    "expected": "pl-client-explanation"
+  },
+  {
+    "prompt": "Sprawdź i popraw istniejące odwołanie od odmowy pobytu.",
+    "expected": "pl-legal-document-review"
   }
 ]

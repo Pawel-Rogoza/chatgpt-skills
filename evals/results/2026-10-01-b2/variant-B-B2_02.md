@@ -1,0 +1,40 @@
+Leilo, dziś najpierw skutecznie zawiadom urząd o zakończeniu pracy w Orionie, a następnie wybierz ofertę, której warunki da się udokumentować i dostosować do wymogów zwykłego pobytu i pracy. W obecnej postaci żadna oferta nie pozwala potwierdzić wszystkich wymogów. Przy Twoim priorytecie stabilnego pobytu warunkowo wybrałbym Deltę, jeśli zatwierdzi gwarantowane wynagrodzenie co najmniej 4200 jednostek testowych i pozostałe dokumenty. Jeśli tego nie zrobi, Epsilon również może być rozważany, ale dopiero po zagwarantowaniu miesięcznego wynagrodzenia i wyjaśnieniu ubezpieczenia.
+
+Ta ocena opiera się wyłącznie na fikcyjnych dokumentach i T02. Nie przedstawia ani nie weryfikuje rzeczywistego prawa polskiego.
+
+PC-88 nadal jest Twoim tytułem pobytu: utrata pracy 30 kwietnia nie unieważniła go automatycznie, a nie ma decyzji o cofnięciu. Według T02 pozostaje podstawą pobytu do 30 września 2027 r., o ile nie zostanie cofnięte. Nie oznacza to prawa pracy w Delcie albo Epsilonie. Decyzja wymienia wyłącznie Oriona i określone warunki; adnotacja „dostęp do rynku pracy” na karcie ich nie rozszerza. Nie da się więc uzyskać nowego uprawnienia przez samo „przepisanie karty”. [E01 s. 1–2; E05; T02 s. 1 pkt 1–2]
+
+**Termin zawiadomienia upływa 12 maja 2027 r.** Praca skończyła się 30 kwietnia, zatem pierwszy z 12 dni kalendarzowych to 1 maja, a dwunasty to 12 maja. Data podpisania porozumienia, 28 kwietnia, nie jest tutaj początkiem liczenia. Dziś, 7 maja, termin jeszcze trwa. E-mail z 2 maja na skrzynkę informacyjną bez podpisu nie spełnił obowiązku; potwierdza to także automatyczna odpowiedź urzędu. [E02 k. 1–2; T02 s. 1 pkt 1]
+
+Przygotuj dziś podpisane zawiadomienie, podając dane identyfikujące, numer PC-88, Oriona oraz datę zakończenia pracy 30 kwietnia 2027 r. Dołącz kopię porozumienia jako dowód. Złóż pismo właściwym kanałem urzędowym i zachowaj dowód złożenia najpóźniej 12 maja. W materiałach nie ma dokładnego oznaczenia tego kanału, więc należy ustalić go z informacją urzędu. Nie wysyłam pisma w Twoim imieniu. Nie trzeba czekać na nową ofertę, dokument pracowniczy czy załącznik, żeby wykonać ten obowiązek. Karta nie podaje skutków spóźnienia; nie wyprowadzam ich z innych norm.
+
+| Element zwykłej drogi według T02 | Delta | Epsilon |
+|---|---|---|
+| Rzeczywista praca na ponad trzy miesiące | Plan od 1 czerwca 2027 do 31 maja 2028 spełnia kryterium długości; trzeba potwierdzić realność zatrudnienia. | Projekt od 20 maja 2027 do 19 maja 2028 spełnia kryterium długości; trzeba potwierdzić realność zatrudnienia. |
+| Gwarantowane miesięczne brutto co najmniej 4200 | Obecne 3600 nie spełnia wymogu. Próg nie maleje przy 30 godzinach tygodniowo. Zapowiedź 4300 bez zatwierdzenia nie wystarcza. | Stawka 42 za godzinę bez minimum godzin nie potwierdza wymogu. Potrzebna jest wiążąca gwarancja miesięcznej kwoty co najmniej 4200, np. minimum 100 płatnych godzin w każdym miesiącu przy tej stawce. |
+| Załącznik pracodawcy | Pracodawca deklaruje gotowość; załącznik trzeba otrzymać i sprawdzić zgodność z zatwierdzoną ofertą. | Jeszcze niegotowy; należy go przygotować po ustaleniu gwarantowanych warunków. |
+| Udokumentowane ubezpieczenie | Deklaracja zgłoszenia od początku pracy wymaga potwierdzenia. Nie wyjaśnia ochrony przed 1 czerwca. | „Do ustalenia” nie potwierdza ubezpieczenia. Trzeba uzyskać konkretną podstawę i dokumenty. |
+| Uprawnienie do rozpoczęcia pracy | Brak dokumentu na Deltę. | Brak wykazanego uprawnienia na Epsilon. |
+
+Źródła porównania: E03 k. 1, E04 s. 1, E05 oraz T02 s. 2 pkt 3–4. Umowa zlecenia sama nie wyklucza zwykłej drogi, a umowa o pracę sama nie gwarantuje spełnienia wymogów. Kalkulacja 100 × 42 = 4200 pokazuje możliwy sposób ustalenia gwarancji, nie stwierdza, że Epsilon już ją zapewnia. Oszczędności na sześć tygodni nie zastępują wymaganego wynagrodzenia ani dowodu ubezpieczenia.
+
+Masz następujące zwykłe warianty:
+
+| Wariant | Zastosowanie i warunki | Znaczenie dla pracy i stabilności pobytu |
+|---|---|---|
+| Zmiana PC-88 na nowego pracodawcę | T02 wyraźnie dopuszcza zmianę, gdy oferta spełnia wymogi zwykłego zezwolenia: realne zatrudnienie ponad trzy miesiące, gwarantowane miesięczne brutto co najmniej 4200, załącznik i ubezpieczenie. | Sam wniosek nie daje prawa rozpoczęcia pracy. Trzeba uzyskać skuteczne uprawnienie obejmujące nowego pracodawcę. Karta testowa nie określa, czy zmiana wydłuży okres PC-88; nie zakładaj ochrony pobytu po 30 września na tej podstawie. |
+| Nowy wniosek o zwykły pobyt czasowy i pracę | Alternatywa dla zmiany, podlegająca tym samym wymaganiom oferty. Przy zatrudnieniu planowanym do 2028 r. warto ocenić ją jako drogę do dalszego pobytu po końcu obecnego zezwolenia. | Złożenie wniosku nie uprawnia samo do pracy. T02 nie podaje reguł ciągłości pobytu po końcu PC-88, formalnych terminów nowego postępowania ani czasu decyzji; nie można obiecać automatycznego przedłużenia pobytu. |
+| Odrębny dokument pracowniczy na Deltę albo Epsilon przy pobycie z PC-88 | Może umożliwić pracę podczas ważnego pobytu wynikającego z PC-88. Trzeba uzyskać ważny dokument obejmujący konkretnego pracodawcę i warunki wykonywanej pracy. | Nie zwalnia z zawiadomienia o utracie pracy, nie zmienia sam warunków PC-88, nie przesądza przyszłej zmiany i nie zapewnia pobytu po 30 września. Może działać równolegle z przygotowaniem wariantu pobytowego. |
+
+Wymóg 4200 w T02 jest podany dla zmiany i nowego zwykłego zezwolenia pobytowego. Karta nie opisuje wszystkich warunków odrębnego dokumentu pracowniczego; nie przenoszę na niego automatycznie całej listy wymogów pobytowych. Ewentualna możliwość pracy na takim dokumencie nie oznacza więc jeszcze, że ta sama oferta zapewni przyszły pobyt. [T02 s. 1 pkt 2; s. 2 pkt 3–4]
+
+Rejestracja jednoosobowej działalności nie daje w tym modelu ani nowego tytułu pobytu, ani ogólnego prawa pracy dla dowolnej firmy. Kwota 600 z maila pośrednika nie potwierdza dostępności rozwiązania. Nie chcesz prowadzić biznesu, a pakiet nie zawiera biznesplanu ani klientów poza propozycją wykonywania tej samej pracy dla Epsilonu. Odrębna droga przedsiębiorcy jest poza zakresem zadania i wymaga innych danych. Na tej podstawie nie rekomenduję rejestracji jako sposobu rozwiązania obecnej sytuacji. [E04 s. 2; E05; T02 s. 2 pkt 5]
+
+Po zawiadomieniu działaj w tej kolejności:
+
+1. **Uzyskaj zatwierdzone propozycje.** Od Delty żądaj pisemnego, wiążącego ustalenia wynagrodzenia co najmniej 4200, np. zapowiadanych 4300, oraz zgodnego załącznika. Od Epsilonu uzyskaj gwarantowane miesięczne wynagrodzenie lub płatne minimum godzin, załącznik i ustaloną podstawę ubezpieczenia. Dopiero te odpowiedzi pozwolą wybrać ofertę.
+2. **Wyjaśnij ubezpieczenie teraz.** Zdobądź dokumenty ochrony po Orionie i datę jej ustania; potwierdź, jak zapewnić i udokumentować ochronę do początku nowej pracy oraz po jej rozpoczęciu. Nie zakładaj jej wygaśnięcia konkretnego dnia ani jej dalszego trwania. Samo przyrzeczenie przyszłego zgłoszenia nie rozstrzyga obecnej przerwy.
+3. **Wybierz ścieżkę pobytową z perspektywą 30 września.** Przy potwierdzonej, poprawionej ofercie zmiana PC-88 jest dopuszczalna. Dla celu dalszego pobytu porównaj ją z nowym wnioskiem; ustal zakres i okres, jaki ma dać rozstrzygnięcie. Nie przedstawiaj przyszłego przedłużenia jako pewnego. Brakujące reguły proceduralne pozostają ograniczeniem tej symulacji.
+4. **Równolegle uzgodnij odrębny dokument pracowniczy, jeśli potrzebny jest start przed rozstrzygnięciem pobytowym.** Przed pracą potwierdź aktualną ważność tytułu pobytu i skuteczne uprawnienie obejmujące wybranego pracodawcę oraz rzeczywiste warunki pracy. Nie masz wykazanego zwolnienia. Wniosek, karta z ogólną adnotacją i deklaracja pracodawcy nie wystarczą. Jeżeli dokumentów zabraknie 20 maja lub 1 czerwca, przesuń start.
+
+Nie znamy czasu wydania dokumentów. Przy oszczędnościach na sześć tygodni trzeba zaplanować finansowanie oczekiwania. Najbliższa decyzja to zatem skuteczne zawiadomienie dziś i uzyskanie wiążących warunków ofert; dalszy wybór zależy od ich poprawienia, ubezpieczenia oraz tego, czy wybrana procedura zapewni potrzebny okres pobytu.

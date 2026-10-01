@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "assessment": "B2",
+  "evaluator_role": "Modelowy oceniający, nie adwokat",
+  "blind": true,
+  "method": "Wyłącznie anonimowe odpowiedzi A/B oraz prywatne rubryki autora fikcyjnych przypadków. Bez odczytu repo, instrukcji skilla, nazw baseline/skill i norm zewnętrznych. 0–2 pkt za każde z 8 kryteriów; maksymalnie 16 pkt na przypadek.",
+  "cases": [
+    {
+      "id": "B2_01",
+      "rubric": "inputs/B2_01/rubric.md",
+      "criteria": [
+        {
+          "id": 1,
+          "label": "Status pobytu, sprawy i pracy",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 9–12, 15, 19",
+            "B": "B: 5, 7–9"
+          }
+        },
+        {
+          "id": 2,
+          "label": "Terminowość bez automatycznej kompletności",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 15, 17, 35",
+            "B": "B: 7, 9, 23"
+          }
+        },
+        {
+          "id": 3,
+          "label": "Alfa tylko przy legalnym pobycie; dokument nie przechodzi",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 11, 19",
+            "B": "B: 5"
+          }
+        },
+        {
+          "id": 4,
+          "label": "Stempel nie daje pracy w Becie; brak gwarancji 1.03",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 12, 27, 36, 39",
+            "B": "B: 1, 15, 24, 26"
+          }
+        },
+        {
+          "id": 5,
+          "label": "Aktualizacja plus odrębny dokument; nowy wniosek warunkowo",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 25–29",
+            "B": "B: 13–17"
+          }
+        },
+        {
+          "id": 6,
+          "label": "Wyjazd i ponowny wjazd po wygaśnięciu wizy",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 13, 38",
+            "B": "B: 28"
+          }
+        },
+        {
+          "id": 7,
+          "label": "Konkretne braki i dowody bez dopisywania wyjątków",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 17, 31, 35–37, 39",
+            "B": "B: 7, 19, 23–26, 28"
+          }
+        },
+        {
+          "id": 8,
+          "label": "Kolejność działań, źródła i syntetyczność",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 3, 35–39",
+            "B": "B: 3, 23–26, 28–30"
+          }
+        }
+      ],
+      "variants": [
+        {
+          "id": "A",
+          "file": "variant-A-B2_01.md",
+          "sha256": "6A1A8B25951D79717AF827F3BC8CA20BB9CE590ED14D07DD1D343BF615E0A45C",
+          "score": 16,
+          "max_score": 16,
+          "critical_defects": [],
+          "evidence": [
+            {
+              "lines": [
+                17
+              ],
+              "quote": "Brak stempla nie oznacza automatycznie nielegalnego pobytu; nie można też uznać, że samo nadanie bezwarunkowo przedłużyło pobyt."
+            },
+            {
+              "lines": [
+                29
+              ],
+              "quote": "preferuję uzupełnienie i aktualizację już trwającej sprawy oraz równoległe działania Bety w sprawie uprawnienia do pracy"
+            },
+            {
+              "lines": [
+                13
+              ],
+              "quote": "oznaczenie MULT nie usuwa ograniczenia datą",
+              "note": "W oryginale MULT jest bez cudzysłowów; excerpt z komórki tabeli."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "file": "variant-B-B2_01.md",
+          "sha256": "E2CC2E067619930B346A2111C5483A5A961F63026BF008EB2F5DB5176D31777D",
+          "score": 16,
+          "max_score": 16,
+          "critical_defects": [],
+          "evidence": [
+            {
+              "lines": [
+                9
+              ],
+              "quote": "Nie ustalam tutaj terminu uzupełnienia, którego urząd jeszcze nie wyznaczył."
+            },
+            {
+              "lines": [
+                24
+              ],
+              "quote": "Załącznik możliwy w ciągu dwóch dni nie oznacza wydania uprawnienia do pracy w tym czasie."
+            },
+            {
+              "lines": [
+                28
+              ],
+              "quote": "Wiza po 20 lutego nie daje prawa ponownego wjazdu, mimo oznaczenia „MULT”."
+            }
+          ]
+        }
+      ],
+      "delta_B_minus_A": 0
+    },
+    {
+      "id": "B2_02",
+      "rubric": "inputs/B2_02/rubric.md",
+      "criteria": [
+        {
+          "id": 1,
+          "label": "Ważność PC-88 oddzielona od prawa nowej pracy",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 7",
+            "B": "B: 5"
+          }
+        },
+        {
+          "id": 2,
+          "label": "Termin 12.05 i nieskuteczny e-mail; pilne zawiadomienie",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 5, 36",
+            "B": "B: 7, 9"
+          }
+        },
+        {
+          "id": 3,
+          "label": "Adnotacja i sam wniosek nie dają nowej pracy",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 7, 25–27, 40",
+            "B": "B: 5, 25–27, 38"
+          }
+        },
+        {
+          "id": 4,
+          "label": "Delta poniżej progu; 4300 tylko po zatwierdzeniu",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 14, 19, 37",
+            "B": "B: 14, 35"
+          }
+        },
+        {
+          "id": 5,
+          "label": "Epsilon: brak minimum, dokumentów i ubezpieczenia; zlecenie dopuszczalne",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 14–19",
+            "B": "B: 14–19, 35"
+          }
+        },
+        {
+          "id": 6,
+          "label": "Porównanie zmiany, nowego wniosku i dokumentu pracowniczego",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 25–30, 39–42",
+            "B": "B: 25–29, 37–38"
+          }
+        },
+        {
+          "id": 7,
+          "label": "Działalność nie jest automatycznym skrótem",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 32",
+            "B": "B: 31"
+          }
+        },
+        {
+          "id": 8,
+          "label": "Plan, braki, budżet, źródła i syntetyczność",
+          "scores": {
+            "A": 2,
+            "B": 2
+          },
+          "locators": {
+            "A": "A: 3, 36–42",
+            "B": "B: 3, 9, 35–40"
+          }
+        }
+      ],
+      "variants": [
+        {
+          "id": "A",
+          "file": "variant-A-B2_02.md",
+          "sha256": "B212A16320C86AFB56679C3784E2BDD0F8D601E6B4E4B0F251776CF3CE06B379",
+          "score": 16,
+          "max_score": 16,
+          "critical_defects": [],
+          "evidence": [
+            {
+              "lines": [
+                5
+              ],
+              "quote": "pierwszy z 12 dni kalendarzowych to 1 maja, a dwunasty to 12 maja"
+            },
+            {
+              "lines": [
+                19
+              ],
+              "quote": "Przewidywane lub średnie 100 godzin, przy braku wiążącego minimum, nie usuwa luki."
+            },
+            {
+              "lines": [
+                30
+              ],
+              "quote": "Nie przenoszę go bez podstawy na ocenę odrębnego dokumentu pracowniczego, którego pełnych wymagań pakiet nie podaje."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "file": "variant-B-B2_02.md",
+          "sha256": "949C42C312D017EE3808A8E04A2297AD162A90A9F82EFAAFD7046CC692AABCD9",
+          "score": 16,
+          "max_score": 16,
+          "critical_defects": [],
+          "evidence": [
+            {
+              "lines": [
+                9
+              ],
+              "quote": "Nie trzeba czekać na nową ofertę, dokument pracowniczy czy załącznik, żeby wykonać ten obowiązek."
+            },
+            {
+              "lines": [
+                19
+              ],
+              "quote": "Kalkulacja 100 × 42 = 4200 pokazuje możliwy sposób ustalenia gwarancji, nie stwierdza, że Epsilon już ją zapewnia."
+            },
+            {
+              "lines": [
+                29
+              ],
+              "quote": "Ewentualna możliwość pracy na takim dokumencie nie oznacza więc jeszcze, że ta sama oferta zapewni przyszły pobyt."
+            }
+          ]
+        }
+      ],
+      "delta_B_minus_A": 0
+    }
+  ],
+  "totals": {
+    "A": 32,
+    "B": 32,
+    "max_score": 32,
+    "delta_B_minus_A": 0
+  },
+  "differential_useful_value": "Brak wykazanej materialnej przewagi w pokryciu ryzyk, wyborze procedury, terminach i działaniach. B2_01: B jawnie ostrzega, że dwudniowe przygotowanie załącznika nie oznacza wydania dokumentu, A równie skutecznie rozdziela dokumenty i nie obiecuje startu. B2_02: B podaje warunkową preferencję Delty już na początku; A podaje równoważne warunkowe porównanie w planie. Różnice są redakcyjne i w ekspozycji, nie w wyniku rubryki.",
+  "noncritical_observations": [
+    "A kończy oba przebiegi formułą przeglądu adwokata. Nie jest to dowód lepszego wyniku ani błąd merytoryczny; nie przyznano za to punktów.",
+    "Oba warianty są dość obszerne i częściowo powtarzają warunki, ale podają działania i warunkowe rekomendacje. Nie zastępują analizy odmową.",
+    "Oba nie przenoszą syntetycznego progu 4200 na odrębny dokument pracowniczy bez źródła."
+  ],
+  "limitations": [
+    "Dwa przypadki closed world i po jednym obserwowanym przebiegu na wariant nie dowodzą ogólnej przewagi ani równoważności.",
+    "Wynik maksymalny oznacza sufit rubryki i ograniczoną zdolność rozróżnienia tych przebiegów, nie ogólną perfekcję modelu.",
+    "Ocena nie potwierdza rzeczywistego polskiego prawa, jakości przyszłych pism, ich przyjęcia przez organ ani wyniku realnej sprawy."
+  ]
+}

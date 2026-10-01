@@ -1,0 +1,52 @@
+{
+  "evaluation": "baseline-B2",
+  "execution_date_utc": "2026-10-01T12:22:27.3966026Z",
+  "scenario_dates": {
+    "B2_01": "2027-02-18",
+    "B2_02": "2027-05-07"
+  },
+  "read_files": [
+    "<evaluation-workspace>\\legalai-hidden-evals\\B2_01\\user.md",
+    "<evaluation-workspace>\\legalai-hidden-evals\\B2_01\\materials.md",
+    "<evaluation-workspace>\\legalai-hidden-evals\\B2_02\\user.md",
+    "<evaluation-workspace>\\legalai-hidden-evals\\B2_02\\materials.md"
+  ],
+  "tools_used": [
+    "functions.exec",
+    "tools.exec_command: PowerShell Get-Content, UTF-8 output correction, trace writing and own artifact verification",
+    "tools.apply_patch: writing two response artifacts"
+  ],
+  "sources_used": {
+    "B2_01": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "T01"
+    ],
+    "B2_02": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "T02"
+    ]
+  },
+  "limitations": [
+    "Closed fictional simulation; no online research or verification of actual law.",
+    "Only user.md and materials.md from each assigned package were read; rubric.md, legal skill repositories and other executors outputs were not read.",
+    "No legal skills were applied.",
+    "No messages or submissions were sent to any person or authority.",
+    "Initial shell output had Polish-character encoding corruption; all four source files were reread with explicit UTF-8 console output before authoring.",
+    "B2_01: postal operator and formal completeness of pending application are not fully confirmed; absence of summons and stamp does not settle residence continuity. Beta duration, insurance, work authorization and processing time remain unconfirmed.",
+    "B2_02: both offers presently fail to confirm all ordinary residence requirements; insurance end date, work-document processing time and effects of a new application beyond PC-88 expiry are not supplied.",
+    "No consequences of late loss-of-job notice or additional business-route conditions were imported from external rules."
+  ],
+  "output_files": [
+    "baseline-B2_01.md",
+    "baseline-B2_02.md"
+  ],
+  "verification": "Checked own response files exist, can be decoded as UTF-8 and contain no replacement characters."
+}

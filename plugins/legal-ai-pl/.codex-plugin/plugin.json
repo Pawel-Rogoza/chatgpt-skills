@@ -1,7 +1,7 @@
 {
   "name": "legal-ai-pl",
-  "version": "0.5.0+codex.20260923191651",
-  "description": "Skille polskiej kancelarii: rozpoznanie sprawy z relacji PL/UA/RU, dokumenty, research, obja\u015bnienia, apelacje, recenzja i kontrola zastosowania aresztu. Pilot.",
+  "version": "0.6.0",
+  "description": "Skille polskiej kancelarii: rozpoznanie sprawy, akta, pisma, objaśnienia, kontrola aresztu oraz pobyt czasowy i praca. Pilot.",
   "author": {
     "name": "Pawel-Rogoza",
     "url": "https://github.com/Pawel-Rogoza"
@@ -9,17 +9,18 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Legal AI PL",
-    "shortDescription": "Rozpoznanie sprawy, research, akta, pisma i obja\u015bnienia",
-    "longDescription": "Pi\u0119\u0107 skilli pracy adwokackiej. Rozpoznanie i analiza z opisu klienta PL/UA/RU oraz dokument\u00f3w, research zwi\u0105zany ze spraw\u0105, obja\u015bnienia dla klienta, apelacje, recenzja i kontrola pierwszego zastosowania aresztowania. Pilot instrukcji korzystaj\u0105cych z dost\u0119pnych narz\u0119dzi; wyniki wymagaj\u0105 przegl\u0105du adwokata.",
+    "shortDescription": "Rozpoznanie sprawy, research, akta, pisma i objaśnienia",
+    "longDescription": "Sześć skilli pracy adwokackiej, w tym analiza sytuacji pobytowej związanej z zatrudnieniem i warianty zwykłego pobytu czasowego i pracy. Wyniki wymagają przeglądu adwokata.",
     "developerName": "Pawel-Rogoza",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "Przygotuj koncepcj\u0119 apelacji karnej na podstawie za\u0142\u0105czonych akt.",
-      "Sprawd\u017a projekt pisma: argumentacj\u0119, fakty, \u017ar\u00f3d\u0142a i \u017c\u0105danie.",
-      "Przeanalizuj wiadomo\u015b\u0107 klienta po rosyjsku i dokumenty, wykonaj potrzebny research i wyja\u015bnij mi po polsku, na czym polega sprawa.",
-      "Wyja\u015bnij klientowi po ukrai\u0144sku tre\u015b\u0107 za\u0142\u0105czonego pisma.",
-      "Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj argumenty obrony."
+      "Przygotuj koncepcję apelacji karnej na podstawie załączonych akt.",
+      "Sprawdź projekt pisma: argumentację, fakty, źródła i żądanie.",
+      "Przeanalizuj wiadomość klienta po rosyjsku i dokumenty, wykonaj potrzebny research i wyjaśnij mi po polsku, na czym polega sprawa.",
+      "Wyjaśnij klientowi po ukraińsku treść załączonego pisma.",
+      "Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj argumenty obrony.",
+      "Oceń pobyt czasowy i pracę na podstawie dokumentów, wskaż warianty i następny krok."
     ]
   },
   "repository": "https://github.com/Pawel-Rogoza/chatgpt-skills"

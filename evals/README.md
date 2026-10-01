@@ -15,3 +15,5 @@ Przypadki `client-*` i [rubryka objaśnień](client-explanation-rubric.md) obejm
 B1: osiem katalogów `detention-*`, [rubryka](detention-rubric.md) i [raport](results/2026-09-23-b1/report.md). Przedłużenie i detencja administracyjna testują granicę zakresu; nie są dowodem pełnej obsługi tych procedur. Nowe wpisy routingu są specyfikacją oczekiwań, nie wykonanym testem hosta.
 
 Rozszerzenie A1 o rozpoznanie: cztery przypadki `intake-*`, [rubryka](intake-rubric.md), [raport](results/2026-09-23-intake/report.md). Obejmują relację bez dokumentów i wąski research online. Dodatkowe oczekiwania w `routing.json` nadal wymagają wykonania testu w hoście.
+
+B2: siedem katalogów `residence-*`, [rubryka](residence-rubric.md), [specyfikacja](../docs/b2-specification.md) i [raport](results/2026-10-01-b2/report.md). Zamrożoną instrukcję sprawdzono także na dwóch niezależnie przygotowanych przypadkach w świeżych kontekstach, z odpowiadającym im baseline. To testy modelowe w zamkniętym świecie, nie zawodowy odbiór ani potwierdzenie aktualnego prawa.

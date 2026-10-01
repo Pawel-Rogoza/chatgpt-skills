@@ -1,6 +1,6 @@
 # ChatGPT Skills — Legal AI PL
 
-Projekt skilli dla pracy adwokackiej w Polsce: rozpoznanie sprawy z opisu klienta PL/UA/RU, dokumenty i research, objaśnienia dla klienta oraz praca nad pismami.
+Projekt skilli dla pracy adwokackiej w Polsce: rozpoznanie sprawy z opisu klienta PL/UA/RU, dokumenty i research, objaśnienia dla klienta, pisma oraz pobyt czasowy i praca.
 
 Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz [recenzja z planem oceny](legal-ai-review-v0.2-pl.md).
 
@@ -10,10 +10,11 @@ Kolejny etap B1 wdrożono jako wąski pilot kontroli pierwszego zastosowania are
 
 Repozytorium przechowuje metodę, dokumentację i fikcyjne materiały testowe. Nie należy dodawać tu akt klientów, danych dostępowych ani poufnych notatek kancelarii. `.gitignore` jest pomocą organizacyjną, nie kontrolą dostępu.
 
-## Pakiet 0.5.0 — kontrolowany pilotaż
+## Pakiet 0.6.0 — kontrolowany pilotaż
 
 | Skill | Zadanie |
 |---|---|
+| [pl-residence-strategy](plugins/legal-ai-pl/skills/pl-residence-strategy/SKILL.md) | Ocena pobytu czasowego i pracy, warunków zatrudnienia oraz wariantów działania |
 | [pl-criminal-detention](plugins/legal-ai-pl/skills/pl-criminal-detention/SKILL.md) | Kontrola pierwszego zastosowania tymczasowego aresztowania i argumenty obrony |
 | [pl-client-explanation](plugins/legal-ai-pl/skills/pl-client-explanation/SKILL.md) | Wierne, proste objaśnienia dla klienta PL/UA/RU; projekt wiadomości |
 | [pl-case-file-analysis](plugins/legal-ai-pl/skills/pl-case-file-analysis/SKILL.md) | Rozpoznanie z wiadomości PL/UA/RU i dokumentów, research, chronologia, sprzeczności i luki |
@@ -92,4 +93,8 @@ Zachowaj znaną wersję źródłową i surowe wyniki testów. Po zmianie pluginu
 
 Cofnięcie polega na przywróceniu ocenionej wersji i ponownej instalacji, nie nadpisywaniu dokumentów spraw. Repozytorium nie nadaje licencji na materiały osób trzecich ani praw do importu akt do usług zewnętrznych.
 
-Aktualizacja i wycofanie wersji 0.5.0: [notatka wydania](docs/release-0.5.0.md). Nowe zadanie powinno odczytać zainstalowaną wersję; sama aktualizacja plików nie potwierdza automatycznego routingu.
+Aktualizacja i wycofanie wersji 0.6.0: [notatka wydania](docs/release-0.6.0.md). Nowe zadanie powinno odczytać zainstalowaną wersję; sama aktualizacja plików nie potwierdza automatycznego routingu.
+
+## B2: pobyt czasowy i praca
+
+Wybierz „Pobyt czasowy i praca” i przekaż decyzję z warunkami oraz potrzebne dokumenty zatrudnienia i przebiegu wniosku. Skill ocenia odrębnie pobyt, konkretną pracę i ewentualną podróż; proponuje warianty z przesłankami i minimalnymi brakami. Pierwszy zakres nie obejmuje pełnego prawa migracyjnego ani odwołania od decyzji powrotowej. [Specyfikacja](docs/b2-specification.md), [przypadki i rubryka](evals/residence-rubric.md), [raport](evals/results/2026-10-01-b2/report.md).

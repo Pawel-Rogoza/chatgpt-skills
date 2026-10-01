@@ -1,0 +1,5 @@
+Samo nadanie przesyłki nie potwierdza rozwiązania pobytu i pracy. P2, PDF s. 1 dokumentuje nadanie 30 września, ale nie treść pisma ani odbiór przez organ. P1, PDF s. 2 wskazuje koniec wizy tego dnia; bez stron o wjazdach nie ustalono całej historii pobytu. Brak podpisu w roboczej kopii P4 nie dowodzi, że wysłano wersję bez podpisu.
+
+Najpierw trzeba odszukać i przeczytać korespondencję urzędu, ustalić, co rzeczywiście wysłano, sprawdzić doręczenie i stan sprawy oraz ewentualne wezwanie, jego doręczenie i termin. Relacja „żadnego wezwania nie czytałem” (P3, ak. 1) nie oznacza, że wezwania nie doręczono. Bez tych danych i właściwych reguł nie można potwierdzić skutku pobytowego ani wyznaczyć terminu uzupełnienia.
+
+Równolegle trzeba udokumentować podstawę pracy w nowej firmie i podstawę ponownego wjazdu po planowanej podróży. Potwierdzenie nadania nie dowodzi żadnej z nich. Do wyjaśnienia tych kwestii nie rekomenduję nowego zatrudnienia ani wyjazdu. Nie przesądzam nielegalnego pobytu: braki pakietu ograniczają możliwość oceny. W tym ćwiczeniu nie ustalono przepisów rozstrzygających skutki wniosku i podróży.

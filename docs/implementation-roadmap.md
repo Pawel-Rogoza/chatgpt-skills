@@ -1,5 +1,11 @@
 # Plan kolejnych wdrożeń Legal AI PL
 
+### Aktualny stan — 01.10.2026
+
+`main` zawiera całą dotychczasową historię do 0.5.0. B2 wdrażamy jako zwykły pobyt czasowy i pracę, zgodnie z wyborem właściciela projektu: [specyfikacja](b2-specification.md). Wydanie 0.6.0 dodaje szósty skill, samodzielne referencje i materiały rozwojowe. Wyniki niezależnych prób i kontroli technicznej: [raport B2](../evals/results/2026-10-01-b2/report.md).
+
+Kolejny etap B3: analiza decyzji powrotowej pierwszej instancji i reakcji na administracyjnym etapie odwołania. B2 nie obejmuje pełnych spraw ochronnych ani szczególnych reżimów UA. Historyczne statusy i polecenie A0–A2 poniżej nie są aktualnym zleceniem do ponownej implementacji.
+
 **Data:** 22.09.2026  
 **Przeznaczenie:** plan wykonawczy dla innego modelu i osoby prowadzącej projekt.  
 **Status (aktualizacja 23.09.2026):** A0–A2 zaimplementowane i zainstalowane lokalnie w wydaniu 0.3.0. Próby zachowania w tej fali są własne, nie niezależne; routing hosta, holdout, baseline i odbiór zawodowy pozostają otwarte. B1 ma implementację wąskiego pilota kontroli pierwszego zastosowania aresztowania (0.4.0); B2–B3 i C–D nie są zaimplementowane. [Raport](../evals/results/2026-09-23/report.md).
