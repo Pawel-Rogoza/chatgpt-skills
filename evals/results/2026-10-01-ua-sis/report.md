@@ -20,4 +20,4 @@ Przygotowano sześć przypadków `ua-*` i cztery `sis-*`, rubryki oraz oczekiwan
 
 Nie domknięto pełnej rekonstrukcji prawa, właściwych procedur sądowych ani researchu konkretnego ryzyka powrotu. Brak materiałów klientów. C1 WSA pozostaje specyfikacją, a nie zaimplementowanym dziesiątym skillem.
 
-CI pierwszego commitu 70f4a6a: [Validate pilot package](https://github.com/Pawel-Rogoza/chatgpt-skills/actions/runs/36910466391) zakończone sukcesem. Zmiany opublikowano w roboczym [PR #9](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/9); nie scalono do main.
+CI pierwszego commitu 70f4a6a: [Validate pilot package](https://github.com/Pawel-Rogoza/chatgpt-skills/actions/runs/36910466391) zakończone sukcesem. [PR #9](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/9) scalono do main 01.10.2026, merge `0b2b13b335aa170b01722afae602f8ba42fe07df`. CI ostatniego commitu PR również zakończyło się [sukcesem](https://github.com/Pawel-Rogoza/chatgpt-skills/actions/runs/36912080363). [Plan kolejnych prac](../../../docs/next-steps-0.8.0.md).

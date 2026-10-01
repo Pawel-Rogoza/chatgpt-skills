@@ -1,6 +1,6 @@
 # Plan kolejnych wdrożeń Legal AI PL
 
-**Bieżący punkt odniesienia:** wersja 0.8.0, dziewięć skilli. Wdrożenie do `main` zatwierdzone przez właściciela projektu 01.10.2026. Obowiązujący plan: [dalsze kroki po 0.8.0](next-steps-0.8.0.md). Pozostałe statusy poniżej zachowano jako historię wdrożeń.
+**Bieżący punkt odniesienia:** wersja 0.8.0, dziewięć skilli. [PR #9](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/9) scalono do `main` 01.10.2026. Obowiązujący plan: [dalsze kroki po 0.8.0](next-steps-0.8.0.md). Pozostałe statusy poniżej zachowano jako historię wdrożeń.
 
 **Aktualizacja UA, 01.10.2026:** pakiet 0.8.0 dodaje pilotaże `pl-ukraine-residence-status` i `pl-sis-alert-review` (razem dziewięć skilli) oraz doprecyzowuje B2/B3. [Research](research-ukraine-return-legalisation-2026-10-01.md) opisuje aktualne ustalenia, sprzeczne daty i luki. Następne: próby UKR/CUKR, SIS i routingu, odbiór adwokata, potem C1 WSA. Nie uznawaj starszych statusów poniżej za stan obecny.
 

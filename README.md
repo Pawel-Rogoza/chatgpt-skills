@@ -14,7 +14,7 @@ B2 i B3 scalono do `main`. [Raport lokalnej instalacji 0.7.0](evals/results/2026
 
 Nowy etap: [research Ukrainy na 01.10.2026](docs/research-ukraine-return-legalisation-2026-10-01.md) i dwa nowe skille UKR/CUKR oraz SIS. Wykonano [dwie niezależne próby](evals/results/2026-10-01-ua-sis/report.md); pełny zestaw, routing i odbiór adwokata pozostają otwarte. [Research SIS](docs/research-sis-2026-10-01.md).
 
-Wdrożenie 0.8.0 do `main` zatwierdzone 01.10.2026; wszystkie dziewięć skilli zainstalowane lokalnie. Pilotaż i odbiór zawodowy to odrębne etapy.
+Wdrożenie 0.8.0 scalono do `main` przez [PR #9](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/9) 01.10.2026; wszystkie dziewięć skilli zainstalowane lokalnie. Pilotaż i odbiór zawodowy to odrębne etapy.
 
 ## Pakiet 0.8.0 — kontrolowany pilotaż
 
