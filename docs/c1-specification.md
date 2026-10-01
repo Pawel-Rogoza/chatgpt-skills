@@ -37,4 +37,4 @@ To lista planowanych prób, nie wyniki. Nowe niezależne przypadki do porównani
 
 Najpierw materiały i rubryka, następnie metoda i referencje, dopiero potem SKILL.md oraz konfiguracja pakowania. Sprawdzić błędy krytyczne, pokrycie argumentów, terminy i wykonanie; przeprowadzić regresję B3, analizy i recenzji. Zapisać surowe odpowiedzi i czas poprawek adwokata. Nowa wersja pakietu dopiero po check, pełnych testach, build i odrębnej weryfikacji instalacji. Odbiór zawodowy pozostaje osobnym warunkiem określonego użycia.
 
-Przygotowanie tej specyfikacji nie dodaje ósmego skilla. C2, C3 i fala D pozostają w roadmapie.
+Przygotowanie tej specyfikacji nie dodaje dziesiątego skilla. C2, C3 i fala D pozostają w roadmapie.
