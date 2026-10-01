@@ -2,12 +2,12 @@
 name: pl-return-defense
 description: >-
   Przeanalizuj zwykłą decyzję Straży Granicznej pierwszej instancji
-  o zobowiązaniu cudzoziemca do powrotu i przygotuj koncepcję lub
+  o zobowiązaniu cudzoziemca do powrotu (potocznie: deportacja) i przygotuj koncepcję lub
   zamówiony projekt administracyjnego odwołania. Oddziel zaskarżenie
   od wykonania i pilnej ochrony. Pełna skarga do WSA, sprawa ochronna,
   szczególna decyzja ministra, detencja, ENA i ekstradycja to inne zadania.
 metadata:
-  version: "0.7.0"
+  version: "0.8.0"
   status: "pilot"
 ---
 
@@ -31,6 +31,8 @@ Oddziel możliwość odwołania, termin dobrowolnego wyjazdu i status wykonania.
 
 Powiąż każdy argument z konkretną przesłanką, materiałem i brakiem. Oceń poprawność ustaleń organu, postępowanie dowodowe, udział strony i język/tłumaczenie, realne więzi rodzinne, interes dziecka i indywidualne ryzyko powrotu, jeśli wynikają z materiałów. Nie zamieniaj obywatelstwa, rodzicielstwa, małżeństwa ani toczącej się sprawy karnej w automatyczny wynik. Przy obywatelstwie, języku lub styku karnym przeczytaj [cudzoziemiec i języki](references/foreign-national.md).
 
+Przy Ukrainie ustal rzeczywisty status UKR/CUKR, ciągłość i podstawę ewentualnej utraty; metodę statusową wskazuje `pl-ukraine-residence-status`. Sam brak UKR nie dowodzi braku innej podstawy pobytu. Nie wywodź powrotu na mobilizację z warunku przyznawania ochrony czasowej UE. Nowy wniosek pobytowy nie zastępuje ochrony przed wykonaniem.
+
 Nie fabrykuj powodów ochronnych. Rozróżnij przesłanki humanitarne, pobyt tolerowany i ochronę międzynarodową oraz ich rzeczywiste znaczenie procesowe. Wskazanie potrzeby specjalistycznej analizy nie jest kompletnym prowadzeniem sprawy ochronnej. Przy zakazie lub SIS oddziel sentencję, okres, moment jego liczenia i cel konkretnego wpisu; sama wzmianka o SIS nie dowodzi nieograniczonego zakazu.
 
 ## Przygotuj zamówiony wynik
@@ -38,3 +40,5 @@ Nie fabrykuj powodów ochronnych. Rozróżnij przesłanki humanitarne, pobyt tol
 W analizie przedstaw ustalenia, ryzyka, realne argumenty i najbliższe działania z zależnościami. Nie pisz pełnego odwołania, jeśli zamówiono jedno porównanie. W projekcie oddziel treść dla organu od pytań i niesprawdzonych założeń dla adwokata; żądanie dopasuj do instancji i wykazanych przesłanek. Wykorzystaj dodatkowy argument poza listą, gdy jest istotny i sprawdzalny.
 
 Gdy źródła lub dokumenty są niedostępne, wykonaj niezależną analizę dostępnego materiału i nazwij konkretną zależność do weryfikacji. Przegląd adwokata jest potrzebny przed użyciem; nie przedstawiaj samej metody jako aktualnie sprawdzonego prawa lub gwarancji zatrzymania wykonania.
+
+Przy nieustalonym lub spornym wpisie SIS rozpoznaj kategorię, państwo wpisujące i podstawę decyzji. Metodę praw do danych wskazuje `pl-sis-alert-review`. Wniosek o dane nie zastępuje zaskarżenia decyzji ani ochrony przed wykonaniem; usunięcie wpisu nie uchyla samo zakazu.

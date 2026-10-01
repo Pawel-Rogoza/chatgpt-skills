@@ -1,0 +1,51 @@
+{
+  "version": "0.8.0",
+  "skills": [
+    {
+      "name": "legal-ai-pl:pl-case-file-analysis",
+      "enabled": true,
+      "path": "~/.codex/plugins/cache/personal/legal-ai-pl/0.8.0/skills/pl-case-file-analysis/SKILL.md"
+    },
+    {
+      "name": "legal-ai-pl:pl-client-explanation",
+      "enabled": true,
+      "path": "~/.codex/plugins/cache/personal/legal-ai-pl/0.8.0/skills/pl-client-explanation/SKILL.md"
+    },
+    {
+      "name": "legal-ai-pl:pl-criminal-appeal",
+      "enabled": true,
+      "path": "~/.codex/plugins/cache/personal/legal-ai-pl/0.8.0/skills/pl-criminal-appeal/SKILL.md"
+    },
+    {
+      "name": "legal-ai-pl:pl-criminal-detention",
+      "enabled": true,
+      "path": "~/.codex/plugins/cache/personal/legal-ai-pl/0.8.0/skills/pl-criminal-detention/SKILL.md"
+    },
+    {
+      "name": "legal-ai-pl:pl-legal-document-review",
+      "enabled": true,
+      "path": "~/.codex/plugins/cache/personal/legal-ai-pl/0.8.0/skills/pl-legal-document-review/SKILL.md"
+    },
+    {
+      "name": "legal-ai-pl:pl-residence-strategy",
+      "enabled": true,
+      "path": "~/.codex/plugins/cache/personal/legal-ai-pl/0.8.0/skills/pl-residence-strategy/SKILL.md"
+    },
+    {
+      "name": "legal-ai-pl:pl-return-defense",
+      "enabled": true,
+      "path": "~/.codex/plugins/cache/personal/legal-ai-pl/0.8.0/skills/pl-return-defense/SKILL.md"
+    },
+    {
+      "name": "legal-ai-pl:pl-sis-alert-review",
+      "enabled": true,
+      "path": "~/.codex/plugins/cache/personal/legal-ai-pl/0.8.0/skills/pl-sis-alert-review/SKILL.md"
+    },
+    {
+      "name": "legal-ai-pl:pl-ukraine-residence-status",
+      "enabled": true,
+      "path": "~/.codex/plugins/cache/personal/legal-ai-pl/0.8.0/skills/pl-ukraine-residence-status/SKILL.md"
+    }
+  ],
+  "errors": []
+}

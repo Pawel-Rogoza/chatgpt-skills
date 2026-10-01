@@ -12,10 +12,14 @@ Repozytorium przechowuje metodę, dokumentację i fikcyjne materiały testowe. N
 
 B2 i B3 scalono do `main`. [Raport lokalnej instalacji 0.7.0](evals/results/2026-10-01-local-install/report.md): siedem skilli wykrytych przez hosta, bez błędów; routing modelu i odbiór zawodowy pozostają otwarte. Następny zakres: [specyfikacja C1 — skarga do WSA w sprawie powrotowej](docs/c1-specification.md).
 
-## Pakiet 0.7.0 — kontrolowany pilotaż
+Nowy etap: [research Ukrainy na 01.10.2026](docs/research-ukraine-return-legalisation-2026-10-01.md) i dwa nowe skille UKR/CUKR oraz SIS. Próby zachowania i odbiór adwokata tych pilotów pozostają otwarte.
+
+## Pakiet 0.8.0 — kontrolowany pilotaż
 
 | Skill | Zadanie |
 |---|---|
+| [pl-sis-alert-review](plugins/legal-ai-pl/skills/pl-sis-alert-review/SKILL.md) | Rodzaj i państwo wpisu SIS, dostęp do danych, sprostowanie/usunięcie i relacja do decyzji |
+| [pl-ukraine-residence-status](plugins/legal-ai-pl/skills/pl-ukraine-residence-status/SKILL.md) | UKR/NUE, wariant CUKR, inne podstawy pobytu i pilny styk powrotowy |
 | [pl-return-defense](plugins/legal-ai-pl/skills/pl-return-defense/SKILL.md) | Decyzja powrotowa pierwszej instancji: argumenty odwołania i odrębna ocena wykonania |
 | [pl-residence-strategy](plugins/legal-ai-pl/skills/pl-residence-strategy/SKILL.md) | Ocena pobytu czasowego i pracy, warunków zatrudnienia oraz wariantów działania |
 | [pl-criminal-detention](plugins/legal-ai-pl/skills/pl-criminal-detention/SKILL.md) | Kontrola pierwszego zastosowania tymczasowego aresztowania i argumenty obrony |
@@ -39,7 +43,7 @@ codex plugin add legal-ai-pl@personal
 
 `personal` to identyfikator katalogu zapisany w `.agents/plugins/marketplace.json` tego repozytorium, nie polecenie udostępnienia publicznego. Jeśli masz już inne źródło o tej nazwie, sprawdź `codex plugin marketplace list` i nie zastępuj go bez rozstrzygnięcia konfliktu. Następnie otwórz nowe zadanie; w razie braku pozycji odśwież aplikację. Instalator może kwalifikować nazwę katalogu — użyj identyfikatora zwróconego przez CLI.
 
-W selektorze wybierz "Decyzja powrotowa - odwołanie", "Pobyt czasowy i praca", "Tymczasowe aresztowanie - zastosowanie", "Rozpoznanie i analiza sprawy", "Objaśnienie dla klienta PL/UA/RU", "Apelacja karna" albo "Recenzja pisma prawnego". Nazwa skilla może otrzymać prefiks pluginu. Skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
+W selektorze wybierz "SIS - wpis i prawa do danych", "Ukraina - UKR, CUKR i legalizacja", "Decyzja powrotowa - odwołanie", "Pobyt czasowy i praca", "Tymczasowe aresztowanie - zastosowanie", "Rozpoznanie i analiza sprawy", "Objaśnienie dla klienta PL/UA/RU", "Apelacja karna" albo "Recenzja pisma prawnego". Nazwa skilla może otrzymać prefiks pluginu. Skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
 
 Alternatywnie możesz skopiować **cały folder wybranego skilla**, łącznie z `references/` i `agents/`, do obsługiwanej lokalizacji skilli w swoim środowisku. Nie instaluj równolegle tej samej wersji jako osobnego skilla i pluginu, bo może to dać duplikaty.
 

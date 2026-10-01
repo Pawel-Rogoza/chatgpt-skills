@@ -19,3 +19,7 @@ Rozszerzenie A1 o rozpoznanie: cztery przypadki `intake-*`, [rubryka](intake-rub
 B2: siedem katalogów `residence-*`, [rubryka](residence-rubric.md), [specyfikacja](../docs/b2-specification.md) i [raport](results/2026-10-01-b2/report.md). Zamrożoną instrukcję sprawdzono także na dwóch niezależnie przygotowanych przypadkach w świeżych kontekstach, z odpowiadającym im baseline. To testy modelowe w zamkniętym świecie, nie zawodowy odbiór ani potwierdzenie aktualnego prawa.
 
 B3: osiem katalogów `return-*`, [rubryka](return-rubric.md), [specyfikacja](../docs/b3-specification.md) i [raport](results/2026-10-01-b3/report.md). Osobno zapisano dwie niezależne próby z baseline, wykonaną ocenę modelową i jej ograniczenia. Test WSA/detencji sprawdza granicę zakresu, nie pełną obsługę tych procedur.
+
+UA: sześć fikcyjnych przypadków `ua-*`, [rubryka](ukraine-status-rubric.md) i [specyfikacja](../docs/ukraine-status-specification.md). Przygotowano testy, nie wykonano jeszcze prób modelowych nowego pilota.
+
+SIS: cztery syntetyczne przypadki `sis-*`, [rubryka](sis-rubric.md) i [research](../docs/research-sis-2026-10-01.md). Próby modelowe jeszcze niewykonane.

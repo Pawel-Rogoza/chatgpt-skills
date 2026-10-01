@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ukraina - UKR, CUKR i legalizacja"
+  short_description: "Status UKR, wariant CUKR i styk z ryzykiem powrotu"
+  default_prompt: "Użyj $pl-ukraine-residence-status do oceny aktualnego statusu UKR, wariantu CUKR, innych podstaw pobytu i pilnych ryzyk powrotowych na podstawie opisu i dokumentów."

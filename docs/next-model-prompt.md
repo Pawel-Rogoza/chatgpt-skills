@@ -1,5 +1,7 @@
 # Polecenie do przekazania następnemu modelowi
 
+**Aktualizacja UA, 01.10.2026:** pakiet 0.8.0 dodaje pilotaże `pl-ukraine-residence-status` i `pl-sis-alert-review` (razem dziewięć skilli) oraz doprecyzowuje B2/B3. [Research](research-ukraine-return-legalisation-2026-10-01.md) opisuje aktualne ustalenia, sprzeczne daty i luki. Następne: próby UKR/CUKR, SIS i routingu, odbiór adwokata, potem C1 WSA. Nie uznawaj starszych statusów poniżej za stan obecny.
+
 **Domknięcie 01.10.2026:** B2 i B3 scalono do main; pakiet 0.7.0 z siedmioma skillami zainstalowano i włączono lokalnie. Host wykrywa wszystkie siedem bez błędów. [Raport instalacji](../evals/results/2026-10-01-local-install/report.md) oddziela discovery od nieprzetestowanego automatycznego routingu i jakości odpowiedzi. Następny zakres: [C1 — WSA w sprawie powrotowej](c1-specification.md), na razie specyfikacja. Poniższe opisy otwartych PR-ów i stare zlecenia są historyczne.
 
 

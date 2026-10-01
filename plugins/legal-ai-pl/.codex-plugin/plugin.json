@@ -1,7 +1,7 @@
 {
   "name": "legal-ai-pl",
-  "version": "0.7.0",
-  "description": "Skille kancelarii: rozpoznanie, akta, pisma, objaśnienia, areszt, pobyt i praca oraz decyzja powrotowa. Pilot.",
+  "version": "0.8.0",
+  "description": "Skille kancelarii: akta, pisma, areszt, pobyt i praca, decyzja powrotowa oraz status UKR/CUKR i SIS. Pilot.",
   "author": {
     "name": "Pawel-Rogoza",
     "url": "https://github.com/Pawel-Rogoza"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Legal AI PL",
     "shortDescription": "Rozpoznanie sprawy, research, akta, pisma i objaśnienia",
-    "longDescription": "Siedem skilli pracy adwokackiej. Nowy pilot decyzji powrotowej pierwszej instancji rozdziela administracyjne odwołanie i ryzyko wykonania. Wyniki wymagają przeglądu adwokata.",
+    "longDescription": "Dziewięć skilli pracy adwokackiej. Pilotaże UKR/CUKR i SIS rozdzielają status, legalizację, dane oraz ryzyko powrotu. Wyniki wymagają przeglądu adwokata.",
     "developerName": "Pawel-Rogoza",
     "category": "Productivity",
     "capabilities": [],
@@ -21,7 +21,9 @@
       "Wyjaśnij klientowi po ukraińsku treść załączonego pisma.",
       "Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj argumenty obrony.",
       "Oceń pobyt czasowy i pracę na podstawie dokumentów, wskaż warianty i następny krok.",
-      "Przeanalizuj decyzję powrotową pierwszej instancji, argumenty odwołania i pilne ryzyko wykonania."
+      "Przeanalizuj decyzję powrotową pierwszej instancji, argumenty odwołania i pilne ryzyko wykonania.",
+      "Oceń status UKR, wariant CUKR, inne podstawy pobytu i ryzyko powrotu.",
+      "Rozpoznaj wpis SIS i właściwą ścieżkę dostępu, sprostowania lub usunięcia danych."
     ]
   },
   "repository": "https://github.com/Pawel-Rogoza/chatgpt-skills"
