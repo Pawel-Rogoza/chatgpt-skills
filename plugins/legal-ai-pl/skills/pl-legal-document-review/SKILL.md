@@ -6,9 +6,10 @@ description: >-
   Użyj do recenzji projektu, audytu cytowań lub oceny zgodności z aktami.
   Nie uruchamiaj pełnej recenzji do zwykłego streszczenia, tłumaczenia
   ani korekty wyłącznie językowej; tworzenie apelacji od podstaw obsługuje
-  pl-criminal-appeal.
+  pl-criminal-appeal; skargę WSA w zwykłej sprawie powrotowej od początku
+  obsługuje pl-wsa-complaint.
 metadata:
-  version: "0.9.0"
+  version: "0.10.0"
   status: "pilot"
 ---
 

@@ -165,7 +165,7 @@
   },
   {
     "prompt": "Napisz pełną skargę do WSA na decyzję powrotową drugiej instancji od początku.",
-    "expected": "neither"
+    "expected": "pl-wsa-complaint"
   },
   {
     "prompt": "Przygotuj zażalenie na umieszczenie cudzoziemca w strzeżonym ośrodku.",
@@ -226,5 +226,33 @@
   {
     "prompt": "Przetłumacz tylko: Заявление не подано.",
     "expected": "neither"
+  },
+  {
+    "prompt": "Oceń dopuszczalność skargi do WSA po odwołaniu od zwykłej decyzji powrotowej; wykonanie oceń osobno.",
+    "expected": "pl-wsa-complaint"
+  },
+  {
+    "prompt": "Sprawdź gotowy projekt skargi WSA: zgodność z aktami, cytaty, żądanie i popraw błędy.",
+    "expected": "pl-legal-document-review"
+  },
+  {
+    "prompt": "Klient dostał zwykłą ostateczną decyzję powrotową; przygotuj od początku projekt skargi i wniosek o ochronę tymczasową.",
+    "expected": "pl-wsa-complaint"
+  },
+  {
+    "prompt": "Napisz skargę kasacyjną do NSA od wyroku WSA w sprawie powrotowej.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przygotuj skargę na bezczynność wojewody w sprawie pobytu.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Napisz skargę WSA na odmowę świadczenia socjalnego.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Odpisz krótko klientowi po rosyjsku, czy samo przygotowanie skargi WSA potwierdza wstrzymanie powrotu.",
+    "expected": "pl-client-explanation"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "name": "legal-ai-pl",
-  "version": "0.9.0",
-  "description": "Dziewięć skilli kancelarii: pierwsze kontakty i krótkie wiadomości PL/RU/UA, rozpoznanie, akta, pisma, areszt, pobyt, powrót, UKR/CUKR i SIS. Pilot.",
+  "version": "0.10.0",
+  "description": "Dziesięć skilli kancelarii: pierwsze kontakty, WhatsApp PL/RU/UA, akta i pisma, areszt, pobyt, powrót, WSA, UKR/CUKR i SIS. Pilot.",
   "author": {
     "name": "Pawel-Rogoza",
     "url": "https://github.com/Pawel-Rogoza"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Legal AI PL",
     "shortDescription": "Kontakty i WhatsApp, rozpoznanie, akta i pisma",
-    "longDescription": "Dziewięć skilli dla adwokatów i pracowników kancelarii. Krótkie projekty wiadomości PL/RU/UA, kontrola źródeł i nowych dokumentów. Nowe indywidualne decyzje prawne wymagają oceny adwokata. Pilot.",
+    "longDescription": "Dziesięć skilli dla adwokatów i pracowników kancelarii. Krótkie projekty wiadomości PL/RU/UA, kontrola źródeł i nowych dokumentów, wąski pilot skargi WSA w sprawach powrotowych. Nowe indywidualne decyzje prawne wymagają oceny adwokata. Pilot.",
     "developerName": "Pawel-Rogoza",
     "category": "Productivity",
     "capabilities": [],
@@ -23,7 +23,8 @@
       "Oceń pobyt czasowy i pracę na podstawie dokumentów, wskaż warianty i następny krok.",
       "Przeanalizuj decyzję powrotową pierwszej instancji, argumenty odwołania i pilne ryzyko wykonania.",
       "Oceń status UKR, wariant CUKR, inne podstawy pobytu i ryzyko powrotu.",
-      "Rozpoznaj wpis SIS i właściwą ścieżkę dostępu, sprostowania lub usunięcia danych."
+      "Rozpoznaj wpis SIS i właściwą ścieżkę dostępu, sprostowania lub usunięcia danych.",
+      "Oceń zwykłą ostateczną decyzję powrotową po odwołaniu i przygotuj koncepcję skargi do WSA. Wykonanie i ochronę oceń osobno."
     ]
   },
   "repository": "https://github.com/Pawel-Rogoza/chatgpt-skills"

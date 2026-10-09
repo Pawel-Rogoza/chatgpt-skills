@@ -1,0 +1,1 @@
+Nie, do umówienia konsultacji na tym etapie nie trzeba przesyłać numeru PESEL, całego paszportu ani dokumentów dzieci. Proszę krótko opisać, czego dotyczy sprawa i jakie zdarzenie lub pismo skłoniło do kontaktu; jeśli jest termin wymagający szybkiej reakcji, proszę go wskazać. Po poznaniu tematu ustalimy, które dokumenty będą potrzebne.

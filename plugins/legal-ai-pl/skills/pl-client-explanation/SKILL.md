@@ -8,7 +8,7 @@ description: >-
   Nie przejmuj zwykłego tłumaczenia zdania, nowej pełnej strategii,
   pisma procesowego ani wysyłki wiadomości.
 metadata:
-  version: "0.9.0"
+  version: "0.10.0"
   status: "pilot"
 ---
 
