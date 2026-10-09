@@ -8,13 +8,15 @@ description: >-
   ENA ani ekstradycji. Recenzję gotowego pisma jako główne zadanie
   obsługuje pl-legal-document-review.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
   status: "pilot"
 ---
 
 # Kontrola zastosowania tymczasowego aresztowania
 
 Pierwszy zakres: analiza pierwszego postanowienia o zastosowaniu tymczasowego aresztowania w zwykłym postępowaniu karnym i przygotowanie reakcji obrony, w tym projektu zażalenia. Wynik dopasuj do zamówienia: ocena jednego argumentu nie wymaga całego pisma.
+
+Gdy zlecającym jest pracownik kancelarii, przy pierwszym kontakcie, przekazaniu decyzji do oceny lub ponownym użyciu notatki przeczytaj [pracę pracownika kancelarii](references/staff-workflow.md). Krótki styl wiadomości nie ogranicza potrzebnej analizy ani pisma.
 
 ## Rozpoznanie i pilność
 
@@ -48,3 +50,5 @@ Dostarcz ocenę, koncepcję albo żądany projekt. Argument powiąż z fragmente
 W projekcie żądanie musi odpowiadać sprawdzonej drodze i argumentacji. Braki danych oznacz czytelnie, bez wymyślania sądu, sygnatury, dat lub podpisu. Notatkę o brakujących stronach, niesprawdzonych źródłach i decyzjach adwokata oddziel od tekstu dla sądu. W notatce wskaż, co trzeba sprawdzić pilnie i co jest już użyteczne. Złożenie środka nie oznacza samo przez się zwolnienia lub wstrzymania wykonania; skutek sprawdź odrębnie.
 
 Przed oddaniem porównaj projekt z aktami i sprawdź zachowanie kontrargumentów oraz warunkowych alternatyw. Wynik wymaga przeglądu adwokata. Samo zlecenie projektu nie upoważnia do podpisania, wysłania, złożenia pisma ani kontaktowania się z osobami ze sprawy.
+
+Przy kontakcie pracownika sporządź najpierw operacyjne rozpoznanie: znany etap, miejsce, dostępny dokument, pilna decyzja do oceny i minimalny brak. Nie nazywaj relacji „zatrzymali” zastosowaniem tymczasowego aresztowania bez podstawy. Nowe postanowienie lub dowód zmienia ocenę dotychczasowych argumentów i alternatyw; nie przenoś automatycznie wcześniejszego planu.

@@ -7,13 +7,15 @@ description: >-
   pl-legal-document-review; kasacja, zażalenie i odwołanie administracyjne
   wymagają odrębnej metody.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
   status: "pilot"
 ---
 
 # Apelacja karna
 
 Opracuj argumentację użyteczną dla adwokata, proporcjonalną do zlecenia. Nie zakładaj winy ani wiarygodności relacji tylko dlatego, że znajduje się w aktach. Metoda wyznacza minimum kontroli, nie zamknięty katalog argumentów.
+
+Gdy zlecającym jest pracownik kancelarii, przy pierwszym kontakcie, przekazaniu decyzji do oceny lub ponownym użyciu notatki przeczytaj [pracę pracownika kancelarii](references/staff-workflow.md). Krótki styl wiadomości nie ogranicza potrzebnej analizy ani pisma.
 
 ## Zakres i materiały
 
@@ -25,7 +27,7 @@ Ustal z dostępnych materiałów: kogo reprezentujemy, zaskarżone orzeczenie i 
 
 - **Ocena pomysłu (LIGHT):** krótko przedstaw mocne strony, zależności i warianty. Oznacz hipotezy; sprawdź prawo, jeśli bez niego nie da się uczciwie ocenić tezy.
 - **Koncepcja/projekt (STANDARD):** powiąż każdy istotny argument z aktami, właściwym prawem i możliwym żądaniem.
-- **Pismo do przeglądu (DEEP):** sprawdź przesłanki środka, terminy, konstrukcję, istotne źródła, alternatywy i kontrargumenty. Brak krytycznej podstawy oznacz w osobnej notatce.
+- **Pełny projekt (DEEP):** sprawdź przesłanki środka, terminy, konstrukcję, istotne źródła, alternatywy i kontrargumenty. Brak krytycznej podstawy oznacz w osobnej notatce.
 
 Krótki termin, pozbawienie wolności, wykonanie decyzji powrotowej lub nieczytelny dokument mogą wymagać głębszej kontroli niezależnie od długości pytania. Nie oznaczaj własnego wyniku jako zatwierdzonego przez adwokata.
 
@@ -42,3 +44,5 @@ Przy zmianie prawa, spornej dacie lub terminie przeczytaj [prawo w czasie](refer
 Dostarcz żądany rezultat: krótką ocenę, koncepcję albo edytowalny projekt. Zachowaj format kancelarii, jeśli go podano. W większym projekcie oddziel tekst pisma od krótkiej notatki dla adwokata: zakres przeczytanych akt, braki, warunkowe założenia, źródła wymagające uwagi oraz decyzje. Nie dopisuj brakujących danych; użyj czytelnego oznaczenia w projekcie i wskaż je w notatce.
 
 Przed oddaniem porównaj zakres zaskarżenia, zarzuty, uzasadnienie i żądania. Sprawdź źródłowe oparcie faktów, autorstwo cytowanych stanowisk oraz najpoważniejszy kontrargument. Popraw wykryte błędy. Nie twierdź, że wykonano niezależną recenzję, jeśli był to tylko własny przegląd. Sam projekt nie upoważnia do podpisania, wysłania ani złożenia pisma.
+
+Uporządkuj argumenty według znaczenia i oparcia w aktach; nie zwiększaj liczby zarzutów przez powtórzenia lub słabsze warianty tego samego błędu. Po otrzymaniu nowego dowodu sprawdź ponownie przesłanki zarzutu, zakres zaskarżenia i żądanie. Wcześniejsza koncepcja AI nie przesądza wyboru linii obrony.

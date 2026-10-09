@@ -13,3 +13,9 @@ Materiały UdSC, MOS, SG i urzędu wojewódzkiego mogą wskazywać praktykę i z
 Zachowaj pisownię dokumentową i oryginalną, a warianty transliteracji opisz z pochodzeniem. Nie łącz automatycznie osób o podobnych nazwiskach. W tłumaczeniu kontroluj negacje, sprawcę czynności, role procesowe, daty i pojęcia prawne; przy niejednoznaczności zachowaj oryginał i wyjaśnij warianty.
 
 Tłumaczenie modelowe jest robocze, nie poświadczone. Nie dorabiaj podpisu tłumacza ani klauzuli poświadczenia. Komunikacja dla klienta powinna jasno oddzielać ustalone informacje, warianty i następny krok. Tłumaczenie pisma nie obejmuje wysyłki do klienta.
+
+## Pojęcia w wiadomościach
+
+Potoczne „deportacja”, „areszt”, „zakaz” lub „karta” najpierw oznaczają relację klienta. Rozstrzygający jest dokument i właściwa procedura. Polskie „zatrzymanie” można objaśnić jako rosyjskie „задержание”, a „tymczasowe aresztowanie” jako „временное заключение под стражу”, gdy kontekst dokumentu to potwierdza. Nie zamieniaj tych pojęć mechanicznie ani nie przenoś zasad innego państwa.
+
+„Złożyliśmy wniosek” to „мы подали заявление”; nie „заявление одобрено”. „Można wystąpić o wstrzymanie” opisuje możliwość, nie uzyskane wstrzymanie. Pisownię nazwiska z dokumentu zachowaj, a naturalny język wiadomości wybierz według rozmowy lub zlecenia. Ten zestaw przykładów nie jest kompletnym słownikiem prawnym.

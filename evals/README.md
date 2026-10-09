@@ -23,3 +23,5 @@ B3: osiem katalogów `return-*`, [rubryka](return-rubric.md), [specyfikacja](../
 UA: sześć fikcyjnych przypadków `ua-*`, [rubryka](ukraine-status-rubric.md) i [specyfikacja](../docs/ukraine-status-specification.md). Przygotowano testy, wykonano jedną próbę pilota, zob. raport.
 
 SIS: cztery syntetyczne przypadki `sis-*`, [rubryka](sis-rubric.md) i [research](../docs/research-sis-2026-10-01.md). Wykonano jedną próbę pilota, zob. raport.
+
+WhatsApp 0.9.0: 24 przypadki `whatsapp-*` i [osobna rubryka](whatsapp-rubric.md). Zestaw przygotowany nie oznacza wykonanego testu. Porównuj baseline, sam styl i pełną metodę w niezależnych kontekstach; zachowuj surowe odpowiedzi. Próby pojedynczych zadań nie potwierdzają automatycznego routingu ani aktualności prawa.

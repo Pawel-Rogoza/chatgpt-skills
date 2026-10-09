@@ -7,13 +7,15 @@ description: >-
   od wykonania i pilnej ochrony. Pełna skarga do WSA, sprawa ochronna,
   szczególna decyzja ministra, detencja, ENA i ekstradycja to inne zadania.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
   status: "pilot"
 ---
 
 # Decyzja powrotowa: odwołanie i wykonanie
 
 Dopasuj wynik do zlecenia: analiza dla adwokata, koncepcja albo projekt odwołania. Samo rozpoznanie nie upoważnia do podpisania, wysłania czy złożenia pisma, kontaktu z SG lub klientem.
+
+Gdy zlecającym jest pracownik kancelarii, przy pierwszym kontakcie, przekazaniu decyzji do oceny lub ponownym użyciu notatki przeczytaj [pracę pracownika kancelarii](references/staff-workflow.md). Krótki styl wiadomości nie ogranicza potrzebnej analizy ani pisma.
 
 ## Rozpoznaj rozstrzygnięcie i pilność
 
@@ -42,3 +44,5 @@ W analizie przedstaw ustalenia, ryzyka, realne argumenty i najbliższe działani
 Gdy źródła lub dokumenty są niedostępne, wykonaj niezależną analizę dostępnego materiału i nazwij konkretną zależność do weryfikacji. Przegląd adwokata jest potrzebny przed użyciem; nie przedstawiaj samej metody jako aktualnie sprawdzonego prawa lub gwarancji zatrzymania wykonania.
 
 Przy nieustalonym lub spornym wpisie SIS rozpoznaj kategorię, państwo wpisujące i podstawę decyzji. Metodę praw do danych wskazuje `pl-sis-alert-review`. Wniosek o dane nie zastępuje zaskarżenia decyzji ani ochrony przed wykonaniem; usunięcie wpisu nie uchyla samo zakazu.
+
+Przy kolejnym kontakcie zaktualizuj trzy odrębne ustalenia: środek zaskarżenia, status wykonania i faktyczną pilność. Wiadomość „wniosek wysłany” nie dowodzi wstrzymania. Nowe pismo, doręczenie lub informacja o planowanym doprowadzeniu wymaga ponownej oceny zależnego planu, nawet jeśli poprzednia notatka była zatwierdzona.

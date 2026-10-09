@@ -8,13 +8,15 @@ description: >-
   ani korekty wyłącznie językowej; tworzenie apelacji od podstaw obsługuje
   pl-criminal-appeal.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
   status: "pilot"
 ---
 
 # Recenzja pisma prawnego
 
 Oceń pismo względem celu użytkownika i udostępnionego materiału. Szukaj błędów mogących zmienić wynik, a nie powodów do dowolnego przepisania tekstu. Zachowaj mocne argumenty, styl kancelarii i dopuszczalne alternatywy.
+
+Gdy zlecającym jest pracownik kancelarii, przy pierwszym kontakcie, przekazaniu decyzji do oceny lub ponownym użyciu notatki przeczytaj [pracę pracownika kancelarii](references/staff-workflow.md). Krótki styl wiadomości nie ogranicza potrzebnej analizy ani pisma.
 
 ## Zakres kontroli
 
@@ -39,3 +41,5 @@ Każde istotne ustalenie powiąż z miejscem w ocenianym piśmie, podstawą w ma
 Dostarcz krótką ocenę i uporządkowane ustalenia; tabelę stosuj tylko gdy pomaga. Gdy użytkownik zlecił poprawienie tekstu, wykonaj również poprawki, pozostawiając oznaczone miejsca zależne od decyzji lub brakującego materiału. Samo zlecenie recenzji nie oznacza nadpisania jedynego oryginału.
 
 Oddziel zakres sprawdzony od niesprawdzonego. Jeśli nie ma istotnych błędów, napisz to bez wymyślania uwag. Zwróć uwagę na dobre, nieoczywiste argumenty, które warto zachować. Wymień tylko braki wpływające na użycie wyniku. Status „do przeglądu adwokata” nie jest odmową przygotowania użytecznego pisma. Nie podpisuj ani nie wysyłaj dokumentu.
+
+Przy poprawce kontroluj zmianę sensu: nie wzmacniaj stopnia pewności, nie usuwaj niekorzystnego faktu ani warunku tylko dla płynności tekstu. Cytat przejęty z poprzedniej odpowiedzi AI wymaga tej samej kontroli co nowy. Przegląd wybranego fragmentu nie oznacza akceptacji całego pisma.

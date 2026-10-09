@@ -8,13 +8,15 @@ description: >-
   projekt odwołania od decyzji SG, WSA, detencja, ekstradycja i pełna
   ochrona międzynarodowa wymagają odrębnej metody.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
   status: "pilot"
 ---
 
 # Ukraina: status, legalizacja i ryzyko powrotu
 
 Dopasuj wynik do pytania: ustalenie statusu, porównanie wariantów lub plan dla adwokata. Rozpoznanie nie upoważnia do wysyłki, złożenia wniosku ani zmiany wpisów w portalu.
+
+Gdy zlecającym jest pracownik kancelarii, przy pierwszym kontakcie, przekazaniu decyzji do oceny lub ponownym użyciu notatki przeczytaj [pracę pracownika kancelarii](references/staff-workflow.md). Krótki styl wiadomości nie ogranicza potrzebnej analizy ani pisma.
 
 ## Rozpoznaj status i pilność
 
@@ -41,3 +43,5 @@ Przy styku karnym i językowym przeczytaj [cudzoziemiec i języki](references/fo
 Przedstaw ustalenia z dowodami, nierozstrzygnięte zależności, użyteczne warianty i najbliższe kroki. Obliczenie terminu wymaga podstawy i zdarzenia początkowego; bez nich nie podawaj pewnej daty. Oddziel materiał dla adwokata od ewentualnej treści dla klienta. Wynik wymaga przeglądu adwokata przed realnym użyciem.
 
 Przy nieustalonym lub spornym wpisie SIS rozpoznaj kategorię, państwo wpisujące i podstawę decyzji. Metodę praw do danych wskazuje `pl-sis-alert-review`. Wniosek o dane nie zastępuje zaskarżenia decyzji ani ochrony przed wykonaniem; usunięcie wpisu nie uchyla samo zakazu.
+
+Przy kontynuacji odróżnij stan z datowanej notatki od statusu na datę aktualnej oceny. Nowy wyjazd, wpis, zezwolenie lub decyzja wymaga ponownego sprawdzenia zależnych przesłanek; nie traktuj poprzedniego podsumowania AI jako potwierdzenia ciągłości. Dokumentuj konkretną zmianę i jej skutek zamiast powtarzać cały wywiad.

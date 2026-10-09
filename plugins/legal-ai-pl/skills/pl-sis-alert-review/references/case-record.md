@@ -21,3 +21,9 @@ Daty zdarzenia, sporządzenia dokumentu, wydania orzeczenia i doręczenia są od
 Zeznanie „nie widziałem” nie staje się faktem „widział”. Brak dokumentu nie dowodzi, że czynność nie nastąpiła. Rozróżnij „nie ma w przekazanym pakiecie” od „nie ma w aktach”. Nie ustalaj wiarygodności świadka samym tonem wypowiedzi lub podobieństwem językowym.
 
 Przy zmianie dokumentu ponownie sprawdź zależne odwołania. Używaj pseudonimów i danych z bieżącego pakietu; nie przenoś osób, dat ani sygnatur z wzorów.
+
+## Kolejne wiadomości i nowe dokumenty
+
+Przy kontynuacji odnotuj tylko istotną zmianę: nowe źródło, jego wersję, nowe twierdzenie i wniosek wymagający ponownej oceny. Kopia, OCR i tłumaczenie jednego dokumentu nie są trzema niezależnymi dowodami. Nie zastępuj oryginału streszczeniem AI.
+
+Przy sprzeczności z wcześniejszym planem wskaż zależność: co dotąd przyjęto, z czego wynika nowe ustalenie i które działania trzeba sprawdzić ponownie. Pozostałe wnioski zachowaj tylko w zakresie niezależnym od zmiany. Rozróżnij wysłany projekt od wykonanej czynności i potwierdzonego skutku.

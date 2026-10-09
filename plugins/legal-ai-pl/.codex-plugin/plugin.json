@@ -1,7 +1,7 @@
 {
   "name": "legal-ai-pl",
-  "version": "0.8.0",
-  "description": "Skille kancelarii: akta, pisma, areszt, pobyt i praca, decyzja powrotowa oraz status UKR/CUKR i SIS. Pilot.",
+  "version": "0.9.0",
+  "description": "Dziewięć skilli kancelarii: pierwsze kontakty i krótkie wiadomości PL/RU/UA, rozpoznanie, akta, pisma, areszt, pobyt, powrót, UKR/CUKR i SIS. Pilot.",
   "author": {
     "name": "Pawel-Rogoza",
     "url": "https://github.com/Pawel-Rogoza"
@@ -9,8 +9,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Legal AI PL",
-    "shortDescription": "Rozpoznanie sprawy, research, akta, pisma i objaśnienia",
-    "longDescription": "Dziewięć skilli pracy adwokackiej. Pilotaże UKR/CUKR i SIS rozdzielają status, legalizację, dane oraz ryzyko powrotu. Wyniki wymagają przeglądu adwokata.",
+    "shortDescription": "Kontakty i WhatsApp, rozpoznanie, akta i pisma",
+    "longDescription": "Dziewięć skilli dla adwokatów i pracowników kancelarii. Krótkie projekty wiadomości PL/RU/UA, kontrola źródeł i nowych dokumentów. Nowe indywidualne decyzje prawne wymagają oceny adwokata. Pilot.",
     "developerName": "Pawel-Rogoza",
     "category": "Productivity",
     "capabilities": [],
@@ -18,7 +18,7 @@
       "Przygotuj koncepcję apelacji karnej na podstawie załączonych akt.",
       "Sprawdź projekt pisma: argumentację, fakty, źródła i żądanie.",
       "Przeanalizuj wiadomość klienta po rosyjsku i dokumenty, wykonaj potrzebny research i wyjaśnij mi po polsku, na czym polega sprawa.",
-      "Wyjaśnij klientowi po ukraińsku treść załączonego pisma.",
+      "Przygotuj krótką odpowiedź na WhatsApp klienta po rosyjsku. Pracuję w kancelarii bez uprawnień adwokackich; nie mam jeszcze zatwierdzonej odpowiedzi w tej sprawie.",
       "Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj argumenty obrony.",
       "Oceń pobyt czasowy i pracę na podstawie dokumentów, wskaż warianty i następny krok.",
       "Przeanalizuj decyzję powrotową pierwszej instancji, argumenty odwołania i pilne ryzyko wykonania.",

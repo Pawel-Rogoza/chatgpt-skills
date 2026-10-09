@@ -1,14 +1,14 @@
 ---
 name: pl-case-file-analysis
 description: >-
-  Rozpoznaj i wyjaśnij adwokatowi sprawę z opisu klienta PL/UA/RU,
+  Rozpoznaj i wyjaśnij zlecającemu sprawę z opisu klienta PL/UA/RU,
   wklejonych wiadomości (np. WhatsApp) lub dokumentów, także bez akt.
   Użyj do analizy faktów, chronologii, porównania dowodów i researchu
   prawnego powiązanego ze sprawą. Nie przejmuj samego tłumaczenia,
   prostego streszczenia, abstrakcyjnego researchu ani pisania pisma.
   Objaśnienie przeznaczone dla klienta obsługuje pl-client-explanation.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
   status: "pilot"
 ---
 
@@ -17,6 +17,10 @@ metadata:
 Wyjaśnij, na czym polega sprawa i co wynika z dostępnego materiału, proporcjonalnie do zlecenia. Relacja klienta jest wystarczającym wejściem do wstępnego rozpoznania; nie wymagaj formalnych akt, zanim wykonasz użyteczną pracę. Analiza jest samodzielnym wynikiem; nie zamieniaj jej automatycznie w pismo ani wiadomość do klienta.
 
 Przy opisie klienta, korespondencji lub researchu związanym ze sprawą przeczytaj [rozpoznanie z wiadomości i research](references/intake-and-research.md). Odbiorcą analizy jest zlecający; przy polskim poleceniu objaśniaj po polsku, chyba że wskazano inny język. Rosyjski lub ukraiński materiał sam nie zmienia języka wyniku ani odbiorcy na klienta.
+
+Przy kolejnym kontakcie, zleceniu karty lub aktualizacji większego pakietu przeczytaj [ciągłość sprawy](references/case-continuity.md). Na pierwszy kontakt wystarczy krótkie rozpoznanie i kilka rozstrzygających pytań; nie wymagaj karty przed użyteczną odpowiedzią.
+
+Gdy zlecającym jest pracownik kancelarii, przy pierwszym kontakcie, przekazaniu decyzji do oceny lub ponownym użyciu notatki przeczytaj [pracę pracownika kancelarii](references/staff-workflow.md). Krótki styl wiadomości nie ogranicza potrzebnej analizy ani pisma.
 
 ## Zakres i odczyt
 

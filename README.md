@@ -4,7 +4,9 @@ Projekt skilli dla pracy adwokackiej w Polsce: rozpoznanie sprawy z opisu klient
 
 Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz [recenzja z planem oceny](legal-ai-review-v0.2-pl.md).
 
-Bieżący plan: [dalsze kroki po 0.8.0](docs/next-steps-0.8.0.md). Historia: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). A0–A2 mają implementację i zweryfikowaną instalację lokalną. [Raport fali A](evals/results/2026-09-23/report.md) rozróżnia sprawdzenia techniczne, próby własne oraz brak niezależnego odbioru.
+Bieżące wydanie źródeł: **0.9.0** — [zmiany](docs/release-0.9.0.md), [kolejne wdrożenia](docs/development-roadmap-0.9.0.md), [ustalenia kancelarii](docs/office-settings-template.md). Pierwsze kontakty i krótkie odpowiedzi WhatsApp PL/RU/UA obsługuje `pl-client-explanation`; analiza pozostaje wewnętrzna, jeśli nie zlecono tekstu dla klienta.
+
+Historyczny plan: [dalsze kroki po 0.8.0](docs/next-steps-0.8.0.md). Historia: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). A0–A2 mają implementację i zweryfikowaną instalację lokalną. [Raport fali A](evals/results/2026-09-23/report.md) rozróżnia sprawdzenia techniczne, próby własne oraz brak niezależnego odbioru.
 
 Kolejny etap B1 wdrożono jako wąski pilot kontroli pierwszego zastosowania aresztowania: [specyfikacja](docs/b1-specification.md), [raport](evals/results/2026-09-23-b1/report.md). Pełna obsługa przedłużenia aresztowania pozostaje poza pilotem. B2 dodano jako zwykły pobyt czasowy i pracę, a B3 jako decyzję powrotową SG pierwszej instancji oraz administracyjne odwołanie.
 
