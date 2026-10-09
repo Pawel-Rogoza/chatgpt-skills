@@ -9,3 +9,5 @@ Przy terminie ustal: czynność, właściwą procedurę, uprawnioną osobę, zda
 Nieznana data doręczenia daje warianty lub brak możliwości ustalenia końca terminu. Nie mieszaj daty wydania, odbioru przez inną osobę i skutecznego doręczenia bez oceny ich znaczenia. Wykorzystaj deterministyczne obliczenie, jeżeli jest dostępne, ale wynik sprawdź względem parametrów. Nie oznaczaj narzędzia kalendarzowego jako weryfikatora prawnego.
 
 Przy pilnym ryzyku wskaż, co wymaga natychmiastowej oceny adwokata i jakie dane są potrzebne; nie opóźniaj tej informacji na rzecz szerokiego researchu. Kontynuuj możliwą część projektu.
+
+Jeśli właściwa reguła jest zweryfikowana, lecz sporna jest data początkowa, pokaż potrzebne warianty obliczenia i wyraźny warunek każdego z nich. Gdy pomaga to w pilnej ocenie, wskaż najwcześniejszą możliwą datę do zabezpieczenia przez adwokata; nie przedstawiaj jej jako ustalonego końca terminu. Jeśli brakuje także reguły, nie twórz pozornego rachunku. Zwięzłość wiadomości nie uzasadnia usunięcia warunku doręczenia.

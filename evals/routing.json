@@ -206,5 +206,25 @@
   {
     "prompt": "Zrób wykres czasu działania systemu SIS w naszej firmie IT.",
     "expected": "neither"
+  },
+  {
+    "prompt": "Pracuję w kancelarii, nie jestem adwokatem. Przygotuj krótką odpowiedź na WhatsApp klienta po rosyjsku, co ma dosłać przed konsultacją.",
+    "expected": "pl-client-explanation"
+  },
+  {
+    "prompt": "Odpisz klientowi krótko, że otrzymaliśmy jego dokumenty.",
+    "expected": "pl-client-explanation"
+  },
+  {
+    "prompt": "Wyjaśnij mi jako pracownikowi po polsku, co zmienia nowa decyzja w przekazanej karcie sprawy. Bez wiadomości do klienta.",
+    "expected": "pl-case-file-analysis"
+  },
+  {
+    "prompt": "Skróć reklamę sklepu do wiadomości na WhatsApp.",
+    "expected": "neither"
+  },
+  {
+    "prompt": "Przetłumacz tylko: Заявление не подано.",
+    "expected": "neither"
   }
 ]

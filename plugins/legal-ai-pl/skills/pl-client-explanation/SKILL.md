@@ -1,19 +1,24 @@
 ---
 name: pl-client-explanation
 description: >-
-  Wyjaśnij klientowi pismo, decyzję lub analizę sprawy prostym językiem
-  polskim, ukraińskim albo rosyjskim; przygotuj projekt wiadomości
-  z potrzebnymi czynnościami lub dokumentami. Nie przejmuj zwykłego
-  tłumaczenia zdania, pisania pisma procesowego, pełnej strategii
-  migracyjnej ani wysyłki wiadomości.
+  Przygotuj krótką, naturalną odpowiedź dla klienta na WhatsApp lub inny
+  komunikator po polsku, rosyjsku albo ukraińsku: pierwszy kontakt,
+  organizacja, dokumenty, objaśnienie pisma lub zatwierdzonych ustaleń.
+  Użyj także, gdy projekt przygotowuje pracownik kancelarii bez uprawnień.
+  Nie przejmuj zwykłego tłumaczenia zdania, nowej pełnej strategii,
+  pisma procesowego ani wysyłki wiadomości.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
   status: "pilot"
 ---
 
 # Objaśnienie dla klienta PL/UA/RU
 
-Przełóż źródło na zrozumiałe objaśnienie w zleconym języku, zachowując jego sens i stopień pewności. Wynikiem jest projekt do wykorzystania przez kancelarię, nie samodzielna nowa strategia prawna.
+Przygotuj odpowiedź na wiadomość albo przełóż źródło na zrozumiałe objaśnienie w zleconym języku, zachowując jego sens i stopień pewności. Wynikiem jest projekt do wykorzystania przez kancelarię, nie samodzielna nowa strategia prawna.
+
+Przy wiadomości mobilnej przeczytaj [styl WhatsApp](references/whatsapp-style.md); przy pierwszym kontakcie lub kontynuacji [metodę kontaktu](references/client-contact-method.md). Zwróć zwykle sam krótki tekst do skopiowania. Dłuższe objaśnienie zachowaj, gdy je zamówiono lub jest potrzebne dla sensu.
+
+Gdy zlecającym jest pracownik kancelarii, przy pierwszym kontakcie, przekazaniu decyzji do oceny lub ponownym użyciu notatki przeczytaj [pracę pracownika kancelarii](references/staff-workflow.md). Krótki styl wiadomości nie ogranicza potrzebnej analizy ani pisma.
 
 ## Źródło i język
 

@@ -8,7 +8,7 @@ description: >-
   Obejmuje rozpoznanie błędnej tożsamości i wpisu zagranicznego.
   Nie zastępuje odwołania od decyzji powrotowej, ENA, ekstradycji ani WSA.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
   status: "pilot"
 ---
 
@@ -17,6 +17,8 @@ metadata:
 Dopasuj wynik do pytania: rozpoznanie, analiza wariantów lub projekt wniosku o dane. Nie obiecuj dostępu do samej bazy, usunięcia wpisu ani możliwości podróży. Projekt nie upoważnia do złożenia pisma, kontaktu z organem lub przesłania dokumentów klienta.
 
 Przeczytaj [zasady źródeł](references/source-policy.md), [materiał sprawy](references/case-record.md) i [metodę oraz źródła SIS](references/sis-method.md). Oddziel informację klienta, wypowiedź funkcjonariusza, dokument odmowy wjazdu/powrotu, odpowiedź o danych oraz decyzję stanowiącą podstawę wpisu. Sam komunikat „SIS” nie określa kategorii ani państwa wpisującego. Brak odpowiedzi nie dowodzi braku wpisu; odmowa ujawnienia nie dowodzi automatycznie jego bezprawności.
+
+Gdy zlecającym jest pracownik kancelarii, przy pierwszym kontakcie, przekazaniu decyzji do oceny lub ponownym użyciu notatki przeczytaj [pracę pracownika kancelarii](references/staff-workflow.md). Krótki styl wiadomości nie ogranicza potrzebnej analizy ani pisma.
 
 ## Ustal kategorię i pilność
 
@@ -37,3 +39,5 @@ Przy istniejącym zezwoleniu/wizie innego państwa sprawdź odpowiednią procedu
 ## Wynik
 
 Podaj ustalenia, brak rozstrzygający, właściwe ścieżki i kolejność działań. W zamówionym projekcie dopasuj żądanie do dostępu, konkretnego sprostowania lub usunięcia; oddziel pytania dla adwokata od treści do organu. Bez ustalenia kategorii przygotuj rozpoznanie i odpowiedni wniosek o dane, zamiast wymyślać podstawę usunięcia. Przy odmowie/braku odpowiedzi rozpoznaj właściwy środek do organu nadzorczego lub sądu według konkretnego reżimu; pełna skarga sądowa pozostaje odrębna. Przegląd adwokata jest potrzebny przed realnym użyciem.
+
+Prowadź odrębne statusy dla każdego ustalonego wpisu, państwa i decyzji oraz dla wniosku, odpowiedzi i sprostowania/usunięcia. Potwierdzenie wysłania wniosku nie dowodzi zmiany danych. Nowa odpowiedź może zmienić część analizy; nie przekształcaj jej w ogólne zapewnienie, że wszystkie przeszkody wjazdu zniknęły.

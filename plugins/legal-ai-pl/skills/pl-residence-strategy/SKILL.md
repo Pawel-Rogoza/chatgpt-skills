@@ -8,13 +8,15 @@ description: >-
   pobytu rodzinnego, stałego, Niebieskiej Karty UE ani ochrony.
   Odwołanie od zobowiązania do powrotu i skarga do WSA to inne zadania.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
   status: "pilot"
 ---
 
 # Pobyt czasowy i praca: rozpoznanie i warianty
 
 Dopasuj analizę do pytania. Produkt to sprawdzalna ocena sytuacji i możliwych działań dla zlecającego, nie automatycznie wniosek, objaśnienie klientowi ani pełny wywiad migracyjny.
+
+Gdy zlecającym jest pracownik kancelarii, przy pierwszym kontakcie, przekazaniu decyzji do oceny lub ponownym użyciu notatki przeczytaj [pracę pracownika kancelarii](references/staff-workflow.md). Krótki styl wiadomości nie ogranicza potrzebnej analizy ani pisma.
 
 ## Rozpoznanie statusu
 
@@ -40,5 +42,6 @@ Przedstaw to, co ustalono, realne warianty z przesłankami i następny krok. Uja
 
 Pilną zależność, np. kończącą się podstawę pobytu, nieustalony termin lub zamiar rozpoczęcia nowej pracy, wskaż na początku i kontynuuj niezależne prace. Oddziel pytania i niesprawdzone założenia dla adwokata od ewentualnego tekstu dla klienta lub organu. Przegląd adwokata jest potrzebny przed użyciem; przygotowanie analizy nie upoważnia do złożenia wniosku, wysłania wiadomości ani zmiany danych w portalu.
 
-
 Przy nieustalonym lub spornym wpisie SIS rozpoznaj kategorię, państwo wpisujące i podstawę decyzji. Metodę praw do danych wskazuje `pl-sis-alert-review`. Wniosek o dane nie zastępuje zaskarżenia decyzji ani ochrony przed wykonaniem; usunięcie wpisu nie uchyla samo zakazu.
+
+Nowa decyzja, praca lub plan podróży może zmienić kilka zależności równolegle. Oceniaj aktualne warunki pobytu, konkretnej pracy i ponownego wjazdu osobno; nie udzielaj pracownikowi gotowego zapewnienia o wyjeździe na podstawie samego ważnego dokumentu. Wskaż minimum materiału rozstrzygającego zamiast ponawiać cały wywiad.

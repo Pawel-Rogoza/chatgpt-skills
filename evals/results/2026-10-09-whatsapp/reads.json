@@ -1,0 +1,205 @@
+{
+  "baseline": {
+    "agent": "/root/whatsapp_baseline",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/whatsapp-org-02/user.md",
+      "evals/cases/whatsapp-intake-03/user.md",
+      "evals/cases/whatsapp-explain-03/user.md",
+      "evals/cases/whatsapp-urgent-01/user.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "style": {
+    "agent": "/root/whatsapp_style",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/whatsapp-style.md",
+      "evals/cases/whatsapp-org-02/user.md",
+      "evals/cases/whatsapp-intake-03/user.md",
+      "evals/cases/whatsapp-explain-03/user.md",
+      "evals/cases/whatsapp-urgent-01/user.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "full": {
+    "agent": "/root/whatsapp_full",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/whatsapp-org-02/user.md",
+      "evals/cases/whatsapp-intake-03/user.md",
+      "evals/cases/whatsapp-explain-03/user.md",
+      "evals/cases/whatsapp-urgent-01/user.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/whatsapp-style.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/client-contact-method.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/staff-workflow.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/foreign-national.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/meaning-check.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "ua": {
+    "agent": "/root/whatsapp_ua",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/whatsapp-org-06/user.md",
+      "evals/cases/whatsapp-intake-06/user.md",
+      "evals/cases/whatsapp-explain-06/user.md",
+      "evals/cases/whatsapp-urgent-06/user.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/whatsapp-style.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/client-contact-method.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/staff-workflow.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/foreign-national.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/temporal-law.md",
+      "plugins/legal-ai-pl/skills/pl-client-explanation/references/meaning-check.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "continuity-analysis": {
+    "agent": "/root/continuity_analysis",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/continuity-pl-case-file-analysis/user.md",
+      "plugins/legal-ai-pl/skills/pl-case-file-analysis/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-case-file-analysis/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-case-file-analysis/references/case-record.md",
+      "plugins/legal-ai-pl/skills/pl-case-file-analysis/references/case-continuity.md",
+      "plugins/legal-ai-pl/skills/pl-case-file-analysis/references/staff-workflow.md",
+      "plugins/legal-ai-pl/skills/pl-case-file-analysis/references/temporal-law.md",
+      "plugins/legal-ai-pl/skills/pl-case-file-analysis/references/intake-and-research.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "continuity-appeal": {
+    "agent": "/root/continuity_appeal",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/continuity-pl-criminal-appeal/user.md",
+      "plugins/legal-ai-pl/skills/pl-criminal-appeal/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-criminal-appeal/references/staff-workflow.md",
+      "plugins/legal-ai-pl/skills/pl-criminal-appeal/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-criminal-appeal/references/case-record.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "continuity-review": {
+    "agent": "/root/continuity_review",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/continuity-pl-legal-document-review/user.md",
+      "plugins/legal-ai-pl/skills/pl-legal-document-review/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-legal-document-review/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-legal-document-review/references/case-record.md",
+      "plugins/legal-ai-pl/skills/pl-legal-document-review/references/staff-workflow.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "continuity-detention": {
+    "agent": "/root/continuity_detention",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/continuity-pl-criminal-detention/user.md",
+      "plugins/legal-ai-pl/skills/pl-criminal-detention/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-criminal-detention/references/staff-workflow.md",
+      "plugins/legal-ai-pl/skills/pl-criminal-detention/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-criminal-detention/references/case-record.md",
+      "plugins/legal-ai-pl/skills/pl-criminal-detention/references/foreign-national.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "continuity-residence": {
+    "agent": "/root/continuity_residence",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/continuity-pl-residence-strategy/user.md",
+      "plugins/legal-ai-pl/skills/pl-residence-strategy/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-residence-strategy/references/staff-workflow.md",
+      "plugins/legal-ai-pl/skills/pl-residence-strategy/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-residence-strategy/references/case-record.md",
+      "plugins/legal-ai-pl/skills/pl-residence-strategy/references/residence-method.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "continuity-return": {
+    "agent": "/root/continuity_return",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/continuity-pl-return-defense/user.md",
+      "plugins/legal-ai-pl/skills/pl-return-defense/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-return-defense/references/staff-workflow.md",
+      "plugins/legal-ai-pl/skills/pl-return-defense/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-return-defense/references/case-record.md",
+      "plugins/legal-ai-pl/skills/pl-return-defense/references/return-method.md",
+      "plugins/legal-ai-pl/skills/pl-return-defense/references/temporal-law.md",
+      "plugins/legal-ai-pl/skills/pl-return-defense/references/legal-sources.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "continuity-ukraine": {
+    "agent": "/root/continuity_ukraine",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/continuity-pl-ukraine-residence-status/user.md",
+      "plugins/legal-ai-pl/skills/pl-ukraine-residence-status/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-ukraine-residence-status/references/staff-workflow.md",
+      "plugins/legal-ai-pl/skills/pl-ukraine-residence-status/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-ukraine-residence-status/references/case-record.md",
+      "plugins/legal-ai-pl/skills/pl-ukraine-residence-status/references/status-method.md",
+      "plugins/legal-ai-pl/skills/pl-ukraine-residence-status/references/foreign-national.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  },
+  "continuity-sis": {
+    "agent": "/root/continuity_sis",
+    "source_ref": "fbd809d7909ace3c3db7b1dfcc952ed5bb74d860",
+    "files": [
+      "evals/cases/continuity-pl-sis-alert-review/user.md",
+      "plugins/legal-ai-pl/skills/pl-sis-alert-review/SKILL.md",
+      "plugins/legal-ai-pl/skills/pl-sis-alert-review/references/source-policy.md",
+      "plugins/legal-ai-pl/skills/pl-sis-alert-review/references/case-record.md",
+      "plugins/legal-ai-pl/skills/pl-sis-alert-review/references/sis-method.md",
+      "plugins/legal-ai-pl/skills/pl-sis-alert-review/references/staff-workflow.md"
+    ],
+    "tools": [
+      "functions.exec",
+      "mcp__codex_apps__github_fetch_file"
+    ]
+  }
+}
