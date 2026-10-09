@@ -1,0 +1,110 @@
+{
+  "catalog": [
+    {
+      "name": "pl-criminal-appeal",
+      "description": "Przygotuj koncepcję, zarzuty, żądania lub projekt apelacji karnej w Polsce na podstawie akt i celu zaskarżenia. Użyj także do oceny konkretnego pomysłu na zarzut. Recenzję istniejącego pisma jako główne zadanie obsługuje pl-legal-document-review; kasacja, zażalenie i odwołanie administracyjne wymagają odrębnej metody."
+    },
+    {
+      "name": "pl-legal-document-review",
+      "description": "Sprawdź istniejące polskie pismo prawne, zwłaszcza karne: argumentację, fakty, cytaty, zakres i żądania; wskaż błędy oraz proponowane poprawki. Użyj do recenzji projektu, audytu cytowań lub oceny zgodności z aktami. Nie uruchamiaj pełnej recenzji do zwykłego streszczenia, tłumaczenia ani korekty wyłącznie językowej; tworzenie apelacji od podstaw obsługuje pl-criminal-appeal; skargę WSA w zwykłej sprawie powrotowej od początku obsługuje pl-wsa-complaint."
+    },
+    {
+      "name": "pl-case-file-analysis",
+      "description": "Rozpoznaj i wyjaśnij zlecającemu sprawę z opisu klienta PL/UA/RU, wklejonych wiadomości (np. WhatsApp) lub dokumentów, także bez akt. Użyj do analizy faktów, chronologii, porównania dowodów i researchu prawnego powiązanego ze sprawą. Nie przejmuj samego tłumaczenia, prostego streszczenia, abstrakcyjnego researchu ani pisania pisma. Objaśnienie przeznaczone dla klienta obsługuje pl-client-explanation."
+    },
+    {
+      "name": "pl-client-explanation",
+      "description": "Przygotuj krótką, naturalną odpowiedź dla klienta na WhatsApp lub inny komunikator po polsku, rosyjsku albo ukraińsku: pierwszy kontakt, organizacja, dokumenty, objaśnienie pisma lub zatwierdzonych ustaleń. Użyj także, gdy projekt przygotowuje pracownik kancelarii bez uprawnień. Nie przejmuj zwykłego tłumaczenia zdania, nowej pełnej strategii, pisma procesowego ani wysyłki wiadomości."
+    },
+    {
+      "name": "pl-criminal-detention",
+      "description": "Przeanalizuj pierwsze postanowienie sądu o zastosowaniu tymczasowego aresztowania w polskiej sprawie karnej; przygotuj argumenty lub projekt zażalenia obrony. Pierwszy zakres pilota nie obejmuje pełnej obsługi przedłużenia, zatrzymania, wykonania kary, detencji administracyjnej, ENA ani ekstradycji. Recenzję gotowego pisma jako główne zadanie obsługuje pl-legal-document-review."
+    },
+    {
+      "name": "pl-residence-strategy",
+      "description": "Oceń sytuację pobytową związaną z zatrudnieniem w Polsce i warianty zwykłego zezwolenia na pobyt czasowy i pracę, także przy zmianie pracodawcy lub warunków. Użyj do strategii dla adwokata na podstawie relacji i dokumentów. Pierwszy pilot nie obejmuje pełnej obsługi pobytu rodzinnego, stałego, Niebieskiej Karty UE ani ochrony. Odwołanie od zobowiązania do powrotu i skarga do WSA to inne zadania."
+    },
+    {
+      "name": "pl-return-defense",
+      "description": "Przeanalizuj zwykłą decyzję Straży Granicznej pierwszej instancji o zobowiązaniu cudzoziemca do powrotu (potocznie: deportacja) i przygotuj koncepcję lub zamówiony projekt administracyjnego odwołania. Oddziel zaskarżenie od wykonania i pilnej ochrony. Pełna skarga do WSA, sprawa ochronna, szczególna decyzja ministra, detencja, ENA i ekstradycja to inne zadania."
+    },
+    {
+      "name": "pl-ukraine-residence-status",
+      "description": "Oceń ochronę czasową i status UKR w Polsce, przyczyny utraty lub zmiany UKR/NUE oraz wariant CUKR i jego relację do innych podstaw pobytu. Użyj przy legalizacji pobytu obywateli Ukrainy, brakach rejestracji, wyjazdach i styku z ryzykiem deportacji. Rozpoznaj pilny powrót; projekt odwołania od decyzji SG, WSA, detencja, ekstradycja i pełna ochrona międzynarodowa wymagają odrębnej metody."
+    },
+    {
+      "name": "pl-sis-alert-review",
+      "description": "Rozpoznaj wpis osoby w Systemie Informacyjnym Schengen (SIS), jego kategorię, państwo wpisujące i relację do powrotu, zakazu wjazdu oraz legalizacji. Oceń dostęp do danych, sprostowanie lub usunięcie i przygotuj zamówiony projekt wniosku dotyczącego danych. Obejmuje rozpoznanie błędnej tożsamości i wpisu zagranicznego. Nie zastępuje odwołania od decyzji powrotowej, ENA, ekstradycji ani WSA."
+    },
+    {
+      "name": "pl-wsa-complaint",
+      "description": "Oceń możliwość i konstrukcję skargi do WSA na zwykłą ostateczną decyzję powrotową po administracyjnym postępowaniu odwoławczym; przygotuj koncepcję zarzutów albo zamówiony projekt od początku. Oceń osobno wykonanie i ochronę tymczasową. Pierwszą instancję obsługuje pl-return-defense, recenzję gotowego pisma pl-legal-document-review, samą wiadomość klienta pl-client-explanation. Pilot nie obejmuje bezczynności, kasacji NSA, detencji, ochrony międzynarodowej ani szczególnej decyzji ministra."
+    }
+  ],
+  "prompts": [
+    "Przygotuj koncepcję apelacji karnej na korzyść oskarżonego.",
+    "Czy ten pomysł na zarzut w apelacji karnej ma sens?",
+    "Sprawdź istniejący projekt apelacji i popraw błędne odwołania do akt.",
+    "Zrób audyt cytowań i żądań w tym piśmie do organu.",
+    "Popraw tylko interpunkcję w tym zdaniu.",
+    "Przetłumacz wiadomość klienta z rosyjskiego na polski.",
+    "Napisz kasację karną od podstaw.",
+    "Streść protokół w pięciu zdaniach.",
+    "Przeanalizuj akta i zrób chronologię z lokalizatorami.",
+    "Porównaj tylko te dwie relacje o zdarzeniu.",
+    "Wyszukaj orzecznictwo bez analizy akt.",
+    "Wyjaśnij klientowi po ukraińsku tę decyzję i przygotuj projekt wiadomości.",
+    "Opisz prostym rosyjskim klientowi, co wynika z analizy adwokata.",
+    "Przetłumacz zdanie: Widzimy się jutro.",
+    "Napisz pełną strategię legalizacji pobytu.",
+    "Przeanalizuj pierwsze postanowienie o zastosowaniu tymczasowego aresztowania i przygotuj zażalenie obrony.",
+    "Oceń ten argument przeciw pierwszemu zastosowaniu tymczasowego aresztowania.",
+    "Sprawdź i popraw gotowy projekt zażalenia na zastosowanie aresztowania.",
+    "Wyjaśnij klientowi po rosyjsku postanowienie o areszcie, bez analizy jego zasadności.",
+    "Przygotuj zażalenie na umieszczenie w strzeżonym ośrodku dla cudzoziemców.",
+    "Przygotuj pełne zażalenie na przedłużenie tymczasowego aresztowania.",
+    "Zaskarż zatrzymanie przez Policję, bez postanowienia o tymczasowym aresztowaniu.",
+    "Wklejam opis klienta z WhatsAppa po rosyjsku, bez dokumentów. Wyjaśnij mi po polsku, o co chodzi w sprawie.",
+    "Przeanalizuj ukraińską wiadomość klientki i załączone wezwanie; sprawdź przepisy i wyjaśnij mi jako adwokatowi problem.",
+    "Ось опис моєї справи та документи. Проаналізуй ситуацію і перевір польські правові підстави.",
+    "Вот переписка с работодателем. Разбери факты и противоречия.",
+    "Przetłumacz tylko ten opis sprawy z WhatsAppa z ukraińskiego na polski.",
+    "Oceń sytuację pobytową i możliwości zwykłego pobytu czasowego i pracy na podstawie tych dokumentów.",
+    "Mam pobyt i pracę u Alfa. Oceń warianty zmiany pracodawcy na Beta.",
+    "Czy przy wniosku o pobyt i pracę mogę zacząć inną pracę i wyjechać? Oceń dokumenty i warianty.",
+    "Przygotuj pełną strategię uzyskania ochrony międzynarodowej.",
+    "Przygotuj pełny wniosek o Niebieską Kartę UE.",
+    "Zrób tylko chronologię z tych dokumentów pobytowych, bez oceny strategii.",
+    "Wyjaśnij klientowi po rosyjsku zatwierdzony plan zmiany zezwolenia.",
+    "Sprawdź i popraw istniejące odwołanie od odmowy pobytu.",
+    "Oceń decyzję komendanta placówki SG pierwszej instancji o zobowiązaniu do powrotu i możliwe argumenty administracyjnego odwołania.",
+    "Przygotuj projekt odwołania od zwykłej decyzji powrotowej SG; osobno oceń rygor i planowany lot.",
+    "Oceń tylko argument więzi rodzinnej do odwołania od decyzji powrotowej pierwszej instancji.",
+    "Sprawdź istniejący projekt odwołania powrotowego: cytowania i zgodność faktów z aktami.",
+    "Wyjaśnij klientowi po rosyjsku treść decyzji powrotowej, bez tworzenia argumentów.",
+    "Dostałem wiadomość klienta i nie wiem co to za procedura: uporządkuj dokumenty i wyjaśnij mi sprawę.",
+    "Napisz pełną skargę do WSA na decyzję powrotową drugiej instancji od początku.",
+    "Przygotuj zażalenie na umieszczenie cudzoziemca w strzeżonym ośrodku.",
+    "Przygotuj od początku sprawę o ochronę międzynarodową i narrację azylową.",
+    "Przygotuj pełne odwołanie od szczególnej decyzji ministra w reżimie terrorystycznym.",
+    "Oceń UKR, utratę statusu i możliwość CUKR na podstawie dokumentów.",
+    "Czy nowe przepisy dotyczące obowiązków wojskowych zmieniają ochronę czasową tego klienta?",
+    "Przygotuj odwołanie od decyzji SG o deportacji obywatela Ukrainy.",
+    "Przetłumacz tylko słowo deportacja na ukraiński.",
+    "Klient jest w SIS. Przygotuj wniosek o dostęp do danych i ustal państwo wpisu.",
+    "Oceń podstawy usunięcia błędnego wpisu SIS dotyczącego tej osoby.",
+    "Zrób wykres czasu działania systemu SIS w naszej firmie IT.",
+    "Pracuję w kancelarii, nie jestem adwokatem. Przygotuj krótką odpowiedź na WhatsApp klienta po rosyjsku, co ma dosłać przed konsultacją.",
+    "Odpisz klientowi krótko, że otrzymaliśmy jego dokumenty.",
+    "Wyjaśnij mi jako pracownikowi po polsku, co zmienia nowa decyzja w przekazanej karcie sprawy. Bez wiadomości do klienta.",
+    "Skróć reklamę sklepu do wiadomości na WhatsApp.",
+    "Przetłumacz tylko: Заявление не подано.",
+    "Oceń dopuszczalność skargi do WSA po odwołaniu od zwykłej decyzji powrotowej; wykonanie oceń osobno.",
+    "Sprawdź gotowy projekt skargi WSA: zgodność z aktami, cytaty, żądanie i popraw błędy.",
+    "Klient dostał zwykłą ostateczną decyzję powrotową; przygotuj od początku projekt skargi i wniosek o ochronę tymczasową.",
+    "Napisz skargę kasacyjną do NSA od wyroku WSA w sprawie powrotowej.",
+    "Przygotuj skargę na bezczynność wojewody w sprawie pobytu.",
+    "Napisz skargę WSA na odmowę świadczenia socjalnego.",
+    "Odpisz krótko klientowi po rosyjsku, czy samo przygotowanie skargi WSA potwierdza wstrzymanie powrotu."
+  ]
+}
