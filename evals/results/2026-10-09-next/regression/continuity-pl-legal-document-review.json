@@ -1,0 +1,107 @@
+{
+  "raw_result": "Projekt zawiera dwie istotne niezgodności z podanymi źródłami:\n\n- „Złożyliśmy wniosek” — D1, akapit 1, wskazuje, że wniosek przygotowano, ale go nie złożono.\n- „Klient musi pilnie uzupełnić dokumenty” — D2, akapit 1, wskazuje możliwość uzupełnienia, bez obowiązku na obecnym etapie; nie daje też podstawy do pilności.\n\nPoprawiony akapit:\n„Wniosek przygotowano, ale go nie złożono. Klient może uzupełnić dokumenty; na obecnym etapie nie ma takiego obowiązku”.\n\nStatus: projekt do przeglądu adwokata. Wcześniejsze określenie go przez AI jako zatwierdzonego nie potwierdza zatwierdzenia przez adwokata.\n\nSprawdzono wyłącznie wierność akapitu przytoczonym fragmentom D1 i D2.",
+  "read_tool_trace": [
+    {
+      "sequence": 1,
+      "tool": "functions.exec",
+      "operation": "Odkrycie metadanych dostępnych narzędzi: filtr ALL_TOOLS dla github i get_file/file_contents/create_blob; bez odczytów plików.",
+      "result": "Odkryto github_create_blob."
+    },
+    {
+      "sequence": 2,
+      "tool": "functions.exec",
+      "operation": "Odkrycie metadanych dostępnych narzędzi: filtr ALL_TOOLS dla github i retrieve/fetch/contents/content/file/tree; bez odczytów plików.",
+      "result": "Odkryto m.in. github_fetch_file."
+    },
+    {
+      "sequence": 3,
+      "tool": "mcp__codex_apps__github_fetch_file",
+      "arguments": {
+        "repository_full_name": "Pawel-Rogoza/chatgpt-skills",
+        "ref": "85808f02ac6fe34c6c781d1db2d801df3f1be1d9",
+        "path": "evals/cases/continuity-pl-legal-document-review/user.md"
+      },
+      "execution_group": "równoległy odczyt dwóch wskazanych plików",
+      "result": {
+        "status": "fulfilled",
+        "isError": false,
+        "sha": "3a0fa898f2ee2e370a9cb6df0859b8b63382acff",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "sequence": 4,
+      "tool": "mcp__codex_apps__github_fetch_file",
+      "arguments": {
+        "repository_full_name": "Pawel-Rogoza/chatgpt-skills",
+        "ref": "85808f02ac6fe34c6c781d1db2d801df3f1be1d9",
+        "path": "plugins/legal-ai-pl/skills/pl-legal-document-review/SKILL.md"
+      },
+      "execution_group": "równoległy odczyt dwóch wskazanych plików",
+      "result": {
+        "status": "fulfilled",
+        "isError": false,
+        "sha": "cfc9fe72b45ce09595c79c6cc6e73d6d9f9c6ef5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "sequence": 5,
+      "tool": "mcp__codex_apps__github_fetch_file",
+      "arguments": {
+        "repository_full_name": "Pawel-Rogoza/chatgpt-skills",
+        "ref": "85808f02ac6fe34c6c781d1db2d801df3f1be1d9",
+        "path": "plugins/legal-ai-pl/skills/pl-legal-document-review/references/source-policy.md"
+      },
+      "execution_group": "równoległy odczyt trzech referencji",
+      "result": {
+        "status": "fulfilled",
+        "isError": false,
+        "sha": "28172fa26492ea56424f0d68d0df8c1be2f818b2",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "sequence": 6,
+      "tool": "mcp__codex_apps__github_fetch_file",
+      "arguments": {
+        "repository_full_name": "Pawel-Rogoza/chatgpt-skills",
+        "ref": "85808f02ac6fe34c6c781d1db2d801df3f1be1d9",
+        "path": "plugins/legal-ai-pl/skills/pl-legal-document-review/references/case-record.md"
+      },
+      "execution_group": "równoległy odczyt trzech referencji",
+      "result": {
+        "status": "fulfilled",
+        "isError": false,
+        "sha": "b59a645d728afdd781443292afd005b3b328458d",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "sequence": 7,
+      "tool": "mcp__codex_apps__github_fetch_file",
+      "arguments": {
+        "repository_full_name": "Pawel-Rogoza/chatgpt-skills",
+        "ref": "85808f02ac6fe34c6c781d1db2d801df3f1be1d9",
+        "path": "plugins/legal-ai-pl/skills/pl-legal-document-review/references/staff-workflow.md"
+      },
+      "execution_group": "równoległy odczyt trzech referencji",
+      "result": {
+        "status": "fulfilled",
+        "isError": false,
+        "sha": "6d143fb76300084ccb84655df6dc44a3cf50d0af",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "sequence": 8,
+      "tool": "mcp__codex_apps__github_create_blob",
+      "arguments": {
+        "repository_full_name": "Pawel-Rogoza/chatgpt-skills",
+        "encoding": "utf-8",
+        "content": "Dokładna serializacja UTF-8 niniejszego obiektu JSON, zawierającego raw_result i read_tool_trace."
+      },
+      "operation": "Jedyna mutacja: utrwalenie wyniku i śladu w jednym blobie; bez zmian refów, drzew, commitów, PR, plików lub wysyłki."
+    }
+  ]
+}

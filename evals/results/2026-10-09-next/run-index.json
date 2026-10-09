@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-09",
+  "repository": "Pawel-Rogoza/chatgpt-skills",
+  "source_versions": {
+    "contact": "e8af13af51a8d71419b46f9fc0ee88f10dccf3f1",
+    "updated": "85808f02ac6fe34c6c781d1db2d801df3f1be1d9",
+    "contact_new_inputs": "d51ad908f216fc788fee1167ec46e43bf8d3b952",
+    "wsa_new_inputs": "f191761080f073e1d6c9b6dd737b973c079b6a5a",
+    "routing": "c5fd9217144214cca79ec68f9f46c792b3a90c95"
+  },
+  "outputs": {
+    "remaining_contact": 16,
+    "contact_comparison": 12,
+    "wsa": 14,
+    "mobile_regression": 2,
+    "other_regression": 3,
+    "total_texts": 47,
+    "distinct_inputs": 35,
+    "routing_decisions": 64,
+    "routing_matches": 64
+  },
+  "model_parameters": "inherited; exact backend identifier, temperature and seed not controlled",
+  "review": "root model; no independent lawyer or RU/UA professional acceptance",
+  "scope": "synthetic closed-world responses; routing is description-catalog proxy",
+  "artifacts": {
+    "evals/results/2026-10-09-next/wsa/wsa-01-02-full.md": "c9a0177417775af2ee157ca1f6d054864cd8240e",
+    "evals/results/2026-10-09-next/wsa/wsa-03-04-full.md": "7c5ede6bea4089d97d2215ea4b3bb5388d61d7ee",
+    "evals/results/2026-10-09-next/wsa/wsa-05-06-full.md": "5fc49f86b9c5a3511c6a1be0fe9e5d96bc77c94e",
+    "evals/results/2026-10-09-next/wsa/wsa-07-08-full.md": "a817a1c1002e281062adef80b049b3fca2a89233",
+    "evals/results/2026-10-09-next/wsa/wsa-h01-full.md": "e93bf4f9486808b2270ea038d539069daf51fe58",
+    "evals/results/2026-10-09-next/wsa/wsa-h02-full.md": "9c60a301a518d0e3ce84086a8e68b44f1d5dfc59",
+    "evals/results/2026-10-09-next/wsa/wsa-09-10-full.md": "869e9d0a6d9c08aac40d165d9054deb86926a63b",
+    "evals/results/2026-10-09-next/regression/whatsapp-urgent-02-05.md": "5ebda85b4a522b13019bea130e1227a7f558c387",
+    "evals/results/2026-10-09-next/routing-proxy.json": "7ceb77e5933af8b6fca99f93f8a3ebfe73088624",
+    "evals/results/2026-10-09-next/regression/continuity-pl-return-defense.md": "bd3928ff7825b35ac0a18ec7deb8983a0e678155",
+    "evals/results/2026-10-09-next/regression/continuity-pl-case-file-analysis.md": "581e7f625b1e0eafa6ab4022ad2002417beffcdd",
+    "evals/results/2026-10-09-next/regression/continuity-pl-legal-document-review.json": "af5b8f0e2f42733fd363279ffe9c6be8d429c1e4"
+  },
+  "technical": {
+    "scaffold_run": 37930006345,
+    "instruction_run": 37930299035,
+    "package_files": 89,
+    "unit_tests": 15
+  },
+  "host": {
+    "installation": "unverified",
+    "automatic_routing": "unverified"
+  }
+}

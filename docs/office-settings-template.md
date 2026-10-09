@@ -11,6 +11,9 @@ To pusty formularz. Nie jest zatwierdzonym cennikiem ani polityką. Wypełnij po
 | Sposób umawiania i potwierdzania terminu | Nie podano | Nie podano | Nie podano |
 | Wymagane dokumenty na określony etap | Nie podano | Nie podano | Nie podano |
 | Osoba / procedura pilnego przekazania | Nie podano | Nie podano | Nie podano |
+| Potwierdzanie nowego kanału lub odbiorcy danych | Nie podano | Nie podano | Nie podano |
+| Zastępstwo przy nieobecności prowadzącego | Nie podano | Nie podano | Nie podano |
+| Język notatki wewnętrznej i zatwierdzania RU/UA | Nie podano | Nie podano | Nie podano |
 | Zasady danych i używanego środowiska | Nie podano | Nie podano | Nie podano |
 
 Przykładowe zlecenie: „Pracuję w kancelarii bez uprawnień adwokackich. Przygotuj odpowiedź do klienta po rosyjsku na WhatsApp. Poniżej wiadomość i aktualne zatwierdzone ustalenia. Jeśli potrzebna jest nowa decyzja prawna, krótko zaznacz mi to osobno”.
