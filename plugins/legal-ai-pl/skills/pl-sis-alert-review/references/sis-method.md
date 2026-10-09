@@ -25,3 +25,9 @@ Wniosek o dostęp: żądanie potwierdzenia i właściwy zakres informacji (kateg
 Sprostowanie: konkretne pole/utożsamienie, wersja prawidłowa i dowód. Usunięcie: powód bezprawności/utraty podstawy, dowód i żądanie odpowiednie do ustaleń. „Klient chce podróżować” nie jest samo podstawą usunięcia. Nie stawiaj fikcyjnej alternatywy, że odmowa dostępu oznacza brak wpisu.
 
 Nie stosuj jednej daty końca do zakazu, retencji, przeglądu i decyzji. Powrót może oznaczać zmianę kategorii wpisu przy zakazie, a usunięcie SIS nie musi usuwać wpisu krajowego. Dokładny skutek wymaga odczytu właściwej normy i decyzji. Gdy istnieją wpisy wielu państw, analizuj je osobno.
+
+## Uzupełnienie zakresu odczytu 09.10.2026
+
+Ponownie odczytano właściwe fragmenty stron UODO i pkt VII KGP: poradnik UODO nadal wskazuje elektroniczną skrzynkę podawczą; opis KGP ogranicza ePUAP do 31.12.2025 i podaje e-Doręczenia/pocztę elektroniczną wraz z wymaganym podpisem. Nie traktuj tych opisów jako zamiennych bez sprawdzenia administratora.
+
+Indeks EUR-Lex wskazał konsolidacje 2018/1860 i 1861 z 03.08.2021, a 1862 z 01.08.2022. Próby odczytu pierwszych dwóch zwróciły wyłącznie blokadę JavaScript. Dla [1862, konsolidacja 01.08.2022](https://eur-lex.europa.eu/eli/reg/2018/1862/2022-08-01/eng) widoczna była identyfikacja i lista zmian, lecz ponowny odczyt przepisów został zablokowany. Nie oznaczono zatem tych konsolidacji jako merytorycznie sprawdzonych; przed indywidualnym wnioskiem trzeba odczytać właściwe normy. Oryginalny odczyt 1861 z 01.10.2026 nie zastępuje tej kontroli.

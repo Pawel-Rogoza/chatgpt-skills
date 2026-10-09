@@ -38,3 +38,7 @@ To lista planowanych prób, nie wyniki. Nowe niezależne przypadki do porównani
 Najpierw materiały i rubryka, następnie metoda i referencje, dopiero potem SKILL.md oraz konfiguracja pakowania. Sprawdzić błędy krytyczne, pokrycie argumentów, terminy i wykonanie; przeprowadzić regresję B3, analizy i recenzji. Zapisać surowe odpowiedzi i czas poprawek adwokata. Nowa wersja pakietu dopiero po check, pełnych testach, build i odrębnej weryfikacji instalacji. Odbiór zawodowy pozostaje osobnym warunkiem określonego użycia.
 
 Przygotowanie tej specyfikacji nie dodaje dziesiątego skilla. C2, C3 i fala D pozostają w roadmapie.
+
+## Realizacja 09.10.2026
+
+Specyfikacja powyżej zachowuje stan planowania z 01.10.2026. W 0.10.0 dodano wąski pilot pl-wsa-complaint po zamrożeniu dziesięciu wejść i rubryki; wykonane próby i ograniczenia opisuje [raport](../evals/results/2026-10-09-next/report.md). Nie spełniono jeszcze odbioru adwokata, pomiaru jego poprawek ani potwierdzenia instalacji. C1 jest implementacją pilota, nie kompletnie odebranym wdrożeniem zawodowym.

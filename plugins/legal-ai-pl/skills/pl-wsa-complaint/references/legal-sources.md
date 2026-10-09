@@ -1,0 +1,9 @@
+# C1: mapa źródeł, odczyt 09.10.2026
+
+To datowany punkt wyjścia. Odczyt fragmentu i data opracowania PDF nie potwierdzają kompletności wszystkich zmian ani prawa właściwego dla sprawy.
+
+- [P.p.s.a., tekst ujednolicony](https://eli.gov.pl/api/acts/DU/2026/143/text/U/D20260143Lj.pdf), opracowanie oznaczone 09.10.2026. Odczytano: art. 13, 46–47, 50–54, 57–61, 83–87, 133–135, 145–145a. Mapa: droga i legitymacja 50/52; doręczenie i wniesienie 53/54; wymagania 46/47/57; ryzyko odrzucenia 58; ochrona 61; terminy 83–87; granice kontroli i rozstrzygnięcie 134/135/145/145a. Odczyt art. 61 rozdziela skargę od wstrzymania i organ od sądu; nie wystarcza do pominięcia przepisów szczególnych. Tekst oznacza część zmian doręczeń jako wchodzące dopiero 01.10.2029: nie stosuj automatycznie przyszłego brzmienia.
+- [Ustawa o cudzoziemcach](https://eli.gov.pl/api/acts/DU/2025/1079/text/U/D20251079Lj.pdf), opracowanie 07.04.2026. Odczytano fragmenty 302–303, 329–332 i wcześniej 348–351. Art. 331 jest oznaczony jako uchylony: stare materiały o skutkach skargi trzeba zweryfikować. Sam kwietniowy PDF nie potwierdza wszystkich zmian do października; sprawdź późniejsze akty, wejście w życie i przejście.
+- [CBOSA](https://orzeczenia.nsa.gov.pl/cbo/query): odczytano formularz wyszukiwania, nie konkretne uzasadnienia do C1. Nie ma tu zweryfikowanego katalogu tez orzeczniczych. Dla używanego wyroku trzeba odczytać pełny tekst i odpowiedni fragment; sygnatura ze streszczenia nie jest źródłem tezy.
+
+Dla rozpoznanej sprawy sprawdź także właściwe przepisy materialne i KPA, aktualne orzecznictwo krajowe/UE/ETPC oraz źródła o kraju pochodzenia, jeżeli mają znaczenie. Ich kompleksowego przeglądu w tym wdrożeniu nie wykonano. Nie zastępuj tej luki pamięcią modelu. Ta referencja nie jest kalkulatorem terminów ani podstawą gwarancji ochrony.

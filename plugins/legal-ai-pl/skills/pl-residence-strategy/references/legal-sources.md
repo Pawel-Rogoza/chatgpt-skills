@@ -12,3 +12,7 @@ Dla szczególnego statusu UA najpierw zidentyfikuj faktyczną podstawę i daty; 
 
 
 Dla styku UKR/CUKR sprawdź [ustawę ochronną 2026/862](https://eli.gov.pl/eli/DU/2026/862/ogl), [decyzję UE 2026/1912](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D1912) wraz ze [sprostowaniem 2026/90680](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D1912R%2801%29) oraz art. 42c–42x ustawy pomocowej. Ochrona UE, krajowy termin i ważność dokumentu są odrębne. Przy CUKR zweryfikuj umorzenie trwającej sprawy pobytu czasowego z art. 42i; nie obiecuj równoległego utrzymania obu postępowań.
+
+## Uzupełnienie 09.10.2026: uruchomienie systemu
+
+Odczytano [komunikat MSWiA, M.P. 2026 poz. 370](https://eli.gov.pl/api/acts/MP/2026/370/text.pdf): 27.04.2026 jako dzień wdrożenia wskazanych rozwiązań technicznych. Wnioski objęte konkretnym zakresem wymagają odczytu listy przepisów, zasad przejścia i obowiązującego trybu. PDF ustawy o cudzoziemcach opracowany 07.04.2026 może nadal pokazywać te przepisy jako warunkowo przyszłe; nie wywodź z samej tej adnotacji, że system nie został uruchomiony. Nie sprawdzono wszystkich późniejszych zmian ani każdego rodzaju wniosku.

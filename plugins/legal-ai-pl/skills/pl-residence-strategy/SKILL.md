@@ -8,7 +8,7 @@ description: >-
   pobytu rodzinnego, stałego, Niebieskiej Karty UE ani ochrony.
   Odwołanie od zobowiązania do powrotu i skarga do WSA to inne zadania.
 metadata:
-  version: "0.9.0"
+  version: "0.10.0"
   status: "pilot"
 ---
 

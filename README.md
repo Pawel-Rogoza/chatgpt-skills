@@ -4,7 +4,7 @@ Projekt skilli dla pracy adwokackiej w Polsce: rozpoznanie sprawy z opisu klient
 
 Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz [recenzja z planem oceny](legal-ai-review-v0.2-pl.md).
 
-Bieżące wydanie źródeł: **0.9.0** — [raport prób](evals/results/2026-10-09-whatsapp/report.md), [zmiany](docs/release-0.9.0.md), [kolejne wdrożenia](docs/development-roadmap-0.9.0.md), [ustalenia kancelarii](docs/office-settings-template.md). Pierwsze kontakty i krótkie odpowiedzi WhatsApp PL/RU/UA obsługuje `pl-client-explanation`; analiza pozostaje wewnętrzna, jeśli nie zlecono tekstu dla klienta.
+Bieżące wydanie źródeł: **0.10.0** — [raport prób](evals/results/2026-10-09-next/report.md), [zmiany](docs/release-0.10.0.md), [kolejne wdrożenia](docs/development-roadmap-0.10.0.md), [ustalenia kancelarii](docs/office-settings-template.md). Instalacji 0.10.0 i automatycznego routingu w docelowym hoście nie potwierdzono; [instrukcja odbioru](docs/host-acceptance-0.10.0.md). Pierwsze kontakty i krótkie odpowiedzi WhatsApp PL/RU/UA obsługuje `pl-client-explanation`; analiza pozostaje wewnętrzna, jeśli nie zlecono tekstu dla klienta.
 
 Historyczny plan: [dalsze kroki po 0.8.0](docs/next-steps-0.8.0.md). Historia: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). A0–A2 mają implementację i zweryfikowaną instalację lokalną. [Raport fali A](evals/results/2026-09-23/report.md) rozróżnia sprawdzenia techniczne, próby własne oraz brak niezależnego odbioru.
 
@@ -18,10 +18,11 @@ Nowy etap: [research Ukrainy na 01.10.2026](docs/research-ukraine-return-legalis
 
 Wdrożenie 0.8.0 scalono do `main` przez [PR #9](https://github.com/Pawel-Rogoza/chatgpt-skills/pull/9) 01.10.2026; wszystkie dziewięć skilli zainstalowane lokalnie. Pilotaż i odbiór zawodowy to odrębne etapy.
 
-## Pakiet 0.8.0 — kontrolowany pilotaż
+## Pakiet 0.10.0 — kontrolowany pilotaż
 
 | Skill | Zadanie |
 |---|---|
+| [pl-wsa-complaint](plugins/legal-ai-pl/skills/pl-wsa-complaint/SKILL.md) | Zwykła ostateczna decyzja powrotowa: koncepcja/projekt skargi WSA i osobna ocena wykonania |
 | [pl-sis-alert-review](plugins/legal-ai-pl/skills/pl-sis-alert-review/SKILL.md) | Rodzaj i państwo wpisu SIS, dostęp do danych, sprostowanie/usunięcie i relacja do decyzji |
 | [pl-ukraine-residence-status](plugins/legal-ai-pl/skills/pl-ukraine-residence-status/SKILL.md) | UKR/NUE, wariant CUKR, inne podstawy pobytu i pilny styk powrotowy |
 | [pl-return-defense](plugins/legal-ai-pl/skills/pl-return-defense/SKILL.md) | Decyzja powrotowa pierwszej instancji: argumenty odwołania i odrębna ocena wykonania |
@@ -47,7 +48,7 @@ codex plugin add legal-ai-pl@personal
 
 `personal` to identyfikator katalogu zapisany w `.agents/plugins/marketplace.json` tego repozytorium, nie polecenie udostępnienia publicznego. Jeśli masz już inne źródło o tej nazwie, sprawdź `codex plugin marketplace list` i nie zastępuj go bez rozstrzygnięcia konfliktu. Następnie otwórz nowe zadanie; w razie braku pozycji odśwież aplikację. Instalator może kwalifikować nazwę katalogu — użyj identyfikatora zwróconego przez CLI.
 
-W selektorze wybierz "SIS - wpis i prawa do danych", "Ukraina - UKR, CUKR i legalizacja", "Decyzja powrotowa - odwołanie", "Pobyt czasowy i praca", "Tymczasowe aresztowanie - zastosowanie", "Rozpoznanie i analiza sprawy", "Objaśnienie dla klienta PL/UA/RU", "Apelacja karna" albo "Recenzja pisma prawnego". Nazwa skilla może otrzymać prefiks pluginu. Skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
+W selektorze wybierz "WSA - decyzja powrotowa", "SIS - wpis i prawa do danych", "Ukraina - UKR, CUKR i legalizacja", "Decyzja powrotowa - odwołanie", "Pobyt czasowy i praca", "Tymczasowe aresztowanie - zastosowanie", "Rozpoznanie i analiza sprawy", "Objaśnienie dla klienta PL/UA/RU", "Apelacja karna" albo "Recenzja pisma prawnego". Nazwa skilla może otrzymać prefiks pluginu. Skopiowanie plików do repozytorium nie potwierdza instalacji w ChatGPT Business/Enterprise.
 
 Alternatywnie możesz skopiować **cały folder wybranego skilla**, łącznie z `references/` i `agents/`, do obsługiwanej lokalizacji skilli w swoim środowisku. Nie instaluj równolegle tej samej wersji jako osobnego skilla i pluginu, bo może to dać duplikaty.
 
@@ -113,3 +114,7 @@ Wybierz „Pobyt czasowy i praca” i przekaż decyzję z warunkami oraz potrzeb
 ## B3: decyzja powrotowa
 
 [Specyfikacja](docs/b3-specification.md), [rubryka](evals/return-rubric.md), [raport](evals/results/2026-10-01-b3/report.md) i [wydanie 0.7.0](docs/release-0.7.0.md). Pilot ocenia zwykłą decyzję SG pierwszej instancji, administracyjne odwołanie i osobno wykonanie; nie obejmuje pełnej skargi do WSA, detencji ani prowadzenia sprawy ochronnej od początku.
+
+## C1: skarga WSA w zwykłej sprawie powrotowej
+
+Wybierz „WSA - decyzja powrotowa” dla koncepcji lub projektu od początku po administracyjnym odwołaniu. Recenzję istniejącego projektu nadal obsługuje pl-legal-document-review, a samą odpowiedź dla klienta pl-client-explanation. Pilot nie obejmuje kasacji, bezczynności, detencji ani szczególnej decyzji ministra. [Rubryka](evals/wsa-rubric.md), [zakres źródeł](docs/research-followup-2026-10-09.md) i [wyniki](evals/results/2026-10-09-next/report.md). Odbiór zawodowy i pełny przegląd orzecznictwa pozostają otwarte.

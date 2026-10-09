@@ -8,7 +8,7 @@ description: >-
   Obejmuje rozpoznanie błędnej tożsamości i wpisu zagranicznego.
   Nie zastępuje odwołania od decyzji powrotowej, ENA, ekstradycji ani WSA.
 metadata:
-  version: "0.9.0"
+  version: "0.10.0"
   status: "pilot"
 ---
 

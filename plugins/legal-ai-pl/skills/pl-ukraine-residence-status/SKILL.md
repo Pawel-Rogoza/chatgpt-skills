@@ -8,7 +8,7 @@ description: >-
   projekt odwołania od decyzji SG, WSA, detencja, ekstradycja i pełna
   ochrona międzynarodowa wymagają odrębnej metody.
 metadata:
-  version: "0.9.0"
+  version: "0.10.0"
   status: "pilot"
 ---
 

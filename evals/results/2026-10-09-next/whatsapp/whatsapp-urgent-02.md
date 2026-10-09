@@ -1,0 +1,3 @@
+Сейчас важно без промедления связаться с адвокатом. Напишите имя и фамилию брата, когда и где его забрали — в какой стране и городе; если знаете, укажите, куда его увезли. Если есть сообщение от полиции или суда либо фото документа, пришлите его, но не откладывайте контакт с адвокатом из-за отсутствия документов. Пока по этой информации нельзя определить, какой орган действует и на каком этапе находится дело.
+
+Notatka dla pracownika: pilnie zorganizować kontakt z adwokatem, nie czekając na komplet dokumentów. Wiadomość klienta nie potwierdza organu, miejsca pobytu brata ani etapu postępowania. Adwokat powinien ustalić te okoliczności i ocenić potrzebne czynności oraz ewentualne terminy.

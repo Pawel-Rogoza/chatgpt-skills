@@ -7,7 +7,7 @@ description: >-
   od wykonania i pilnej ochrony. Pełna skarga do WSA, sprawa ochronna,
   szczególna decyzja ministra, detencja, ENA i ekstradycja to inne zadania.
 metadata:
-  version: "0.9.0"
+  version: "0.10.0"
   status: "pilot"
 ---
 
@@ -23,7 +23,7 @@ Przeczytaj [zasady źródeł](references/source-policy.md) i [akta sprawy](refer
 
 Jeśli znany jest plan doprowadzenia, lot, krótki termin lub szczególne ryzyko po powrocie, wskaż to na początku i ustal pilną reakcję niezależną od dopracowania odwołania. Nie odkładaj jej do zebrania pełnych akt. Brak pouczenia lub dowodu doręczenia blokuje zależne obliczenie, nie rozpoznanie dostępnych zarzutów.
 
-Sprawdź, czy to rzeczywiście zwykła decyzja SG pierwszej instancji. Decyzja drugiej instancji, szczególne rozstrzygnięcie ministra, odmowa wjazdu, postanowienie o detencji i ekstradycja wymagają innej metody. Nazwij właściwą ścieżkę, dostępne ustalenia oraz ryzyko; nie twórz pozornego odwołania w niewłaściwym postępowaniu. Kontrola pobytu i pracy nie zastępuje zaskarżenia już wydanej decyzji powrotowej.
+Sprawdź, czy to rzeczywiście zwykła decyzja SG pierwszej instancji. Decyzja drugiej instancji, szczególne rozstrzygnięcie ministra, odmowa wjazdu, postanowienie o detencji i ekstradycja wymagają innej metody. Przy zwykłej ostatecznej decyzji po odwołaniu koncepcję skargi wskazuje pl-wsa-complaint. Nazwij właściwą ścieżkę, dostępne ustalenia oraz ryzyko; nie twórz pozornego odwołania w niewłaściwym postępowaniu. Kontrola pobytu i pracy nie zastępuje zaskarżenia już wydanej decyzji powrotowej.
 
 ## Osobno oceń zaskarżenie i wykonanie
 

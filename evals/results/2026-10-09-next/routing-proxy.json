@@ -1,0 +1,270 @@
+{
+  "results": [
+    {
+      "index": 1,
+      "selected": "pl-criminal-appeal"
+    },
+    {
+      "index": 2,
+      "selected": "pl-criminal-appeal"
+    },
+    {
+      "index": 3,
+      "selected": "pl-legal-document-review"
+    },
+    {
+      "index": 4,
+      "selected": "pl-legal-document-review"
+    },
+    {
+      "index": 5,
+      "selected": "neither"
+    },
+    {
+      "index": 6,
+      "selected": "neither"
+    },
+    {
+      "index": 7,
+      "selected": "neither"
+    },
+    {
+      "index": 8,
+      "selected": "neither"
+    },
+    {
+      "index": 9,
+      "selected": "pl-case-file-analysis"
+    },
+    {
+      "index": 10,
+      "selected": "pl-case-file-analysis"
+    },
+    {
+      "index": 11,
+      "selected": "neither"
+    },
+    {
+      "index": 12,
+      "selected": "pl-client-explanation"
+    },
+    {
+      "index": 13,
+      "selected": "pl-client-explanation"
+    },
+    {
+      "index": 14,
+      "selected": "neither"
+    },
+    {
+      "index": 15,
+      "selected": "neither"
+    },
+    {
+      "index": 16,
+      "selected": "pl-criminal-detention"
+    },
+    {
+      "index": 17,
+      "selected": "pl-criminal-detention"
+    },
+    {
+      "index": 18,
+      "selected": "pl-legal-document-review"
+    },
+    {
+      "index": 19,
+      "selected": "pl-client-explanation"
+    },
+    {
+      "index": 20,
+      "selected": "neither"
+    },
+    {
+      "index": 21,
+      "selected": "neither"
+    },
+    {
+      "index": 22,
+      "selected": "neither"
+    },
+    {
+      "index": 23,
+      "selected": "pl-case-file-analysis"
+    },
+    {
+      "index": 24,
+      "selected": "pl-case-file-analysis"
+    },
+    {
+      "index": 25,
+      "selected": "pl-case-file-analysis"
+    },
+    {
+      "index": 26,
+      "selected": "pl-case-file-analysis"
+    },
+    {
+      "index": 27,
+      "selected": "neither"
+    },
+    {
+      "index": 28,
+      "selected": "pl-residence-strategy"
+    },
+    {
+      "index": 29,
+      "selected": "pl-residence-strategy"
+    },
+    {
+      "index": 30,
+      "selected": "pl-residence-strategy"
+    },
+    {
+      "index": 31,
+      "selected": "neither"
+    },
+    {
+      "index": 32,
+      "selected": "neither"
+    },
+    {
+      "index": 33,
+      "selected": "pl-case-file-analysis"
+    },
+    {
+      "index": 34,
+      "selected": "pl-client-explanation"
+    },
+    {
+      "index": 35,
+      "selected": "pl-legal-document-review"
+    },
+    {
+      "index": 36,
+      "selected": "pl-return-defense"
+    },
+    {
+      "index": 37,
+      "selected": "pl-return-defense"
+    },
+    {
+      "index": 38,
+      "selected": "pl-return-defense"
+    },
+    {
+      "index": 39,
+      "selected": "pl-legal-document-review"
+    },
+    {
+      "index": 40,
+      "selected": "pl-client-explanation"
+    },
+    {
+      "index": 41,
+      "selected": "pl-case-file-analysis"
+    },
+    {
+      "index": 42,
+      "selected": "pl-wsa-complaint"
+    },
+    {
+      "index": 43,
+      "selected": "neither"
+    },
+    {
+      "index": 44,
+      "selected": "neither"
+    },
+    {
+      "index": 45,
+      "selected": "neither"
+    },
+    {
+      "index": 46,
+      "selected": "pl-ukraine-residence-status"
+    },
+    {
+      "index": 47,
+      "selected": "pl-ukraine-residence-status"
+    },
+    {
+      "index": 48,
+      "selected": "pl-return-defense"
+    },
+    {
+      "index": 49,
+      "selected": "neither"
+    },
+    {
+      "index": 50,
+      "selected": "pl-sis-alert-review"
+    },
+    {
+      "index": 51,
+      "selected": "pl-sis-alert-review"
+    },
+    {
+      "index": 52,
+      "selected": "neither"
+    },
+    {
+      "index": 53,
+      "selected": "pl-client-explanation"
+    },
+    {
+      "index": 54,
+      "selected": "pl-client-explanation"
+    },
+    {
+      "index": 55,
+      "selected": "pl-case-file-analysis"
+    },
+    {
+      "index": 56,
+      "selected": "neither"
+    },
+    {
+      "index": 57,
+      "selected": "neither"
+    },
+    {
+      "index": 58,
+      "selected": "pl-wsa-complaint"
+    },
+    {
+      "index": 59,
+      "selected": "pl-legal-document-review"
+    },
+    {
+      "index": 60,
+      "selected": "pl-wsa-complaint"
+    },
+    {
+      "index": 61,
+      "selected": "neither"
+    },
+    {
+      "index": 62,
+      "selected": "neither"
+    },
+    {
+      "index": 63,
+      "selected": "neither"
+    },
+    {
+      "index": 64,
+      "selected": "pl-client-explanation"
+    }
+  ],
+  "read_trace": [
+    {
+      "tool": "github_fetch_file",
+      "repository_full_name": "Pawel-Rogoza/chatgpt-skills",
+      "path": "evals/routing-input-0.10.0.json",
+      "ref": "c5fd9217144214cca79ec68f9f46c792b3a90c95",
+      "encoding": "utf-8",
+      "returned_sha": "27a1cf86fd48ab21cb6d7501486d71cf4a722659"
+    }
+  ]
+}

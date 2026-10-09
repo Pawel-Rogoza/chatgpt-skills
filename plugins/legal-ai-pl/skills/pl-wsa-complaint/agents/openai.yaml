@@ -1,0 +1,4 @@
+interface:
+  display_name: "WSA - decyzja powrotowa"
+  short_description: "Skarga WSA i osobna ocena wykonania decyzji powrotowej"
+  default_prompt: "Użyj $pl-wsa-complaint do oceny ostatecznej decyzji powrotowej, koncepcji skargi WSA i odrębnej oceny wykonania."
