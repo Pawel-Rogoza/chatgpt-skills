@@ -4,7 +4,7 @@ Projekt skilli dla pracy adwokackiej w Polsce: rozpoznanie sprawy z opisu klient
 
 Punktem wyjścia jest [architektura v0.2](legal-ai-architecture-v0.2-pl.md) oraz [recenzja z planem oceny](legal-ai-review-v0.2-pl.md).
 
-Bieżące wydanie źródeł: **0.9.0** — [zmiany](docs/release-0.9.0.md), [kolejne wdrożenia](docs/development-roadmap-0.9.0.md), [ustalenia kancelarii](docs/office-settings-template.md). Pierwsze kontakty i krótkie odpowiedzi WhatsApp PL/RU/UA obsługuje `pl-client-explanation`; analiza pozostaje wewnętrzna, jeśli nie zlecono tekstu dla klienta.
+Bieżące wydanie źródeł: **0.9.0** — [raport prób](evals/results/2026-10-09-whatsapp/report.md), [zmiany](docs/release-0.9.0.md), [kolejne wdrożenia](docs/development-roadmap-0.9.0.md), [ustalenia kancelarii](docs/office-settings-template.md). Pierwsze kontakty i krótkie odpowiedzi WhatsApp PL/RU/UA obsługuje `pl-client-explanation`; analiza pozostaje wewnętrzna, jeśli nie zlecono tekstu dla klienta.
 
 Historyczny plan: [dalsze kroki po 0.8.0](docs/next-steps-0.8.0.md). Historia: [plan wdrożenia kolejnych skilli](docs/implementation-roadmap.md) oraz [gotowe polecenie dla następnego modelu](docs/next-model-prompt.md). A0–A2 mają implementację i zweryfikowaną instalację lokalną. [Raport fali A](evals/results/2026-09-23/report.md) rozróżnia sprawdzenia techniczne, próby własne oraz brak niezależnego odbioru.
 
@@ -96,7 +96,7 @@ Po zmianie wspólnych reguł uruchom `scripts/package.py sync`, a potem ponownie
 
 Archiwum i suma SHA-256 trafiają do `dist/`, poza Gitem. Wersja manifestu może mieć sufiks `+codex.…` do odświeżenia lokalnego cache; wersja merytoryczna skilli pozostaje równa bazowej wersji pakietu. ZIP obejmuje wyłącznie jawnie wymienione pliki pluginu, bez dokumentacji projektu, testów, logów i danych spraw. Testy sprawdzają również odrzucenie dodatkowych plików, symlinków, brakujących referencji i niezgodności kopii. Nie zastępuje to kontroli treści dołączanych plików.
 
-GitHub Actions wykonuje tę samą kontrolę i budowanie pakietu, bez wywołań modeli, kluczy API i automatycznej publikacji. Wynik zielony oznacza poprawność techniczną pakietu, nie przydatność prawną.
+GitHub Actions wykonuje tę samą kontrolę i budowanie pakietu. Po poprawnych kontrolach udostępnia ZIP i sumę SHA-256 w artefakcie `legal-ai-pl-package` danego runu przez 30 dni. Artefakt pobrany z Actions trzeba rozpakować, aby otrzymać właściwy ZIP pluginu. CI nie wywołuje modeli ani nie instaluje pluginu automatycznie. Wynik zielony oznacza poprawność techniczną pakietu, nie przydatność prawną.
 
 ## Aktualizacje i cofnięcie
 

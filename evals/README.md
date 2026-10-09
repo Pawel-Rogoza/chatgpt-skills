@@ -25,3 +25,5 @@ UA: sześć fikcyjnych przypadków `ua-*`, [rubryka](ukraine-status-rubric.md) i
 SIS: cztery syntetyczne przypadki `sis-*`, [rubryka](sis-rubric.md) i [research](../docs/research-sis-2026-10-01.md). Wykonano jedną próbę pilota, zob. raport.
 
 WhatsApp 0.9.0: 24 przypadki `whatsapp-*` i [osobna rubryka](whatsapp-rubric.md). Zestaw przygotowany nie oznacza wykonanego testu. Porównuj baseline, sam styl i pełną metodę w niezależnych kontekstach; zachowuj surowe odpowiedzi. Próby pojedynczych zadań nie potwierdzają automatycznego routingu ani aktualności prawa.
+
+[Raport kontaktów i ciągłości 09.10](results/2026-10-09-whatsapp/report.md): 24 odpowiedzi na 16 wejściach, w tym cztery porównania baseline / styl / pełny skill. Pozostałych 16 przypadków WhatsApp nie wykonano; nie potwierdzono przewagi prawnej ani automatycznego routingu.

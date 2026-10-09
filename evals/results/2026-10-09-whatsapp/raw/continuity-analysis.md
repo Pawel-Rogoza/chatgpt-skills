@@ -1,0 +1,5 @@
+D2 zmienia ocenę wcześniejszego zapewnienia „mamy czas do 19.10”: **nie można na nim polegać; termin pozostaje nieustalony i wymaga pilnej oceny adwokata.** K1 to niezatwierdzona odpowiedź AI, bez sprawdzenia podstawy i procedury.
+
+Według przekazanego opisu D1 decyzję wydano 05.10, natomiast D2, akapit 1, potwierdza odbiór 03.10 pisma o tej samej nazwie, bez numeru sprawy. Data wydania i data odbioru dotyczą różnych zdarzeń. Nie ustalono też, czy chodzi o ten sam dokument. Relacja klienta o możliwych dwóch pismach daje wyjaśnienie rozbieżności, ale go nie potwierdza. D2 nie pozwala więc automatycznie przyjąć 03.10 jako początku terminu ani wyliczyć nowej daty końcowej.
+
+Należy pilnie zebrać pełne kopie D1 i pisma odebranego 03.10, wraz z pouczeniami i potwierdzeniem odbioru, porównać ich identyfikatory i przekazać adwokatowi do ustalenia właściwej procedury, zdarzenia rozpoczynającego termin i zasad jego liczenia. Zakres analizy: wyłącznie podany opis K1, D1, D2 i relacja klienta; skanów nie odczytano. Nie wykonano nowego researchu prawnego.
